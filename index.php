@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="inc/main.css">
     
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.fittext.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -30,6 +31,8 @@
             $(".menu-sticky").removeClass("sticky");
           }
         });
+
+        $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });
       });
     </script>
   </head>
@@ -42,7 +45,19 @@
 
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
-        <div class="top-menu"><?php include "menu.php"; ?></div>
+        <div class="top-menu">
+          <?php include "menu.php"; ?>
+
+          <img src="images/waves-white.png" alt="">
+
+          <div class="social">
+            <a href="https://www.facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/6387206?trk=tyah&trkInfo=idx%3A1-2-2%2CtarId%3A1424187092082%2Ctas%3AForesite+group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
       </div>
 
       <div class="banner-home-content">
@@ -66,6 +81,94 @@
         <?php include "menu.php"; ?>
       </div>
     </div>
+  </div>
+
+  <div class="our-method">
+    <div class="site-width">
+      <div class="our-method-content">
+        <h1>OUR METHOD STARTS BY LISTENING TO YOU.</h1>
+
+        In order to get your message out, you have to spread yourself over a greater variety of ever changing media, which is why we collaborate directly with you to plan a comprehensive and cost effective strategy to tell the story you want told.<br>
+
+        <a href="#" class="button">Learn More</a> <span class="om-featured">FEATURED <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="inc/masonry.pkgd.min.js"></script>
+  <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
+    <div class="tile tile2x2" style="background-image: url(images/home-project-teetogreen.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>TEE TO GREEN</h2>
+
+          Branding, Print, Design
+        </div>
+      </a>
+    </div>
+
+    <div class="tile tile2x1" style="background-image: url(images/home-project-gossen.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>GOSSEN BEAUTY BOOK</h2>
+
+          Design, Print
+        </div>
+      </a>
+    </div>
+
+    <div class="tile" style="background: gray;"><div class="tile-link">BLOG</div></div>
+
+    <div class="tile" style="background: gray;"><div class="tile-link">TWITTER</div></div>
+
+    <div class="tile" style="background-image: url(images/home-project-mortons.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>MORTON'S WISCONSINN</h2>
+
+          Branding, Web, Design
+        </div>
+      </a>
+    </div>
+
+    <div class="tile tile1x2" style="background-image: url(images/home-project-belardi.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>BELARDI AUTO RACING</h2>
+
+          Website
+        </div>
+      </a>
+    </div>
+
+    <div class="tile" style="background: gray;"><div class="tile-link">TWITTER</div></div>
+
+    <div class="tile" style="background-image: url(images/home-project-fear.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>NICOLET FEAR TEAM #4786</h2>
+
+          Website Design
+        </div>
+      </a>
+    </div>
+
+    <div class="tile tile2x1" style="background: green;"><div class="tile-link">SULLIVAN</div></div>
   </div>
 
   <div class="site-width">
