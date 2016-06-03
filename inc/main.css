@@ -415,6 +415,61 @@ A.tile-link:hover {
   line-height: 1em;
 }
 
+.tile.twitter .tile-link {
+  background: #EBEBEB;
+  color: #233D3C;
+  font-size: 88.88%;
+  line-height: 1.4em;
+  padding: 1.8em;
+}
+
+.tile.twitter .tile-link A.twitter-date:link,
+.tile.twitter .tile-link A.twitter-date:visited {
+  color: #69C9CA;
+  font-weight: 700;
+  font-size: 87.5%;
+  line-height: 1em;
+}
+
+.tile.twitter .tile-link A:link,
+.tile.twitter .tile-link A:visited {
+  color: #233D3C;
+}
+
+.tile.twitter .tile-link A:hover,
+.tile.twitter .tile-link A:active {
+  color: #69C9CA;
+}
+
+.tile.twitter .tile-link .twitter-footer {
+  position: absolute;
+  bottom: 1.8em;
+  left: 0;
+  width: 100%;
+  padding: 0 1.8em;
+  box-sizing: border-box;
+}
+
+.tile.twitter .tile-link .twitter-footer A:link,
+.tile.twitter .tile-link .twitter-footer A:visited {
+  float: left;
+  color: #69C9CA;
+  font-size: 87.5%;
+  line-height: 24px;
+}
+
+.tile.twitter .tile-link A.twitter-date:hover,
+.tile.twitter .tile-link A.twitter-date:active,
+.tile.twitter .tile-link .twitter-footer A:hover,
+.tile.twitter .tile-link .twitter-footer A:active {
+  color: #233D3C;
+}
+
+.tile.twitter .tile-link .twitter-footer .fa-twitter {
+  font-size: 24px;
+  float: right;
+}
+
 
 
 

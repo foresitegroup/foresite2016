@@ -123,9 +123,30 @@
       </a>
     </div>
 
-    <div class="tile" style="background: gray;"><div class="tile-link">BLOG</div></div>
+    <div class="tile">
+      <div class="tile-link">BLOG</div>
+    </div>
 
-    <div class="tile" style="background: gray;"><div class="tile-link">TWITTER</div></div>
+    <div class="tile twitter">
+      <div class="tile-link">
+        <?php
+        require_once("TweetPHP/stuff.php");
+        $tweet_date_link = "https://twitter.com/foresitegrp/status/" . $tweet_array[0][id];
+        $tweet_date = date("F j, Y", strtotime($tweet_array[0][created_at]));
+        $tweet_text = $TweetPHP->autolink($tweet_array[0][text]);
+        ?>
+        <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
+        <br>
+
+        <?php echo $tweet_text; ?>
+
+        <div class="twitter-footer">
+          <a href="http://twitter.com/foresitegrp">@foresitegrp</a>
+
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
 
     <div class="tile" style="background-image: url(images/home-project-mortons.jpg);">
       <a href="#" class="tile-link">
@@ -153,7 +174,25 @@
       </a>
     </div>
 
-    <div class="tile" style="background: gray;"><div class="tile-link">TWITTER</div></div>
+    <div class="tile twitter">
+      <div class="tile-link">
+        <?php
+        $tweet_date_link = "https://twitter.com/foresitegrp/status/" . $tweet_array[1][id];
+        $tweet_date = date("F j, Y", strtotime($tweet_array[1][created_at]));
+        $tweet_text = $TweetPHP->autolink($tweet_array[1][text]);
+        ?>
+        <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
+        <br>
+
+        <?php echo $tweet_text; ?>
+
+        <div class="twitter-footer">
+          <a href="http://twitter.com/foresitegrp">@foresitegrp</a>
+
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
 
     <div class="tile" style="background-image: url(images/home-project-fear.jpg);">
       <a href="#" class="tile-link">
@@ -168,7 +207,18 @@
       </a>
     </div>
 
-    <div class="tile tile2x1" style="background: green;"><div class="tile-link">SULLIVAN</div></div>
+    <div class="tile tile2x1" style="background-image: url(images/home-project-sullivan.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>SULLIVAN CORPORATION</h2>
+
+          Website, Branding, Photography
+        </div>
+      </a>
+    </div>
   </div>
 
   <div class="site-width">
