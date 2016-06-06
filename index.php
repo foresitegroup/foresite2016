@@ -123,8 +123,15 @@
       </a>
     </div>
 
-    <div class="tile">
-      <div class="tile-link">BLOG</div>
+    <div class="tile blog" style="background-image: url(images/home-blog.jpg);">
+      <div class="tile-content">
+        <div class="blog-title">March 23, 2016</div>
+
+        5 Phrases You've Probably Been Saying Incorrectly
+
+        <div class="blog-footer">NEWS</div>
+      </div>
+      <a href="#" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
     </div>
 
     <div class="tile twitter">
@@ -219,10 +226,16 @@
         </div>
       </a>
     </div>
+
+    <div style="clear: both;"></div>
+  </div>
+  
+  <div class="home-our-work">
+    <a href="#" class="button">OUR WORK</a>
   </div>
 
-  <div class="site-width">
-    <h1>Content (H1)</h1>
+  <div class="site-width" style="outline: 1px solid red;">
+    <h1 style="margin: 0;">Content (H1)</h1>
     
     Bacon ipsum dolor sit amet sausage bacon biltong, salami drumstick hamburger ham hock. Filet mignon ribeye meatball flank tri-tip tongue boudin, doner pig tenderloin. Beef cow turducken pork belly. Corned beef andouille short loin spare ribs. Short ribs frankfurter pig beef ribs. Sausage salami kielbasa cow jowl. Pork ribeye sirloin sausage bacon ham swine turkey biltong tenderloin boudin beef ribs pig hamburger.<br>
     <br>

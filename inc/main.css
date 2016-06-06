@@ -415,6 +415,56 @@ A.tile-link:hover {
   line-height: 1em;
 }
 
+.tile-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1.8em;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, .6);
+  color: #FFFFFF;
+  font-size: 116%;
+  text-transform: uppercase;
+}
+
+.tile.blog .tile-content .blog-title {
+  color: #69C9CA;
+  font-weight: 700;
+  font-size: 67%;
+  line-height: 1em;
+  text-transform: none;
+  margin-bottom: 3em;
+}
+
+.tile.blog .tile-content .blog-footer {
+  position: absolute;
+  bottom: 1.8em;
+  left: 0;
+  width: 100%;
+  padding: 0 1.8em;
+  box-sizing: border-box;
+  text-align: right;
+  color: #69C9CA;
+  font-weight: 700;
+  font-size: 67%;
+  line-height: 1em;
+}
+
+.tile.blog .tile-hover-content {
+  font-size: 138.88%;
+  font-weight: 800;
+  color: #69C9CA;
+}
+
+.tile.blog .tile-hover-content .fa {
+  color: #FFFFFF;
+  font-size: 50%;
+  position: relative;
+  top: -0.3em;
+}
+
 .tile.twitter .tile-link {
   background: #EBEBEB;
   color: #233D3C;
@@ -468,6 +518,23 @@ A.tile-link:hover {
 .tile.twitter .tile-link .twitter-footer .fa-twitter {
   font-size: 24px;
   float: right;
+}
+
+.home-our-work {
+  text-align: center;
+  padding: 3.5em 0;
+}
+
+.home-our-work A.button:link,
+.home-our-work A.button:visited {
+  color: #233D3C;
+  border-color: #69C9CA;
+  font-weight: 800;
+}
+
+.home-our-work A.button:hover,
+.home-our-work A.button:active {
+  color: #69C9CA;
 }
 
 
