@@ -1,3 +1,11 @@
+<?php
+function email($address, $name="") {
+  $email = "";
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,6 +38,12 @@
           } else {
             $(".menu-sticky").removeClass("sticky");
           }
+
+          if ($(this).scrollTop() > 0) {
+            $(".menu-holder.subpage .menu-sticky").addClass("sticky");
+          } else {
+            $(".menu-holder.subpage .menu-sticky").removeClass("sticky");
+          }
         });
 
         $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });
@@ -38,7 +52,7 @@
   </head>
   <body>
 
-  <div class="banner-home">
+  <div class="banner-home<?php if ($PageTitle != "") echo " subpage"; ?>">
     <div class="site-width">
       <div class="banner-home-header">
         <a href="."><img src="images/logo.png" alt="Foresite Group" id="logo"></a>
@@ -51,11 +65,11 @@
           <img src="images/waves-white.png" alt="">
 
           <div class="social">
-            <a href="https://www.facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/company/6387206?trk=tyah&trkInfo=idx%3A1-2-2%2CtarId%3A1424187092082%2Ctas%3AForesite+group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -73,7 +87,7 @@
     </div>
   </div>
   
-  <div class="menu-holder">
+  <div class="menu-holder<?php if ($PageTitle != "") echo " subpage"; ?>">
     <div class="menu-sticky">
       <div class="site-width menu">
         <a href="."><img src="images/logo-small.png" alt="Foresite Group" id="logo-small"></a>
@@ -133,6 +147,19 @@
       </div>
       <a href="#" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
     </div>
+    
+    <div class="tile" style="background-image: url(images/home-project-mortons.jpg);">
+      <a href="#" class="tile-link">
+        <div class="tile-hover-content">
+          <div class="work-title">WORK</div>
+          <img src="images/waves-white.png" alt="" class="work-waves">
+
+          <h2>MORTON'S WISCONSINN</h2>
+
+          Branding, Web, Design
+        </div>
+      </a>
+    </div>
 
     <div class="tile twitter">
       <div class="tile-link">
@@ -153,19 +180,6 @@
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </div>
       </div>
-    </div>
-
-    <div class="tile" style="background-image: url(images/home-project-mortons.jpg);">
-      <a href="#" class="tile-link">
-        <div class="tile-hover-content">
-          <div class="work-title">WORK</div>
-          <img src="images/waves-white.png" alt="" class="work-waves">
-
-          <h2>MORTON'S WISCONSINN</h2>
-
-          Branding, Web, Design
-        </div>
-      </a>
     </div>
 
     <div class="tile tile1x2" style="background-image: url(images/home-project-belardi.jpg);">
@@ -230,51 +244,36 @@
     <div style="clear: both;"></div>
   </div>
   
-  <div class="home-our-work">
+  <div class="prefooter-button">
     <a href="#" class="button">OUR WORK</a>
   </div>
-
-  <div class="site-width" style="outline: 1px solid red;">
-    <h1 style="margin: 0;">Content (H1)</h1>
-    
-    Bacon ipsum dolor sit amet sausage bacon biltong, salami drumstick hamburger ham hock. Filet mignon ribeye meatball flank tri-tip tongue boudin, doner pig tenderloin. Beef cow turducken pork belly. Corned beef andouille short loin spare ribs. Short ribs frankfurter pig beef ribs. Sausage salami kielbasa cow jowl. Pork ribeye sirloin sausage bacon ham swine turkey biltong tenderloin boudin beef ribs pig hamburger.<br>
-    <br>
-    
-    Pig shankle andouille venison ham frankfurter strip steak ham hock, swine jerky ball tip flank hamburger. Leberkas cow short loin capicola ham hock bresaola. Pig beef ribs salami shankle, ham hock shank flank kielbasa sausage hamburger tenderloin. Salami shankle prosciutto sausage pork chop tri-tip. Short loin shankle tail capicola bresaola chuck drumstick pork belly t-bone shoulder hamburger salami corned beef leberkas meatloaf. Corned beef t-bone drumstick jowl shoulder brisket sirloin meatball turkey.<br>
-    <br>
-    
-    Bacon sirloin jowl tail pork loin corned beef sausage ribeye rump. Pork chop spare ribs turkey andouille strip steak. Venison pig bresaola ground round. Leberkas frankfurter pastrami prosciutto bresaola jowl.<br>
-    <br>
-
-    Bacon ipsum dolor sit amet sausage bacon biltong, salami drumstick hamburger ham hock. Filet mignon ribeye meatball flank tri-tip tongue boudin, doner pig tenderloin. Beef cow turducken pork belly. Corned beef andouille short loin spare ribs. Short ribs frankfurter pig beef ribs. Sausage salami kielbasa cow jowl. Pork ribeye sirloin sausage bacon ham swine turkey biltong tenderloin boudin beef ribs pig hamburger.<br>
-    <br>
-    
-    Pig shankle andouille venison ham frankfurter strip steak ham hock, swine jerky ball tip flank hamburger. Leberkas cow short loin capicola ham hock bresaola. Pig beef ribs salami shankle, ham hock shank flank kielbasa sausage hamburger tenderloin. Salami shankle prosciutto sausage pork chop tri-tip. Short loin shankle tail capicola bresaola chuck drumstick pork belly t-bone shoulder hamburger salami corned beef leberkas meatloaf. Corned beef t-bone drumstick jowl shoulder brisket sirloin meatball turkey.<br>
-    <br>
-    
-    Bacon sirloin jowl tail pork loin corned beef sausage ribeye rump. Pork chop spare ribs turkey andouille strip steak. Venison pig bresaola ground round. Leberkas frankfurter pastrami prosciutto bresaola jowl.<br>
-    <br>
-
-    Bacon ipsum dolor sit amet sausage bacon biltong, salami drumstick hamburger ham hock. Filet mignon ribeye meatball flank tri-tip tongue boudin, doner pig tenderloin. Beef cow turducken pork belly. Corned beef andouille short loin spare ribs. Short ribs frankfurter pig beef ribs. Sausage salami kielbasa cow jowl. Pork ribeye sirloin sausage bacon ham swine turkey biltong tenderloin boudin beef ribs pig hamburger.<br>
-    <br>
-    
-    Pig shankle andouille venison ham frankfurter strip steak ham hock, swine jerky ball tip flank hamburger. Leberkas cow short loin capicola ham hock bresaola. Pig beef ribs salami shankle, ham hock shank flank kielbasa sausage hamburger tenderloin. Salami shankle prosciutto sausage pork chop tri-tip. Short loin shankle tail capicola bresaola chuck drumstick pork belly t-bone shoulder hamburger salami corned beef leberkas meatloaf. Corned beef t-bone drumstick jowl shoulder brisket sirloin meatball turkey.<br>
-    <br>
-    
-    Bacon sirloin jowl tail pork loin corned beef sausage ribeye rump. Pork chop spare ribs turkey andouille strip steak. Venison pig bresaola ground round. Leberkas frankfurter pastrami prosciutto bresaola jowl.<br>
-    <br>
-
-    Bacon ipsum dolor sit amet sausage bacon biltong, salami drumstick hamburger ham hock. Filet mignon ribeye meatball flank tri-tip tongue boudin, doner pig tenderloin. Beef cow turducken pork belly. Corned beef andouille short loin spare ribs. Short ribs frankfurter pig beef ribs. Sausage salami kielbasa cow jowl. Pork ribeye sirloin sausage bacon ham swine turkey biltong tenderloin boudin beef ribs pig hamburger.<br>
-    <br>
-    
-    Pig shankle andouille venison ham frankfurter strip steak ham hock, swine jerky ball tip flank hamburger. Leberkas cow short loin capicola ham hock bresaola. Pig beef ribs salami shankle, ham hock shank flank kielbasa sausage hamburger tenderloin. Salami shankle prosciutto sausage pork chop tri-tip. Short loin shankle tail capicola bresaola chuck drumstick pork belly t-bone shoulder hamburger salami corned beef leberkas meatloaf. Corned beef t-bone drumstick jowl shoulder brisket sirloin meatball turkey.<br>
-    <br>
-    
-    Bacon sirloin jowl tail pork loin corned beef sausage ribeye rump. Pork chop spare ribs turkey andouille strip steak. Venison pig bresaola ground round. Leberkas frankfurter pastrami prosciutto bresaola jowl.
+  
+  <div class="prefooter">
+    <h3 class="waves-white">WORK WITH US</h3>
   </div>
   
-  <div class="footer">
-    Copyright &copy; <?php echo date("Y"); ?> All rights reserved
+  <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal();
+    sr.reveal('.banner-home-content', { rotate: { x: 0, y: 0, z: 180 } });
+    sr.reveal('.our-method-content', { origin: 'left' });
+    sr.reveal('.tile', { delay: 100 }, 100);
+    sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });
+    sr.reveal('.prefooter H3', { rotate: { x: 180, y: 0, z: 0 } });
+  </script>
+
+  <div class="fg-footer site-width">
+    2018 S 1st St, Suite 319, Milwaukee, WI 53207 <span class="sep">//</span> 414.522.1235 <span class="sep">//</span> <?php email("info@foresitegrp.com"); ?> <span class="sep">//</span>
+
+    <div class="social">
+      <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="copyright">&copy; <?php echo date("Y"); ?> All rights reserved</div>
   </div>
     
   </body>
