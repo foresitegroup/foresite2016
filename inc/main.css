@@ -317,24 +317,18 @@ H2 {
   padding: 0.5em 1em;
 }
 
-.our-method {
-  height: 700px;
-  background: #69C9CA url(../images/our-method.png) top left no-repeat;
+.capabilities-banner {
+  padding: 6em 0;
+  background: #69C9CA url(../images/capabilities.png) top left no-repeat;
   color: #FFFFFF;
   line-height: 2em;
 }
 
-.our-method .site-width {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.our-method-content {
+.capabilities-banner-content {
   width: 95%;
 }
 
-.our-method-content H1 {
+.capabilities-banner-content H1 {
   margin: 0 0 0.5em;
   font-weight: 800;
   font-size: 444.44%;
@@ -343,27 +337,42 @@ H2 {
   text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
-.our-method-content A.button:link,
-.our-method-content A.button:visited {
+.capabilities-banner-content H3 {
+  margin: 0 0 0.7em;
+  font-weight: 800;
+  font-size: 133.33%;
+  line-height: 1.2em;
+  color: #233D3C;
+}
+
+.capabilities-banner-content A.button:link,
+.capabilities-banner-content A.button:visited {
   margin-top: 4em;
   color: #233D3C;
   border-color: #233D3C;
   font-weight: 800;
 }
 
-.our-method-content A.button:hover,
-.our-method-content A.button:active {
+.capabilities-banner-content A.button:hover,
+.capabilities-banner-content A.button:active {
   color: #636363;
   border-color: #636363;
 }
 
-.our-method-content .om-featured {
+.capabilities-banner-content .cb-featured,
+.capabilities-banner-content .cb-capabilities {
   padding-left: 2em;
   font-weight: 800;
   color: #336465;
 }
 
-.our-method-content .om-featured .fa {
+.capabilities-banner-content .cb-capabilities {
+  padding-left: 0;
+  margin-top: 2em;
+}
+
+.capabilities-banner-content .cb-featured .fa,
+.capabilities-banner-content .cb-capabilities .fa {
   color: #FFFFFF;
   font-size: 60%;
   position: relative;
@@ -619,7 +628,56 @@ A.tile-link:hover {
   transform: translateY(-50%);
 }
 
+.capabilities {
+  padding: 2em 0;
+  color: #336465;
+  font-weight: 800;
+  text-align: center;
+}
 
+.capabilities DIV {
+  float: left;
+  width: 20%;
+  padding: 2.5em 0;
+  line-height: 1em;
+}
+
+.our-method {
+  padding: 4em 0;
+  background: #233D3C;
+  color: #FFFFFF;
+}
+
+.our-method .site-width H2 {
+  margin: 0 0 1em;
+  font-weight: 800;
+  font-size: 444.44%;
+  line-height: 1em;
+  color: #69C9CA;
+}
+
+.our-method .site-width IMG {
+  float: left;
+}
+
+.our-method .site-width DIV {
+  float: right;
+  width: 87%;
+  line-height: 1.8em;
+}
+
+.our-method .site-width DIV H3 {
+  margin: 0 0 0.7em;
+  font-weight: 800;
+  font-size: 222.22%;
+  line-height: 0.8em;
+}
+
+.our-method .site-width SPAN {
+  display: block;
+  clear: both;
+  height: 5em;
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -674,17 +732,17 @@ A.tile-link:hover {
     margin: 69px 0 0;
   }
 
-  .our-method-content {
+  .capabilities-banner-content {
     width: 100%;
   }
 
-  .our-method-content H1 {
+  .capabilities-banner-content H1 {
     margin: 0 0 0.3em;
     line-height: 1.1em;
   }
 
-  .our-method-content A.button:link,
-  .our-method-content A.button:visited {
+  .capabilities-banner-content A.button:link,
+  .capabilities-banner-content A.button:visited {
     margin-top: 2em;
   }
 
@@ -722,10 +780,21 @@ A.tile-link:hover {
     transform: none;
     padding-top: 1em;
   }
+
+  .capabilities DIV {
+    width: 33%;
+  }
+
+  .our-method .site-width DIV {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   /* Tablet */
+  .prefooter H3 {
+    font-size: 430%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -755,7 +824,7 @@ A.tile-link:hover {
   }
   
   .prefooter H3 {
-    font-size: 380%;
+    font-size: 330%;
   }
 
   .fg-footer .sep:first-of-type {
@@ -767,12 +836,25 @@ A.tile-link:hover {
     margin: 0 0.4em;
     font-size: 150%;
   }
+
+  .capabilities DIV {
+    width: 50%;
+    padding: 2em 0;
+  }
+
+  .capabilities DIV:last-of-type {
+    width: 100%;
+  }
+
+  .our-method .site-width DIV {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   /* Phone */
   .banner-home-text H1,
-  .our-method-content H1 {
+  .capabilities-banner-content H1 {
     font-size: 370%;
   }
 
@@ -805,11 +887,11 @@ A.tile-link:hover {
     margin: 0 0.3em;
   }
 
-  .our-method {
+  .capabilities-banner {
     line-height: 1.5em;
   }
 
-  .our-method-content H1 {
+  .capabilities-banner-content H1 {
     line-height: 1em;
   }
 
@@ -822,22 +904,42 @@ A.tile-link:hover {
   }
 
   .prefooter H3 {
-    font-size: 250%;
+    font-size: 210%;
+  }
+
+  .capabilities DIV {
+    width: 100%;
+  }
+
+  .our-method .site-width DIV {
+    width: 65%;
   }
 }
 
 @media only screen and (max-width: 320px) {
   /* Small Phone */
   .banner-home-text H1,
-  .our-method-content H1 {
+  .capabilities-banner-content H1 {
     font-size: 310%;
   }
 
-  .our-method-content .om-featured {
+  .capabilities-banner-content .om-featured {
     padding-left: 1em;
   }
 
   .prefooter H3 {
-    font-size: 200%;
+    font-size: 180%;
+  }
+
+  .our-method .site-width H2 {
+    font-size: 380%;
+  }
+
+  .our-method .site-width DIV H3 {
+    font-size: 170%;
+  }
+
+  .our-method .site-width DIV {
+    width: 60%;
   }
 }
