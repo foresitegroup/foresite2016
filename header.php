@@ -28,9 +28,12 @@ function email($address, $name="") {
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="inc/jquery.fittext.js"></script>
+    <script type="text/javascript" src="inc/fastclick.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
+
+        $(function() { FastClick.attach(document.body); });
 
         $(window).scroll(function () {
           if ($(this).scrollTop() > 864) {
@@ -88,9 +91,9 @@ function email($address, $name="") {
   </div>
   
   <div class="menu-holder<?php if ($PageTitle != "") echo " subpage"; ?>">
-    <div class="menu-sticky">
+    <div class="menu-sticky<?php if (isset($Menu)) echo " menu-light"; ?>">
       <div class="site-width menu">
-        <a href="."><img src="images/logo-small.png" alt="Foresite Group" id="logo-small"></a>
+        <a href="."><img src="images/logo-small<?php if (isset($Menu)) echo "-light"; ?>.png" alt="Foresite Group" id="logo-small"></a>
 
         <?php include "menu.php"; ?>
       </div>

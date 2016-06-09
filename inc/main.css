@@ -114,7 +114,7 @@ H2 {
 }
 
 .banner-home.subpage .banner-home-header {
-  height: 69px;
+  height: 89px;
   padding-top: 0;
 }
 
@@ -235,6 +235,10 @@ H2 {
   position: relative;
 }
 
+.menu-holder.subpage {
+  height: 89px;
+}
+
 .menu-sticky {
   background: #172827;
   width: 100%;
@@ -248,6 +252,15 @@ H2 {
   z-index: 999;
 }
 
+.menu-light {
+  background: #69C9CA;
+}
+
+.menu-holder.subpage .menu-sticky {
+  height: 89px;
+  line-height: 89px;
+}
+
 .menu-sticky.sticky {
   position: fixed;
 }
@@ -255,6 +268,12 @@ H2 {
 #logo-small {
   float: left;
   margin-top: 10px;
+  height: 49px;
+  width: auto;
+}
+
+.menu-holder.subpage #logo-small {
+  height: 68px;
 }
 
 .menu UL {
@@ -286,6 +305,11 @@ H2 {
 .menu UL LI UL LI A:hover {
   color: #69C9CA;
   text-decoration: none;
+}
+
+.menu-light .menu UL LI:hover A,
+.menu-light .menu UL LI UL LI A:hover {
+  color: #172827;
 }
 
 .menu UL LI UL {
@@ -679,6 +703,127 @@ A.tile-link:hover {
   height: 5em;
 }
 
+.about-banner {
+  height: 497px;
+  background: url(../images/about-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.about {
+  padding: 4em 0 0;
+  font-size: 111.11%;
+  line-height: 2em
+}
+
+.lead {
+  font-weight: 700;
+  color: #69C9CA;
+}
+
+.about .fa-play {
+  color: #69C9CA;
+  font-size: 80%;
+}
+
+.about H2 {
+  font-weight: 800;
+  font-size: 350%;
+  line-height: 1em;
+  color: #233D3C;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.one-third {
+  float: left;
+  width: 29%;
+  margin: 0 6.5% 5em 0;
+  text-align: center;
+}
+
+.one-third:nth-of-type(3n) {
+  margin-right: 0;
+  clear: right;
+}
+
+.team {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 1.4em;
+}
+
+.team:after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.team-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+A.team-link {
+  opacity: 0;
+}
+
+A.team-link:hover {
+  opacity: 1;
+  background: rgba(50, 85, 84, .8);
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: default;
+}
+
+.team-hover-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1em;
+  font-size: 90%;
+  line-height: 1.4em;
+  color: #FFFFFF;
+}
+
+.team-name {
+  font-weight: 800;
+  line-height: 1em;
+  color: #325554;
+  padding-bottom: 0.4em;
+}
+
+.team-title {
+  font-size: 60%;
+  line-height: 1em;
+  color: #325554;
+  padding-bottom: 0.4em;
+}
+
+.team-social A:link, .team-social A:visited {
+  background: #E7E7E7;
+  font-size: 76%;
+}
+
+.team-social A:hover, .team-social A:active {
+  background: #336465;
+  color: #FFFFFF;
+}
+
+.team-text {
+  font-size: 70%;
+  line-height: 1.5em;
+  color: #959595;
+}
+
+.worked-with {
+  background: #69C9CA;
+  color: #233D3C;
+}
+
 
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
@@ -717,7 +862,7 @@ A.tile-link:hover {
   .banner-home.subpage #menu-toggle {
     display: block;
     position: fixed;
-    top: 22px;
+    top: 29px;
     right: 2%;
     transform: none;
   }
@@ -729,7 +874,7 @@ A.tile-link:hover {
   }
 
   .banner-home.subpage .top-menu UL {
-    margin: 69px 0 0;
+    margin: 89px 0 0;
   }
 
   .capabilities-banner-content {
@@ -787,6 +932,12 @@ A.tile-link:hover {
 
   .our-method .site-width DIV {
     width: 80%;
+  }
+
+  .team-hover-content {
+    padding: 1.5em;
+    font-size: 70%;
+    line-height: 1.3em;
   }
 }
 
@@ -848,6 +999,26 @@ A.tile-link:hover {
 
   .our-method .site-width DIV {
     width: 75%;
+  }
+
+  .one-third {
+    width: 48%;
+    margin: 0 4% 5em 0;
+  }
+
+  .one-third:nth-of-type(3n) {
+    margin-right: 4%;
+    clear: none;
+  }
+
+  .one-third:nth-of-type(2n) {
+    margin-right: 0;
+    clear: right;
+  }
+
+  .team-hover-content {
+    font-size: 80%;
+    line-height: 1.4em;
   }
 }
 
@@ -914,6 +1085,25 @@ A.tile-link:hover {
   .our-method .site-width DIV {
     width: 65%;
   }
+
+  .about H2 {
+    font-size: 300%;
+  }
+
+  .one-third {
+    width: 100%;
+    margin: 0 0 5em 0;
+  }
+
+  .one-third:nth-of-type(3n),
+  .one-third:nth-of-type(2n) {
+    margin-right: 0;
+    clear: right;
+  }
+
+  .team-hover-content {
+    font-size: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -941,5 +1131,9 @@ A.tile-link:hover {
 
   .our-method .site-width DIV {
     width: 60%;
+  }
+
+  .about H2 {
+    font-size: 250%;
   }
 }

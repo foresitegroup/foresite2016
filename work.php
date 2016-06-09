@@ -1,21 +1,10 @@
 <?php
-$PageTitle = "";
+$PageTitle = "Work";
 $Description = "";
 $Keywords = "";
+$Menu = "light";
 include "header.php";
 ?>
-
-<div class="capabilities-banner">
-  <div class="site-width">
-    <div class="capabilities-banner-content">
-      <h1>OUR METHOD STARTS BY LISTENING TO YOU.</h1>
-
-      In order to get your message out, you have to spread yourself over a greater variety of ever changing media, which is why we collaborate directly with you to plan a comprehensive and cost effective strategy to tell the story you want told.<br>
-
-      <a href="capabilities.php" class="button">Learn More</a> <span class="cb-featured">FEATURED <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i></span>
-    </div>
-  </div>
-</div>
 
 <script src="inc/masonry.pkgd.min.js"></script>
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
@@ -45,15 +34,17 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile blog" style="background-image: url(images/home-blog.jpg);">
-    <div class="tile-content">
-      <div class="blog-title">March 23, 2016</div>
+  <div class="tile" style="background-image: url(images/project-michael-thomas.jpg);">
+    <a href="#" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
 
-      5 Phrases You've Probably Been Saying Incorrectly
+        <h2>MICHAEL THOMAS</h2>
 
-      <div class="blog-footer">NEWS</div>
-    </div>
-    <a href="#" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
+        Branding, Website, Print
+      </div>
+    </a>
   </div>
   
   <div class="tile" style="background-image: url(images/project-mortons.jpg);">
@@ -69,25 +60,17 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile twitter">
-    <div class="tile-link">
-      <?php
-      require_once("TweetPHP/stuff.php");
-      $tweet_date_link = "https://twitter.com/foresitegrp/status/" . $tweet_array[0]['id'];
-      $tweet_date = date("F j, Y", strtotime($tweet_array[0]['created_at']));
-      $tweet_text = $TweetPHP->autolink($tweet_array[0]['text']);
-      ?>
-      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
-      <br>
+  <div class="tile" style="background-image: url(images/project-mcbe.jpg);">
+    <a href="#" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
 
-      <?php echo $tweet_text; ?>
+        <h2>MILWAUKEE CRAFT BEER EXCHANGE</h2>
 
-      <div class="twitter-footer">
-        <a href="http://twitter.com/foresitegrp">@foresitegrp</a>
-
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        Branding, Website, Print, Design
       </div>
-    </div>
+    </a>
   </div>
 
   <div class="tile tile1x2" style="background-image: url(images/project-belardi.jpg);">
@@ -103,24 +86,17 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile twitter">
-    <div class="tile-link">
-      <?php
-      $tweet_date_link = "https://twitter.com/foresitegrp/status/" . $tweet_array[1]['id'];
-      $tweet_date = date("F j, Y", strtotime($tweet_array[1]['created_at']));
-      $tweet_text = $TweetPHP->autolink($tweet_array[1]['text']);
-      ?>
-      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
-      <br>
+  <div class="tile" style="background-image: url(images/project-kmtooling.jpg);">
+    <a href="#" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
 
-      <?php echo $tweet_text; ?>
+        <h2>KM TOOLING</h2>
 
-      <div class="twitter-footer">
-        <a href="http://twitter.com/foresitegrp">@foresitegrp</a>
-
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        Website
       </div>
-    </div>
+    </a>
   </div>
 
   <div class="tile" style="background-image: url(images/project-fear.jpg);">
@@ -153,7 +129,7 @@ include "header.php";
 </div>
 
 <div class="prefooter-button">
-  <a href="work.php" class="button">OUR WORK</a>
+  <a href="capabilities.php" class="button">CAPABILITIES</a>
 </div>
 
 <div class="prefooter">
@@ -163,8 +139,6 @@ include "header.php";
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
-  sr.reveal('.capabilities-banner-content', { rotate: { x: 0, y: 0, z: 180 } });
-  sr.reveal('.our-method-content', { origin: 'left' });
   sr.reveal('.tile', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 100);
   sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });
   sr.reveal('.prefooter H3', { rotate: { x: 180, y: 0, z: 0 } });
