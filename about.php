@@ -129,6 +129,36 @@ include "header.php";
 <div class="worked-with">
   <div class="site-width">
     <h2>WE'VE WORKED WITH</h2>
+
+    <img src="images/waves-white.png" alt="" style="margin-bottom: 0.5em;"><br>
+
+    TO NAME A FEW...<br>
+    <br>
+    <br>
+
+    <div class="one-fifth"><img src="images/about-gossen.png" alt="Gossen"></div>
+    <div class="one-fifth"><img src="images/about-louies.png" alt="Louie's Last Regatta"></div>
+    <div class="one-fifth"><img src="images/about-marquette.png" alt="Marquette University"></div>
+    <div class="one-fifth"><img src="images/about-kubly.png" alt="The Charles E. Kubly Foundation"></div>
+    <div class="one-fifth"><img src="images/about-mcbe.png" alt="Milwaukee Craft Beer Exchange"></div>
+
+    <div class="one-fifth"><img src="images/about-teetogreen.png" alt="Tee To Green"></div>
+    <div class="one-fifth"><img src="images/about-belardi.png" alt="Belardi Auto Racing"></div>
+    <div class="one-fifth"><img src="images/about-sullivan.png" alt="Sullivan Corporation"></div>
+    <div class="one-fifth"><img src="images/about-jimscheese.png" alt="Jim's Cheese"></div>
+    <div class="one-fifth"><img src="images/about-iam.png" alt="Investment Account Manager"></div>
+
+    <div class="one-fifth"><img src="images/about-braeger.png" alt="Braeger Financial Group"></div>
+    <div class="one-fifth"><img src="images/about-chaput.png" alt="Chaput Land Surveys"></div>
+    <div class="one-fifth"><img src="images/about-suzys.png" alt="Suzy's Cream Cheesecakes"></div>
+    <div class="one-fifth"><img src="images/about-burke.png" alt="Burke Candy"></div>
+    <div class="one-fifth"><img src="images/about-deviation.png" alt="Deviation"></div>
+
+    <div class="one-fifth"><img src="images/about-fear.png" alt="Nicolet FEAR"></div>
+    <div class="one-fifth"><img src="images/about-dominican.png" alt="Dominican High School"></div>
+    <div class="one-fifth"><img src="images/about-mortons.png" alt="Morton's Wisconsinn"></div>
+    <div class="one-fifth"><img src="images/about-moldeddimensions.png" alt="Molded Dimensions"></div>
+    <div class="one-fifth"><img src="images/about-michaelthomas.png" alt="Michael-Thomas"></div>
   </div>
 </div>
 
@@ -143,6 +173,8 @@ include "header.php";
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
+  sr.reveal('.one-third', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 100);
+  sr.reveal('.one-fifth', { delay: 50 }, 100);
   sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });
   sr.reveal('.prefooter H3', { rotate: { x: 180, y: 0, z: 0 } });
 </script>
