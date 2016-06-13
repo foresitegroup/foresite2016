@@ -44,17 +44,22 @@ include "header.php";
       </div>
     </a>
   </div>
-
-  <div class="tile blog" style="background-image: url(images/home-blog.jpg);">
-    <div class="tile-content">
-      <div class="blog-title">March 23, 2016</div>
-
-      5 Phrases You've Probably Been Saying Incorrectly
-
-      <div class="blog-footer">NEWS</div>
+  
+  <?php
+  require('news/wp-blog-header.php');
+  $posts = get_posts('posts_per_page=1&order=DESC&orderby=date');
+  foreach ($posts as $post) :
+    setup_postdata( $post );
+    ?>
+    <div class="tile blog"<?php if (get_post_thumbnail_id() != "") echo ' style="background-image: url(' . wp_get_attachment_url(get_post_thumbnail_id()) . ');"'; ?>>
+      <div class="tile-content">
+        <div class="blog-title"><?php the_date(); ?></div>
+        <?php the_title(); ?>
+        <div class="blog-footer">NEWS</div>
+      </div>
+      <a href="<?php the_permalink(); ?>" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
     </div>
-    <a href="#" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
-  </div>
+  <?php endforeach; ?>
   
   <div class="tile" style="background-image: url(images/project-mortons.jpg);">
     <a href="#" class="tile-link">

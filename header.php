@@ -1,5 +1,6 @@
 <?php
 session_start();
+if (!isset($TopDir)) $TopDir = "";
 
 function email($address, $name="") {
   $email = "";
@@ -15,8 +16,8 @@ function email($address, $name="") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Foresite Group<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
     
     <meta name="description" content="<?php if ($Description != "") echo $Description; ?>">
     <meta name="keywords" content="<?php if ($Keywords != "") echo $Keywords; ?>">
@@ -25,12 +26,12 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">
     
-    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.fittext.js"></script>
-    <script type="text/javascript" src="inc/fastclick.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.fittext.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/fastclick.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -60,14 +61,14 @@ function email($address, $name="") {
   <div class="banner-home<?php if ($PageTitle != "") echo " subpage"; ?>">
     <div class="site-width">
       <div class="banner-home-header">
-        <a href="."><img src="images/logo.png" alt="Foresite Group" id="logo"></a>
+        <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Foresite Group" id="logo"></a>
 
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
         <div class="top-menu">
           <?php include "menu.php"; ?>
 
-          <img src="images/waves-white.png" alt="">
+          <img src="<?php echo $TopDir; ?>images/waves-white.png" alt="">
 
           <div class="social">
             <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -95,7 +96,7 @@ function email($address, $name="") {
   <div class="menu-holder<?php if ($PageTitle != "") echo " subpage"; ?>">
     <div class="menu-sticky<?php if (isset($Menu)) echo " menu-light"; ?>">
       <div class="site-width menu">
-        <a href="."><img src="images/logo-small<?php if (isset($Menu)) echo "-light"; ?>.png" alt="Foresite Group" id="logo-small"></a>
+        <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo-small<?php if (isset($Menu)) echo "-light"; ?>.png" alt="Foresite Group" id="logo-small"></a>
 
         <?php include "menu.php"; ?>
       </div>

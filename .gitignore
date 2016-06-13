@@ -1,1 +1,8 @@
 TweetPHP
+news/*
+!news/wp-content/
+news/wp-content/*
+!news/wp-content/themes/
+news/wp-content/themes/*
+!news/wp-content/themes/foresite2016
+news/wp-content/themes/foresite2016/.DS_Store

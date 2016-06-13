@@ -1003,6 +1003,194 @@ A.team-link:hover {
 .gm-style img { max-width: none; }
 .gm-style label { width: auto; display: inline; }
 
+.blog-index,
+.blog-single {
+  padding: 1.4em 0;
+  background: #69C9CA url(../images/capabilities.png) top left no-repeat;
+  color: #233D3C;
+  font-weight: 800;
+  font-size: 444.44%;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.2em;
+}
+
+.blog-single {
+  padding: 0;
+  height: 446px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.blog-single .site-width {
+  display: none;
+}
+
+.entry-header {
+  padding-bottom: 1.5em;
+}
+
+.entry-header .entry-title {
+  margin: 0 0 0.3em;
+  color: #233D3C;
+  font-weight: 800;
+  font-size: 388.88%;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.entry-header H4 {
+  margin: 0;
+  color: #B7B7B7;
+  font-size: 88.88%;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.entry-content {
+  color: #636363;
+  line-height: 1.8em;
+}
+
+.entry-content P {
+  padding-bottom: 1em;
+}
+
+.entry-content IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.entry-content A.readmore:link,
+.entry-content A.readmore:visited {
+  color: #69C9CA;
+  font-weight: 800;
+  line-height: 1em;
+}
+
+.entry-content A.readmore:hover,
+.entry-content A.readmore:active {
+  color: #233D3C;
+}
+
+.entry-content .readmore .fa-play {
+  color: #233D3C;
+  font-size: 60%;
+  position: relative;
+  top: -3px;
+}
+
+.blog-author {
+  margin-top: 3em;
+  border-top: 1px solid #E2E2E1;
+  padding-top: 3em;
+  color: #959595;
+  font-size: 77.77%;
+  line-height: 1.4em;
+  height: 108px;
+}
+
+.blog-author DIV {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blog-author H5 {
+  font-weight: 700;
+  font-size: 114.28%;
+  color: #162727;
+  margin: 0;
+}
+
+.blog-author IMG {
+  float: left;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+.site-main HR {
+  margin: 5em 0;
+  border-top-color: #E2E2E1;
+}
+
+.navigation {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 6em 0 2.5em;
+  font-weight: 800;
+  font-size: 111.11%;
+}
+
+.navigation H2 {
+  display: none;
+}
+
+.navigation .page-numbers {
+  margin-right: 0.8em;
+  color: #69C9CA;
+}
+
+.navigation A.page-numbers:link,
+.navigation A.page-numbers:visited {
+  color: #233D3C;
+}
+
+.navigation A.page-numbers:hover,
+.navigation A.page-numbers:active {
+  color: #69C9CA;
+}
+
+.navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+.navigation .nav-next {
+  float: right;
+  width: 50%;
+  text-align: right;
+  clear: right;
+}
+
+.navigation A .fa-play {
+  color: #69C9CA;
+  font-size: 60%;
+  position: relative;
+  top: -3px;
+}
+
+.alignleft {
+  float: left;
+  margin: 0.375em 1.75em 1.75em 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0.375em 0 1.75em 1.75em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+  margin: 0.3157894737em 1.4736842105em 1.473684211em 0;
+}
+
+blockquote.alignright {
+  margin: 0.3157894737em 0 1.473684211em 1.4736842105em;
+}
+
+blockquote.aligncenter {
+  margin-bottom: 1.473684211em;
+}
+
+
 
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
@@ -1154,6 +1342,14 @@ A.team-link:hover {
     display: block;
     visibility: hidden;
     height: 0.1em;
+  }
+
+  .navigation {
+    width: 96%;
+  }
+
+  .navigation.post-navigation {
+    width: 100%;
   }
 }
 
@@ -1373,6 +1569,15 @@ A.team-link:hover {
     visibility: hidden;
     height: 0.1em;
   }
+
+  .entry-header .entry-title {
+    font-size: 280%;
+  }
+
+  .entry-header H4 .sep {
+    display: block;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1412,5 +1617,9 @@ A.team-link:hover {
 
   .contact H2 {
     font-size: 300%;
+  }
+
+  .entry-header .entry-title {
+    font-size: 240%;
   }
 }
