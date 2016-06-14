@@ -1,0 +1,306 @@
+.project {
+  padding: 5em 0;
+}
+
+.project .one-half {
+  float: left;
+  width: 47%;
+  text-align: right;
+  font-size: 77.77%;
+  color: #B7B7B7;
+}
+
+.project .one-half H2 {
+  color: #D32728;
+  font-weight: 800;
+  font-size: 485.714%;
+  line-height: 1em;
+  margin: 0 0 0.2em;
+}
+
+.project .one-half-right {
+  float: right;
+  width: 49%;
+  line-height: 1.8em;
+}
+
+.project .one-third {
+  float: left;
+  width: 27.5%;
+  text-align: right;
+  font-size: 77.77%;
+  color: #B7B7B7;
+}
+
+.project .two-third {
+  float: right;
+  width: 67%;
+  line-height: 1.8em;
+}
+
+.project .one-third H2 {
+  color: #162727;
+  font-weight: 800;
+  font-size: 528.57%;
+  line-height: 1em;
+  margin: 0 0 0.2em;
+}
+
+.project .fa-play {
+  color: #69C9CA;
+}
+
+.project IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.tee-to-green-mobile {
+  position: relative;
+  max-height: 800px;
+  background: url(../images/tee-to-green-mobile.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.tee-to-green-mobile:after {
+  padding-top: 80%;
+  display: inline-block;
+  content: '';
+}
+
+.tee-to-green-laptop {
+  position: relative;
+  max-height: 375px;
+  background: url(../images/tee-to-green-laptop.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.tee-to-green-laptop:after {
+  padding-top: 37.5%;
+  display: inline-block;
+  content: '';
+}
+
+.tee-to-green-print {
+  position: relative;
+  max-height: 747px;
+  background: url(../images/tee-to-green-print.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.tee-to-green-print:after {
+  padding-top: 74.7%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-product-guide-stack {
+  position: relative;
+  max-height: 1133px;
+  background: url(../images/gossen-product-guide-stack.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-product-guide-stack:after {
+  padding-top: 113.3%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-product-guide-stack .site-width DIV {
+  width: 30%;
+  font-size: 77.77%;
+  color: #B7B7B7;
+  padding-top: 4.5em;
+}
+
+.gossen-product-guide-stack .site-width DIV H2 {
+  color: #263870;
+  font-weight: 800;
+  font-size: 514.28%;
+  line-height: 1em;
+  margin: 0 0 0.2em;
+}
+
+.gossen-product-guide-stack .site-width DIV .fa-play {
+  color: #69C9CA;
+}
+
+.gossen-product-guide-closeup {
+  position: relative;
+  max-height: 805px;
+  background: url(../images/gossen-product-guide-closeup.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-product-guide-closeup:after {
+  padding-top: 80.5%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-product-guide-mockup {
+  position: relative;
+  max-height: 870px;
+  background: url(../images/gossen-product-guide-mockup.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-product-guide-mockup:after {
+  padding-top: 87%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-product-guide-open {
+  position: relative;
+  max-height: 804px;
+  background: url(../images/gossen-product-guide-open.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-product-guide-open:after {
+  padding-top: 80.4%;
+  display: inline-block;
+  content: '';
+}
+
+.mortons-tablet {
+  position: relative;
+  max-height: 750px;
+  background: url(../images/mortons-tablet.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mortons-tablet:after {
+  padding-top: 75%;
+  display: inline-block;
+  content: '';
+}
+
+.mortons-laptop {
+  position: relative;
+  max-height: 650px;
+  background: url(../images/mortons-laptop.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mortons-laptop:after {
+  padding-top: 65%;
+  display: inline-block;
+  content: '';
+}
+
+.project-nav {
+  border-top: 1px solid #E2E2E1;
+  padding: 2em 0;
+}
+
+.project-nav .prev,
+.project-nav .home,
+.project-nav .next {
+  float: left;
+  width: 40%;
+}
+
+.project-nav .home {
+  width: 20%;
+  text-align: center;
+}
+
+.project-nav .next {
+  text-align: right;
+}
+
+.project-nav A:link,
+.project-nav A:visited {
+  font-weight: 800;
+  font-size: 111.11%;
+  color: #636363;
+}
+
+.project-nav .home A:link,
+.project-nav .home A:visited {
+  color: #E2E2E1;
+}
+
+.project-nav A:hover,
+.project-nav A:active,
+.project-nav .home A:hover,
+.project-nav .home A:active {
+  color: #69C9CA;
+}
+
+.project-nav .fa-play {
+  color: #69C9CA;
+  font-size: 60%;
+  position: relative;
+  top: -3px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  /* Small computer or landscape tablet */
+  .project .one-half H2 {
+    font-size: 350%;
+  }
+
+  .project .one-third H2 {
+    font-size: 420%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Small tablet */
+  .project .one-half,
+  .project .one-half-right,
+  .project .one-third,
+  .project .two-third {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .project .one-half H2 {
+    font-size: 485.714%;
+  }
+
+  .project .one-third H2 {
+    font-size: 528.57%;
+  }
+
+  .gossen-product-guide-stack .site-width DIV H2 {
+    font-size: 420%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Phone */
+  .project .one-half H2 {
+    font-size: 390%;
+  }
+
+  .gossen-product-guide-stack .site-width DIV {
+    width: 100%;
+    padding-top: 1.5em;
+  }
+
+  .gossen-product-guide-stack .site-width DIV H2 {
+    font-size: 300%;
+  }
+
+  .project-nav .prev,
+  .project-nav .home,
+  .project-nav .next {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Small Phone */
+  .project .one-half H2 {
+    font-size: 320%;
+  }
+}

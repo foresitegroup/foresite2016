@@ -34,7 +34,7 @@
 			// Previous/next post navigation.
 			the_post_navigation( array(
 				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'NEXT <i class="fa fa-play" aria-hidden="true"></i>', 'twentysixteen' ) . '</span> ',
-				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<i class="fa fa-play fa-rotate-180" aria-hidden="true"></i> PREVIOUS', 'twentysixteen' ) . '</span>',
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( '<i class="fa fa-play fa-flip-horizontal" aria-hidden="true"></i> PREVIOUS', 'twentysixteen' ) . '</span>',
 			) );
 		else :
 			the_excerpt();
