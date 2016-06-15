@@ -46,6 +46,12 @@
   margin: 0 0 0.2em;
 }
 
+.project .task {
+  font-size: 14px;
+  line-height: 1em;
+  color: #B7B7B7;
+}
+
 .project .fa-play {
   color: #69C9CA;
 }
@@ -191,6 +197,214 @@
   content: '';
 }
 
+.project-fear {
+  background: #E9E8E8;
+}
+
+.fear-left {
+  float: left;
+  width: 34%;
+  text-align: right;
+  line-height: 1.6em;
+}
+
+.fear-right {
+  float: right;
+  width: 61%;
+}
+
+.fear-left H2 {
+  margin: 0 0 0.3em;
+  color: #047A85;
+  font-weight: 800;
+  font-size: 411.11%;
+  line-height: 1em;
+}
+
+.fear-tablet {
+  position: relative;
+  max-height: 845px;
+  background: url(../images/fear-tablet.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.fear-tablet:after {
+  padding-top: 84.5%;
+  display: inline-block;
+  content: '';
+}
+
+.fear-green {
+  background: #02565D;
+}
+
+.fear-green-left {
+  float: left;
+  width: 59%;
+}
+
+.fear-green-right {
+  float: right;
+  width: 39%;
+}
+
+.fear-green-right H2 {
+  margin-bottom: 2em;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 250%;
+  line-height: 1em;
+}
+
+.fear-green A.button:link,
+.fear-green A.button:visited {
+  border-color: #69C9CA;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.fear-green A.button:hover,
+.fear-green A.button:active {
+  color: #69C9CA;
+}
+
+.sullivan-banner {
+  position: relative;
+  max-height: 500px;
+  background: url(../images/sullivan-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.sullivan-banner:after {
+  padding-top: 50%;
+  display: inline-block;
+  content: '';
+}
+
+.sullivan-banner .project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sullivan-banner H2 {
+  margin: 0 0 0.4em;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 466.66%;
+  line-height: 1em;
+}
+
+.sullivan-banner .task {
+  margin-bottom: 4em;
+}
+
+.sullivan-green {
+  background: #74AA42;
+  padding: 5em 0;
+}
+
+.sullivan-green IMG {
+  float: left;
+  width: 22.6%;
+  height: auto;
+  margin-left: 3.2%;
+}
+
+.sullivan-green IMG:first-child {
+  margin-left: 0;
+}
+
+.sullivan-gray {
+  background: #37424A;
+  color: #FFFFFF;
+}
+
+.sullivan-gallery .fancybox {
+  float: left;
+  line-height: 0;
+  margin: 0 1.7% 1em 0;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.sullivan-gallery .fancybox.last {
+  margin: 0 0 1em 0;
+}
+
+.sullivan-gallery .fancybox IMG {
+  visibility: hidden;
+}
+
+.sullivan-gallery .fancybox:hover IMG {
+  visibility: visible;
+}
+
+.sullivan-gallery A.button:link,
+.sullivan-gallery A.button:visited {
+  border-color: #69C9CA;
+  color: #162727;
+  font-weight: 800;
+}
+
+.sullivan-gallery A.button:hover,
+.sullivan-gallery A.button:active {
+  color: #69C9CA;
+}
+
+.belardi-left {
+  float: left;
+  width: 34%;
+  text-align: right;
+  line-height: 1.6em;
+}
+
+.belardi-right {
+  float: right;
+  width: 61%;
+}
+
+.belardi-left H2 {
+  margin: 0 0 0.3em;
+  color: #D9B26C;
+  font-weight: 800;
+  font-size: 411.11%;
+  line-height: 1em;
+}
+
+.belardi-gray {
+  background: #252525;
+  padding: 5em 0;
+}
+
+.belardi-gray IMG {
+  float: left;
+  width: 20.8%;
+  height: auto;
+  margin-left: 5.6%;
+}
+
+.belardi-gray IMG:first-child {
+  margin-left: 0;
+}
+
+.belardi-gold {
+  background: #D5B576;
+}
+
+.belardi A.button:link,
+.belardi A.button:visited {
+  border-color: #69C9CA;
+  color: #162727;
+  font-weight: 800;
+}
+
+.belardi A.button:hover,
+.belardi A.button:active {
+  color: #69C9CA;
+}
+
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
@@ -248,6 +462,30 @@
   .project .one-third H2 {
     font-size: 420%;
   }
+
+  .fear-left {
+    width: 50%;
+  }
+
+  .fear-right {
+    width: 45%;
+  }
+
+  .fear-green-right H2 {
+    margin: 0 0 1.5em;
+  }
+
+  .sullivan-gallery .fancybox {
+    width: 23.725%;
+  }
+
+  .belardi-left {
+    width: 50%;
+  }
+
+  .belardi-right {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -272,6 +510,68 @@
   .gossen-product-guide-stack .site-width DIV H2 {
     font-size: 420%;
   }
+
+  .fear-left,
+  .fear-right,
+  .fear-green-left,
+  .fear-green-right {
+    float: none;
+    width: 100%;
+  }
+
+  .fear-left {
+    text-align: left;
+    margin-bottom: 2em;
+  }
+
+  .fear-green-right H2 {
+    margin: 2em 0 1em;
+  }
+
+  .sullivan-banner H2 {
+    font-size: 400%;
+  }
+
+  .sullivan-green {
+    padding: 4em 0;
+  }
+
+  .sullivan-green IMG,
+  .sullivan-green IMG:first-child {
+    width: 40%;
+    margin: 1em 5%;
+  }
+
+  .sullivan-gallery .fancybox,
+  .sullivan-gallery .fancybox.last {
+    width: 48.2%;
+    margin: 0 0.9% 0.9em 0.9%;
+  }
+
+  .sullivan-gallery .fancybox IMG {
+    width: 100%;
+  }
+
+  .belardi-left,
+  .belardi-right {
+    float: none;
+    width: 100%;
+  }
+
+  .belardi-left {
+    text-align: left;
+    margin-bottom: 2em;
+  }
+
+  .belardi-gray {
+    padding: 4em 0;
+  }
+
+  .belardi-gray IMG,
+  .belardi-gray IMG:first-child {
+    width: 37%;
+    margin: 1em 6.5%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -289,6 +589,23 @@
     font-size: 300%;
   }
 
+  .sullivan-banner H2 {
+    font-size: 270%;
+  }
+
+  .sullivan-banner .task {
+    margin-bottom: 1.5em;
+  }
+
+  .sullivan-gallery .fancybox,
+  .sullivan-gallery .fancybox.last {
+    float: none;
+    margin: 0 auto 0.9em;
+    display: block;
+    width: 96%;
+    height: auto;
+  }
+
   .project-nav .prev,
   .project-nav .home,
   .project-nav .next {
@@ -302,5 +619,17 @@
   /* Small Phone */
   .project .one-half H2 {
     font-size: 320%;
+  }
+
+  .fear-left H2 {
+    font-size: 390%;
+  }
+
+  .sullivan-banner H2 {
+    font-size: 230%;
+  }
+
+  .belardi-left H2 {
+    font-size: 390%;
   }
 }
