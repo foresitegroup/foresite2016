@@ -21,7 +21,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-gossen.jpg);">
+  <div class="tile tile2x1" style="background-image: url(images/project-gossen-product-guide.jpg);">
     <a href="gossen-product-guide.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -35,7 +35,7 @@ include "header.php";
   </div>
 
   <div class="tile" style="background-image: url(images/project-michael-thomas.jpg);">
-    <a href="#" class="tile-link">
+    <a href="michael-thomas.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
         <img src="images/waves-white.png" alt="" class="work-waves">
@@ -121,6 +121,84 @@ include "header.php";
         <h2>SULLIVAN CORPORATION</h2>
 
         Website, Branding, Photography
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile1x2 tile-left" style="background-image: url(images/project-centennial.jpg);">
+    <a href="centennial.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>CENTENNIAL</h2>
+
+        Website
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-dominican.jpg);">
+    <a href="dominican.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>DOMINICAN HIGH SCHOOL</h2>
+
+        Website
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-gossen-railing.jpg);">
+    <a href="gossen-railing.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>GOSSEN RAILING INSTALL GUIDE</h2>
+
+        Print, Illustration, Video
+      </div>
+    </a>
+  </div>
+
+  <div class="tile" style="background-image: url(images/project-gossen.jpg);">
+    <a href="gossen.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>GOSSEN CORP</h2>
+
+        Branding, Website Design, Print, Photography
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-jims-cheese.jpg);">
+    <a href="jims-cheese.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>JIM'S CHEESE</h2>
+
+        Website Design, Print, Social Media
+      </div>
+    </a>
+  </div>
+
+  <div class="tile" style="background-image: url(images/project-molded-dimensions.jpg);">
+    <a href="molded-dimensions.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>MOLDED DIMENSIONS</h2>
+
+        Website Design, Photography
       </div>
     </a>
   </div>

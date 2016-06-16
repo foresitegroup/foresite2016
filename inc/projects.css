@@ -405,6 +405,597 @@
   color: #69C9CA;
 }
 
+.mcbe-banner {
+  position: relative;
+  max-height: 457px;
+  background: url(../images/mcbe-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mcbe-banner:after {
+  padding-top: 45.7%;
+  display: inline-block;
+  content: '';
+}
+
+.mcbe-banner .project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mcbe-banner H2 {
+  margin: 0 0 0.4em;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 400%;
+  line-height: 1em;
+}
+
+.mcbe-banner .task {
+  margin-bottom: 4em;
+}
+
+.mcbe-banner .fa-play {
+  color: #F0AF20;
+}
+
+.mcbe-left {
+  float: left;
+  width: 47%;
+}
+
+.mcbe-right {
+  float: right;
+  width: 47%;
+  text-align: right;
+}
+
+.mcbe-blue {
+  background: #022C40;
+}
+
+.mcbe-posters {
+  position: relative;
+  max-height: 888px;
+  background: url(../images/mcbe-posters.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mcbe-posters:after {
+  padding-top: 88.8%;
+  display: inline-block;
+  content: '';
+}
+
+.mcbe-bottles {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/mcbe-bottles.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mcbe-bottles:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.mt-banner {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/mt-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mt-banner:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.mt-banner .project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mt-banner H2 {
+  margin: 0 0 0.4em;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 377.77%;
+  line-height: 1em;
+}
+
+.mt-banner .task {
+  margin-bottom: 4em;
+}
+
+.mt-mobile {
+  position: relative;
+  max-height: 750px;
+  background: url(../images/mt-mobile.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mt-mobile:after {
+  padding-top: 75%;
+  display: inline-block;
+  content: '';
+}
+
+.mt-blue {
+  background: #264A72;
+  color: #FFFFFF;
+}
+
+.mt A.button:link,
+.mt A.button:visited {
+  border-color: #69C9CA;
+  color: #162727;
+  font-weight: 800;
+}
+
+.mt A.button:hover,
+.mt A.button:active {
+  color: #69C9CA;
+}
+
+.mt-meeting {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/mt-meeting.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.mt-meeting:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-left {
+  float: left;
+  width: 31.7%;
+  text-align: right;
+}
+
+.gossen-right {
+  float: right;
+  width: 63.5%;
+  line-height: 1.8em
+}
+
+.gossen-left H2 {
+  margin: 0 0 0.4em;
+  color: #232F67;
+  font-weight: 800;
+  font-size: 433.33%;
+  line-height: 1em;
+}
+
+.gossen-left .task {
+  margin-bottom: 4em;
+}
+
+.gossen-style-guide {
+  position: relative;
+  max-height: 870px;
+  background: url(../images/gossen-style-guide.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-style-guide:after {
+  padding-top: 87%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-style-guide-page-left {
+  float: left;
+  width: 43.3%;
+}
+
+.gossen-style-guide-page-right {
+  float: right;
+  width: 43.3%;
+  text-align: right;
+}
+
+.gossen-blue {
+  background: #232F67;
+  color: #FFFFFF;
+}
+
+.gossen-brochure {
+  position: relative;
+  max-height: 802px;
+  background: url(../images/gossen-brochure.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-brochure:after {
+  padding-top: 80.2%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-gray {
+  background: #E8E8EA;
+}
+
+.gossen-gallery {
+  padding-bottom: calc(5em - 2.5%);
+}
+
+.gossen-gallery .fancybox {
+  float: left;
+  line-height: 0;
+  margin: 0 3.65% 3.65% 0;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 30.9%;
+}
+
+.gossen-gallery .fancybox.last {
+  margin-right: 0;
+}
+
+.gossen-gallery .fancybox:after {
+  padding-top: 66.99%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-deck {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/gossen-deck.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-deck:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.centennial-left {
+  float: left;
+  width: 39.2%;
+  text-align: right;
+}
+
+.centennial-right {
+  float: right;
+  width: 59.5%;
+}
+
+.centennial-left H2 {
+  margin: 0 0 0.4em;
+  color: #B52025;
+  font-weight: 800;
+  font-size: 333.33%;
+  line-height: 1em;
+}
+
+.centennial-left .task {
+  margin-bottom: 2em;
+}
+
+.centennial-tablet {
+  background: #FBF9EC;
+}
+
+.centennial-tablet IMG {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.centennial-banner {
+  position: relative;
+  max-height: 600px;
+  background: url(../images/centennial-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.centennial-banner:after {
+  padding-top: 60%;
+  display: inline-block;
+  content: '';
+}
+
+.md-left {
+  float: left;
+  width: 45%;
+  text-align: right;
+}
+
+.md-right {
+  float: right;
+  width: 50%;
+  line-height: 1.8em;
+}
+
+.md-left H2 {
+  margin: 0 0 0.4em;
+  color: #CB2127;
+  font-weight: 800;
+  font-size: 380%;
+  line-height: 1em;
+}
+
+.md-left .task {
+  margin-bottom: 3em;
+}
+
+.md-responsive {
+  background: #CB2027;
+  padding: 1em 0;
+}
+
+.md-responsive IMG {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.md-gallery {
+  padding-bottom: calc(5em - 2.5%);
+}
+
+.md-gallery .fancybox {
+  float: left;
+  line-height: 0;
+  margin: 0 3.65% 3.65% 0;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 30.9%;
+}
+
+.md-gallery .fancybox.last {
+  margin-right: 0;
+}
+
+.md-gallery .fancybox:after {
+  padding-top: 66.99%;
+  display: inline-block;
+  content: '';
+}
+
+.md-banner {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/md-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.md-banner:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.dominican-tablet {
+  background: #1B9F68;
+  padding-top: 3em;
+}
+
+.dominican-tablet IMG {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.dominican-left {
+  float: left;
+  width: 39.7%;
+  text-align: right;
+}
+
+.dominican-right {
+  float: right;
+  width: 55.4%;
+}
+
+.dominican-left H2 {
+  margin: 0 0 0.4em;
+  color: #1B9F68;
+  font-weight: 800;
+  font-size: 305.55%;
+  line-height: 1em;
+}
+
+.dominican-left .task {
+  margin-bottom: 2em;
+}
+
+.dominican-mobile {
+  background: #ECECEB;
+  padding: 5em 0;
+}
+
+.dominican-mobile IMG {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.jim-left {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+.jim-right {
+  float: right;
+  width: 63%;
+  line-height: 1.8em;
+}
+
+.jim-left H2 {
+  margin: 0 0 0.4em;
+  color: #F8B857;
+  font-weight: 800;
+  font-size: 455.55%;
+  line-height: 1em;
+}
+
+.jim-left .task {
+  margin-bottom: 2em;
+}
+
+.jim-responsive {
+  background: #1F1919;
+  padding: 1.6em 0;
+}
+
+.jim-responsive IMG {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.jimages IMG {
+  margin-top: 3em;
+}
+
+.jimage-left {
+  float: left;
+  width: 47.6%;
+}
+
+.jimage-right {
+  float: right;
+  width: 47.6%;
+}
+
+.jimage-left IMG,
+.jimage-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.gossen-railing-banner {
+  position: relative;
+  max-height: 682px;
+  background: url(../images/gossen-railing-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.gossen-railing-banner:after {
+  padding-top: 68.2%;
+  display: inline-block;
+  content: '';
+}
+
+.gossen-railing-left {
+  float: left;
+  width: 32.7%;
+  text-align: right;
+}
+
+.gossen-railing-right {
+  float: right;
+  width: 62.4%;
+}
+
+.gossen-railing-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.gossen-railing-left H2 {
+  margin: 0 0 0.4em;
+  color: #232F67;
+  font-weight: 800;
+  font-size: 433.33%;
+  line-height: 1em;
+}
+
+.gossen-railing-left .task {
+  margin-bottom: 3em;
+}
+
+.kmtooling-left {
+  float: left;
+  width: 36.6%;
+  text-align: right;
+}
+
+.kmtooling-right {
+  float: right;
+  width: 61%;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+.kmtooling-left H2 {
+  margin: 0 0 0.4em;
+  color: #1B75BB;
+  font-weight: 800;
+  font-size: 433.33%;
+  line-height: 1em;
+}
+
+.kmtooling-left .task {
+  margin-bottom: 3em;
+}
+
+.kmtooling-blue {
+  background: #1B75BB;
+  padding: 5em 0;
+}
+
+.kmtooling-blue IMG {
+  float: left;
+  width: 21.7%;
+  height: auto;
+  margin-left: 4.4%;
+}
+
+.kmtooling-blue IMG:first-child {
+  margin-left: 0;
+}
+
+.kmtooling-gray {
+  background: #F1F1F2;
+}
+
+.kmtooling A.button:link,
+.kmtooling A.button:visited {
+  border-color: #69C9CA;
+  color: #162727;
+  font-weight: 800;
+}
+
+.kmtooling A.button:hover,
+.kmtooling A.button:active {
+  color: #69C9CA;
+}
+
+.kmtooling-banner {
+  position: relative;
+  max-height: 500px;
+  background: url(../images/kmtooling-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.kmtooling-banner:after {
+  padding-top: 50%;
+  display: inline-block;
+  content: '';
+}
+
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
@@ -485,6 +1076,54 @@
 
   .belardi-right {
     width: 45%;
+  }
+
+  .gossen-left H2 {
+    font-size: 320%;
+  }
+
+  .centennial-left {
+    width: 50%;
+  }
+
+  .centennial-right {
+    width: 45%;
+  }
+
+  .centennial-left H2 {
+    font-size: 300%;
+  }
+
+  .md-left,
+  .md-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .md-left {
+    margin-bottom: 2em;
+  }
+
+  .dominican-left {
+    width: 60%;
+  }
+
+  .dominican-right {
+    width: 35%;
+  }
+
+  .jim-left {
+    width: 42%;
+  }
+
+  .jim-right {
+    width: 52%;
+  }
+
+  .gossen-railing-left,
+  .gossen-railing-right {
+    width: 48%;
   }
 }
 
@@ -572,6 +1211,121 @@
     width: 37%;
     margin: 1em 6.5%;
   }
+
+  .mcbe-banner H2 {
+    font-size: 300%;
+  }
+
+  .mcbe-banner .task {
+    margin-bottom: 2em;
+  }
+
+  .mcbe-left,
+  .mcbe-right {
+    float: none;
+    width: 100%;
+  }
+
+  .mcbe-right {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .mt-banner H2 {
+    font-size: 300%;
+  }
+
+  .mt-banner .task {
+    margin-bottom: 2em;
+  }
+
+  .gossen-left,
+  .gossen-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .gossen-left {
+    margin-bottom: 2em;
+  }
+
+  .gossen-left H2 {
+    font-size: 433.33%;
+  }
+
+  .gossen-style-guide-page-left,
+  .gossen-style-guide-page-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .gossen-style-guide-page-left {
+    margin-bottom: 2em;
+  }
+
+  .centennial-left,
+  .centennial-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .centennial-left {
+    margin-bottom: 2em;
+  }
+  
+  .centennial-left H2 {
+    font-size: 333.33%;
+  }
+
+  .dominican-left,
+  .dominican-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dominican-left {
+    margin-bottom: 2em;
+  }
+
+  .jim-left,
+  .jim-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .jim-left {
+    margin-bottom: 2em;
+  }
+
+  .gossen-railing-left,
+  .gossen-railing-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .gossen-railing-left {
+    margin-bottom: 2em;
+  }
+
+  .gossen-railing-left H2 {
+    font-size: 360%;
+  }
+
+  .kmtooling-blue {
+    padding: 4em 0;
+  }
+
+  .kmtooling-blue IMG,
+  .kmtooling-blue IMG:first-child {
+    width: 38.5%;
+    margin: 1em 5.75%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -613,6 +1367,50 @@
     width: 100%;
     text-align: center;
   }
+
+  .mcbe-banner H2 {
+    font-size: 200%;
+  }
+
+  .mcbe-banner .task {
+    margin-bottom: 1em;
+  }
+
+  .mt-banner H2 {
+    font-size: 200%;
+  }
+
+  .mt-banner .task {
+    margin-bottom: 1em;
+  }
+
+  .gossen-gallery .fancybox {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .centennial-left H2 {
+    font-size: 310%;
+  }
+
+  .md-left H2 {
+    font-size: 310%;
+  }
+
+  .md-gallery .fancybox {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .jim-left H2 {
+    margin-left: 0.1em;
+  }
+  
+  .jimage-left,
+  .jimage-right {
+    float: left;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -631,5 +1429,29 @@
 
   .belardi-left H2 {
     font-size: 390%;
+  }
+
+  .mcbe-banner H2 {
+    font-size: 170%;
+  }
+
+  .mt-banner H2 {
+    font-size: 170%;
+  }
+
+  .gossen-left H2 {
+    font-size: 400%;
+  }
+
+  .centennial-left H2 {
+    font-size: 250%;
+  }
+
+  .md-left H2 {
+    font-size: 250%;
+  }
+
+  .dominican-left H2 {
+    font-size: 270%;
   }
 }
