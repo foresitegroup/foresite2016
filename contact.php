@@ -12,7 +12,7 @@ include "header.php";
   <div class="site-width">
     <h2>CONTACT US</h2>
 
-    Have questions about project in mind, feel like grabbin' a cup of coffee and/or checking the studio out? Feel free to sent us a message or cut straight to the chase and contact us directly.<br>
+    Have questions about project in mind, feel like grabbin' a cup of coffee and/or checking the studio out? Feel free to send us a message or cut straight to the chase and contact us directly.<br>
     <br>
 
     <img src="images/waves-blue.png" alt=""><br>
@@ -249,7 +249,7 @@ include "header.php";
 <div id="map-canvas"></div>
 
 <div class="prefooter">
-  <h3 class="waves-white">THE BREW PROCESS</h3>
+  <h3 class="waves-white"><a href="capabilities.php">THE BREW PROCESS</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>

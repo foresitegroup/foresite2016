@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "";
-$Description = "";
-$Keywords = "";
+$Description = "Milwaukee Website Design Firm - Foresite Group, LLC. Brewing Ideas, Crafting Solutions.";
+$Keywords = "foresite group, foresite group llc, milwaukee web design, milwaukee website design, creative agency, website design, marketing agency, social media agency, social media marketing, brand design, brand development, logo design, collateral design, search engine marketing agency, milwaukee, seo, brand development, creative solutions, forsite group, foresite group llc, foresite group milwaukee, milwaukee, milwaukee web design, milwaukee creative agency, brand design, brand development, social media marketing, collateral design, search engine optimization, marketing, marketing strategy, website design, we build websites, website development, website company in milwaukee, logo design, logo design company, content marketing, responsive website design, creative website design, milwaukee website design";
 include "header.php";
 ?>
 
@@ -17,7 +17,13 @@ include "header.php";
   </div>
 </div>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });
+  });
+</script>
 <script src="inc/masonry.pkgd.min.js"></script>
+
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
   <div class="tile tile2x2" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
@@ -44,7 +50,7 @@ include "header.php";
       </div>
     </a>
   </div>
-  
+
   <?php
   require('news/wp-blog-header.php');
   $posts = get_posts('posts_per_page=1&order=DESC&orderby=date');
@@ -60,7 +66,7 @@ include "header.php";
       <a href="<?php the_permalink(); ?>" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
     </div>
   <?php endforeach; ?>
-  
+
   <div class="tile" style="background-image: url(images/project-mortons.jpg);">
     <a href="mortons.php" class="tile-link">
       <div class="tile-hover-content">
@@ -162,14 +168,13 @@ include "header.php";
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white">WORK WITH US</h3>
+  <h3 class="waves-white"><a href="contact.php">WORK WITH US</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
-  sr.reveal('.capabilities-banner-content', { rotate: { x: 0, y: 0, z: 180 } });
-  sr.reveal('.our-method-content', { origin: 'left' });
+  sr.reveal('.capabilities-banner-content', { origin: 'bottom' });
   sr.reveal('.tile', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 100);
   sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });
   sr.reveal('.prefooter H3', { rotate: { x: 180, y: 0, z: 0 } });

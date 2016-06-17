@@ -6,7 +6,13 @@ $Menu = "light";
 include "header.php";
 ?>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });
+  });
+</script>
 <script src="inc/masonry.pkgd.min.js"></script>
+
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
   <div class="tile tile2x2" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
@@ -211,7 +217,7 @@ include "header.php";
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white">WORK WITH US</h3>
+  <h3 class="waves-white"><a href="contact.php">WORK WITH US</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>

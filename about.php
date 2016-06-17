@@ -16,12 +16,14 @@ include "header.php";
   <br>
 
   <h2>LEADERSHIP TEAM</h2>
-  
+
   <div class="one-third">
     <div class="team" style="background-image: url(images/team-francis.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Seattle University. Content Development, 17 Years in Marketing &amp; Brand Development. Avid sailor &amp; craft beer enthusiast.
+          Seattle University.<br>
+          Content Development, 17 Years in Marketing &amp; Brand Development.<br>
+          Avid sailor &amp; craft beer enthusiast.
         </div>
       </a>
     </div>
@@ -31,7 +33,7 @@ include "header.php";
     <div class="social team-social">
       <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/francis-morton-380a763"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -39,7 +41,9 @@ include "header.php";
     <div class="team" style="background-image: url(images/team-nickc.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Hop Back Salamanzar Chill Haze Chill Haze Crystal malt, Racking. Stick, Oxidized Kilderkin Biere de garde. Nebuchadnezzar Mead Flute Double Magnum Amber.
+          University of Wisconsin Madison.<br>
+          Content Development, Social Media Management and Marketing.<br>
+          Umphreys #1 Fan and Craft beer enthusiast.
         </div>
       </a>
     </div>
@@ -64,13 +68,18 @@ include "header.php";
 
     <div class="team-name">MARK LIPPERT</div>
     <div class="team-title">SENIOR DEVELOPER</div>
+    <div class="social team-social">
+      <a href="http://instagram.com/hurtsquirrels"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/mark-lippert-81515896"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
   </div>
 
   <div class="one-third">
     <div class="team" style="background-image: url(images/team-nicks.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Short skis suck, long skis truck. Mcconkey's powderhouse hill celestial. Catskiing pow k2 cindy nelson attitash bear peak hoodoo pine mountain.
+          Northern Michigan University, BFA in Graphic Communications.<br>
+          Outdoor enthusiast fully capable of growing a respectable beard.
         </div>
       </a>
     </div>
@@ -80,6 +89,7 @@ include "header.php";
     <div class="social team-social">
       <a href="https://twitter.com/nswenor"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="http://instagram.com/nich_olass"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/nswenor"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -87,33 +97,43 @@ include "header.php";
     <div class="team" style="background-image: url(images/team-will.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue sollicitudin velit vitae eleifend. Integer sit amet orci euismod.
+          Marquette University.<br>
+          A young padawan from Chicago bringing his creative copywriting skills to the team, whilst learning the way of the Milwaukee Brewers.
         </div>
       </a>
     </div>
 
     <div class="team-name">WILL FISCHER</div>
     <div class="team-title">THE INTERN/CONTENT SPECIALIST</div>
+    <div class="social team-social">
+      <a href="https://twitter.com/WillLFish"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/william-fischer-080292b8"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
   </div>
 
   <div class="one-third">
     <div class="team" style="background-image: url(images/team-extended.jpg);">
       <a class="team-link">
-        <div class="team-hover-content">
-          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.
+        <div class="team-hover-content wordy">
+          Over the years we have built up a close relationship with outside illustrators, developers, photographers and videographers to execute the more specialized needs of our clients.
         </div>
       </a>
     </div>
 
     <div class="team-name">EXTENDED NETWORK</div>
-    <div class="team-text">Over the years we have built up a close relationship with outside illustrators, developers, photographers &amp; videographers to execute the more specialized needs of our clients.</div>
+    <div class="team-title">PHOTOGRAPHERS, VIDEOGRAPHERS, ANIMATORS, DESIGNERS, DEVELOPERS</div>
+    <div class="social team-social">
+      &nbsp;
+    </div>
   </div>
 
   <div class="one-third">
     <div class="team" style="background-image: url(images/team-jackie.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Wow, I iz cute? Wow, txt me, many amet, oh my elit, very lorem, need doge. Much sit, want swag, very design, so lorem.
+          Keeps team morale up.<br>
+          Often gets upset, howling, when employees are not at their assigned desk.<br>
+          Enjoys long walks, running, herding &amp; halloween.
         </div>
       </a>
     </div>
@@ -121,7 +141,7 @@ include "header.php";
     <div class="team-name">JACKIE</div>
     <div class="team-title">THE OFFICE DOG</div>
     <div class="social team-social">
-      <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      &nbsp;
     </div>
   </div>
 </div>
@@ -167,14 +187,14 @@ include "header.php";
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white">HAVE AN IDEA?</h3>
+  <h3 class="waves-white"><a href="contact.php">HAVE AN IDEA?</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
   sr.reveal('.one-third', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 100);
-  sr.reveal('.one-fifth', { delay: 50 }, 100);
+  sr.reveal('.one-fifth', { delay: 50 }, 50);
   sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });
   sr.reveal('.prefooter H3', { rotate: { x: 180, y: 0, z: 0 } });
 </script>

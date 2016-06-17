@@ -199,9 +199,10 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home {
-  height: 864px;
+  height: 100vh;
   background: url(../images/banner-home.jpg) center center no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .banner-home.subpage {
@@ -262,7 +263,6 @@ INPUT[type="submit"]:focus {
   left: 0;
   z-index: 999;
   width: 100%;
-  height: 864px;
   background: rgba(35, 61, 60, .9);
   text-align: center;
 }
@@ -305,11 +305,14 @@ INPUT[type="submit"]:focus {
 }
 
 .top-menu .social {
-  margin-top: 1.6em;
+  margin: 1.6em 0 4em;
 }
 
 .banner-home-content {
-  height: 751px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-top: 113px;
 }
 
 .banner-home.subpage .banner-home-content {
@@ -317,9 +320,6 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home-text {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   width: 90%;
   font-size: 88.88%;
   color: #FFFFFF;
@@ -712,6 +712,20 @@ A.tile-link:hover {
   margin: 0;
 }
 
+.prefooter H3 A:link,
+.prefooter H3 A:visited {
+  color: #69C9CA;
+}
+
+.prefooter H3 A:hover,
+.prefooter H3 A:active {
+  color: #FFFFFF;
+}
+
+.prefooter H3.waves-white:hover {
+  background-image: url(../images/waves-blue-large.png);
+}
+
 .fg-footer {
   padding: 2em 0;
   font-size: 72.22%;
@@ -895,6 +909,11 @@ A.team-link:hover {
   color: #FFFFFF;
 }
 
+.team-hover-content.wordy {
+  padding: 1.5em;
+  font-size: 85%;
+}
+
 .team-name {
   font-weight: 800;
   line-height: 1em;
@@ -904,7 +923,7 @@ A.team-link:hover {
 
 .team-title {
   font-size: 60%;
-  line-height: 1em;
+  line-height: 1.1em;
   color: #325554;
   padding-bottom: 0.4em;
 }
@@ -1333,9 +1352,13 @@ blockquote.aligncenter {
   }
 
   .team-hover-content {
-    padding: 1.5em;
+    padding: 2em 1em;
     font-size: 70%;
     line-height: 1.3em;
+  }
+
+  .team-hover-content.wordy {
+    font-size: 65%;
   }
 
   .worked-with .one-fifth {
@@ -1386,16 +1409,12 @@ blockquote.aligncenter {
 
 @media only screen and (max-width: 600px) {
   /* Small tablet */
-  .banner-home, .top-menu {
-    height: 764px;
+  .banner-home {
+    height: 750px;
   }
 
   .top-menu UL {
     margin-top: 90px;
-  }
-
-  .banner-home-content {
-    height: 651px;
   }
 
   .banner-home-text H1 {
@@ -1453,8 +1472,13 @@ blockquote.aligncenter {
   }
 
   .team-hover-content {
+    padding: 1.5em;
     font-size: 80%;
     line-height: 1.4em;
+  }
+
+  .team-hover-content.wordy {
+    font-size: 75%;
   }
 
   .worked-with .one-fifth {
@@ -1478,17 +1502,13 @@ blockquote.aligncenter {
 
 @media only screen and (max-width: 480px) {
   /* Phone */
+  .banner-home {
+    height: 600px;
+  }
+
   .banner-home-text H1,
   .capabilities-banner-content H1 {
     font-size: 370%;
-  }
-
-  .banner-home, .top-menu {
-    height: 564px;
-  }
-
-  .banner-home-content {
-    height: 451px;
   }
 
   .banner-home.subpage #menu-toggle,
@@ -1555,7 +1575,8 @@ blockquote.aligncenter {
     clear: right;
   }
 
-  .team-hover-content {
+  .team-hover-content,
+  .team-hover-content.wordy {
     font-size: 100%;
   }
 

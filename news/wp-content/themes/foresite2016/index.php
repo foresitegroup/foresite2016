@@ -14,7 +14,9 @@
  * @since Twenty Sixteen 1.0
  */
 
-get_header(); ?>
+get_header();
+$TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
+?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -61,7 +63,7 @@ get_header(); ?>
 		?>
 
 		<div class="prefooter">
-		  <h3 class="waves-white">HAVE AN IDEA?</h3>
+		  <h3 class="waves-white"><a href="<?php echo $TopDir; ?>contact.php">HAVE AN IDEA?</a></h3>
 		</div>
 
 		</main><!-- .site-main -->

@@ -26,7 +26,7 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php echo filemtime(realpath(dirname(__FILE__)) . "/inc/main.css"); ?>">
     <?php if (isset($CssInc)) echo "<link rel=\"stylesheet\" href=\"inc/" . $CssInc . "\">"; ?>
     
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
@@ -39,22 +39,19 @@ function email($address, $name="") {
 
         $(function() { FastClick.attach(document.body); });
 
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 864) {
-            $(".menu-sticky").addClass("sticky");
-          } else {
-            $(".menu-sticky").removeClass("sticky");
-          }
-
-          if ($(this).scrollTop() > 0) {
-            $(".menu-holder.subpage .menu-sticky").addClass("sticky");
-          } else {
-            $(".menu-holder.subpage .menu-sticky").removeClass("sticky");
-          }
+        $(".menu-holder").waypoint(function(direction) {
+          $(".menu-sticky").toggleClass("sticky", direction == "down");
         });
-
-        $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });
       });
+    </script>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60289306-1', 'auto');
+        ga('send', 'pageview');
     </script>
   </head>
   <body>
@@ -81,7 +78,7 @@ function email($address, $name="") {
         </div>
       </div>
 
-      <div class="banner-home-content">
+      <div class="banner-home-content site-width">
         <div class="banner-home-text">
           <h1>Brewing <span style="color: #FFFFFF;">Ideas</span>, Crafting Solutions.</h1>
 
@@ -95,7 +92,7 @@ function email($address, $name="") {
   </div>
   
   <div class="menu-holder<?php if ($PageTitle != "") echo " subpage"; ?>">
-    <div class="menu-sticky<?php if (isset($Menu)) echo " menu-light"; ?>">
+    <div class="menu-sticky<?php if ($PageTitle != "") echo " sticky"; if (isset($Menu)) echo " menu-light"; ?>">
       <div class="site-width menu">
         <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo-small<?php if (isset($Menu)) echo "-light"; ?>.png" alt="Foresite Group" id="logo-small"></a>
 

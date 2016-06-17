@@ -1125,6 +1125,14 @@
   .gossen-railing-right {
     width: 48%;
   }
+
+  .kmtooling-left {
+    width: 50%;
+  }
+
+  .kmtooling-right {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1317,6 +1325,17 @@
     font-size: 360%;
   }
 
+  .kmtooling-left,
+  .kmtooling-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .kmtooling-left {
+    margin-bottom: 2em;
+  }
+
   .kmtooling-blue {
     padding: 4em 0;
   }
@@ -1331,7 +1350,7 @@
 @media only screen and (max-width: 480px) {
   /* Phone */
   .project .one-half H2 {
-    font-size: 390%;
+    font-size: 380%;
   }
 
   .gossen-product-guide-stack .site-width DIV {
@@ -1360,14 +1379,6 @@
     height: auto;
   }
 
-  .project-nav .prev,
-  .project-nav .home,
-  .project-nav .next {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-
   .mcbe-banner H2 {
     font-size: 200%;
   }
@@ -1390,11 +1401,11 @@
   }
 
   .centennial-left H2 {
-    font-size: 310%;
+    font-size: 300%;
   }
 
   .md-left H2 {
-    font-size: 310%;
+    font-size: 300%;
   }
 
   .md-gallery .fancybox {
@@ -1410,6 +1421,14 @@
   .jimage-right {
     float: left;
     width: 100%;
+  }
+
+  .project-nav .prev,
+  .project-nav .home,
+  .project-nav .next {
+    float: none;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -1453,5 +1472,9 @@
 
   .dominican-left H2 {
     font-size: 270%;
+  }
+
+  .kmtooling-left H2 {
+    font-size: 360%;
   }
 }

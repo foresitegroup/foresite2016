@@ -24,7 +24,7 @@ include "header.php";
   <div>RESEARCH</div>
   <div>DEVELOPMENT</div>
   <div>WEB + MOBILE</div>
-  <div>UL/UX</div>
+  <div>UI/UX</div>
   
   <div>INTERACTIVE DESIGN</div>
   <div>CREATIVE</div>
@@ -80,14 +80,14 @@ include "header.php";
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white">LET'S GET STARTED</h3>
+  <h3 class="waves-white"><a href="contact.php">LET'S GET STARTED</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
 <script type="text/javascript">
   window.sr = ScrollReveal();
   sr.reveal('.capabilities-banner-content', { origin: 'left' });
-  sr.reveal('.capabilities DIV', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 100);
+  sr.reveal('.capabilities DIV', { rotate: { x: 0, y: 180, z: 0 }, delay: 100 }, 50);
   sr.reveal('.our-method .site-width IMG', { origin: 'top' });
   sr.reveal('.our-method .site-width DIV', { origin: 'top', delay: 200 });
   sr.reveal('.prefooter-button', { origin: 'top', duration: 1000 });

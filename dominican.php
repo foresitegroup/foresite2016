@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Dominican High School";
-$Description = "";
-$Keywords = "";
+$Description = "Website";
+$Keywords = "foresite group, foresite group llc, milwaukee web design, milwaukee website design, creative agency, website design, marketing agency, social media agency, social media marketing, brad design, brand development, logo design, collateral design, search engine marketing agency, milwaukee, seo, brand development, creative solutions, website";
 $Menu = "light";
 $CssInc = "projects.css";
 include "header.php";
@@ -45,7 +45,7 @@ include "header.php";
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white">HAVE AN IDEA?</h3>
+  <h3 class="waves-white"><a href="contact.php">HAVE AN IDEA?</a></h3>
 </div>
 
 <?php include "footer.php"; ?>
