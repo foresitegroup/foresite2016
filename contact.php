@@ -125,6 +125,7 @@ include "header.php";
       center: MyLatLng,
       zoom: 15,
       disableDefaultUI: true,
+      scrollwheel: false,
       zoomControl: true,
       zoomControlOptions: {
         style: google.maps.ZoomControlStyle.SMALL,
