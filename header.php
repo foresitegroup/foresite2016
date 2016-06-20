@@ -63,17 +63,19 @@ function email($address, $name="") {
 
         <input type="checkbox" id="show-menu" role="button">
         <label for="show-menu" id="menu-toggle"></label>
-        <div class="top-menu">
-          <?php include "menu.php"; ?>
+        <div class="top-menu-wrap">
+          <div class="top-menu">
+            <?php include "menu.php"; ?>
 
-          <img src="<?php echo $TopDir; ?>images/waves-white.png" alt="">
+            <img src="<?php echo $TopDir; ?>images/waves-white.png" alt="">
 
-          <div class="social">
-            <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <div class="social">
+              <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
       </div>
