@@ -13,8 +13,21 @@ include "header.php";
 </script>
 <script src="inc/masonry.pkgd.min.js"></script>
 
-<div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-teetogreen.jpg);">
+<div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }' class="work">
+  <div class="tile tile2x2" style="background-image: url(images/project-chaput.jpg);">
+    <a href="chaput.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>CHAPUT LAND SURVEYS</h2>
+
+        Branding, Website, Social Media
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -27,7 +40,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-gossen-product-guide.jpg);">
+  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
     <a href="gossen-product-guide.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -39,7 +52,7 @@ include "header.php";
       </div>
     </a>
   </div>
-
+  
   <div class="tile" style="background-image: url(images/project-michael-thomas.jpg);">
     <a href="michael-thomas.php" class="tile-link">
       <div class="tile-hover-content">
@@ -49,19 +62,6 @@ include "header.php";
         <h2>MICHAEL THOMAS</h2>
 
         Branding, Website, Print
-      </div>
-    </a>
-  </div>
-  
-  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
-    <a href="mortons.php" class="tile-link">
-      <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
-        <h2>MORTON'S WISCONSINN</h2>
-
-        Branding, Web, Design
       </div>
     </a>
   </div>
@@ -105,7 +105,20 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-fear.jpg);">
+  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
+    <a href="mortons.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>MORTON'S WISCONSINN</h2>
+
+        Branding, Web, Design
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-fear.jpg);">
     <a href="nicolet-fear.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -118,7 +131,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-sullivan.jpg);">
+  <div class="tile tile1x2 tile-left" style="background-image: url(images/project-sullivan.jpg);">
     <a href="sullivan.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -127,32 +140,6 @@ include "header.php";
         <h2>SULLIVAN CORPORATION</h2>
 
         Website, Branding, Photography
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile1x2 tile-left" style="background-image: url(images/project-centennial.jpg);">
-    <a href="centennial.php" class="tile-link">
-      <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
-        <h2>CENTENNIAL</h2>
-
-        Website
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile2x1" style="background-image: url(images/project-dominican.jpg);">
-    <a href="dominican.php" class="tile-link">
-      <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
-        <h2>DOMINICAN HIGH SCHOOL</h2>
-
-        Website
       </div>
     </a>
   </div>
@@ -166,6 +153,32 @@ include "header.php";
         <h2>GOSSEN RAILING INSTALL GUIDE</h2>
 
         Print, Illustration, Video
+      </div>
+    </a>
+  </div>
+  
+  <div class="tile" style="background-image: url(images/project-dominican.jpg);">
+    <a href="dominican.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>DOMINICAN HIGH SCHOOL</h2>
+
+        Website
+      </div>
+    </a>
+  </div>
+
+  <div class="tile" style="background-image: url(images/project-centennial.jpg);">
+    <a href="centennial.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>CENTENNIAL</h2>
+
+        Website
       </div>
     </a>
   </div>

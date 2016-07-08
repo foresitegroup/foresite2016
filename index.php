@@ -25,7 +25,20 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-teetogreen.jpg);">
+  <div class="tile tile2x2" style="background-image: url(images/project-chaput.jpg);">
+    <a href="chaput.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>CHAPUT LAND SURVEYS</h2>
+
+        Branding, Website, Social Media
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -34,19 +47,6 @@ include "header.php";
         <h2>TEE TO GREEN</h2>
 
         Branding, Print, Design
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile2x1" style="background-image: url(images/project-gossen.jpg);">
-    <a href="gossen-product-guide.php" class="tile-link">
-      <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
-        <h2>GOSSEN PRODUCT GUIDE</h2>
-
-        Design, Print
       </div>
     </a>
   </div>
@@ -67,15 +67,15 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
-    <a href="mortons.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
+    <a href="gossen-product-guide.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
         <img src="images/waves-white.png" alt="" class="work-waves">
 
-        <h2>MORTON'S WISCONSINN</h2>
+        <h2>GOSSEN PRODUCT GUIDE</h2>
 
-        Branding, Web, Design
+        Design, Print
       </div>
     </a>
   </div>
@@ -134,7 +134,20 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-fear.jpg);">
+  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
+    <a href="mortons.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>MORTON'S WISCONSINN</h2>
+
+        Branding, Web, Design
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-fear.jpg);">
     <a href="nicolet-fear.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -143,19 +156,6 @@ include "header.php";
         <h2>NICOLET FEAR TEAM #4786</h2>
 
         Website Design
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile2x1" style="background-image: url(images/project-sullivan.jpg);">
-    <a href="sullivan.php" class="tile-link">
-      <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
-        <h2>SULLIVAN CORPORATION</h2>
-
-        Website, Branding, Photography
       </div>
     </a>
   </div>

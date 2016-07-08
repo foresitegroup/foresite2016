@@ -996,6 +996,63 @@
   content: '';
 }
 
+.chaput-banner {
+  position: relative;
+  max-height: 450px;
+  background: url(../images/chaput-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.chaput-banner:after {
+  padding-top: 45%;
+  display: inline-block;
+  content: '';
+}
+
+.chaput-left {
+  float: left;
+  width: 32.7%;
+  text-align: right;
+}
+
+.chaput-right {
+  float: right;
+  width: 62.4%;
+  text-align: right;
+  padding-top: 1.5em;
+}
+
+.chaput-left .task {
+  margin-bottom: 1.5em;
+}
+
+.chaput-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.chaput-3-logos {
+  display: block;
+  margin: 5em auto 0;
+}
+
+.chaput-red {
+  background: #720E1F;
+}
+
+.chaput-footer {
+  position: relative;
+  max-height: 570px;
+  background: url(../images/chaput-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.chaput-footer:after {
+  padding-top: 57%;
+  display: inline-block;
+  content: '';
+}
+
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
@@ -1132,6 +1189,18 @@
 
   .kmtooling-right {
     width: 45%;
+  }
+
+  .chaput-left,
+  .chaput-right {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .chaput-right {
+    text-align: center;
+    padding-top: 3em;
   }
 }
 

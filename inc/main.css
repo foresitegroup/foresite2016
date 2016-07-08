@@ -1332,12 +1332,22 @@ blockquote.aligncenter {
     width: 100%;
   }
 
+  .work .tile2x2 {
+    /*width: 100%;*/ /* Odd number of tiles */
+    width: 50%; /* Even number of tiles */
+  }
+
   .tile:after, .tile1x2:after, .tile2x1:after {
     padding-top: 100%;
   }
 
   .tile2x2:after {
     padding-top: 50%;
+  }
+
+  .work .tile2x2:after {
+    /*padding-top: 50%;*/ /* Odd number of tiles */
+    padding-top: 100%; /* Even number of tiles */
   }
 
   .fg-footer {
@@ -1565,7 +1575,8 @@ blockquote.aligncenter {
     line-height: 1em;
   }
 
-  .tile, .tile1x2, .tile2x1 {
+  .tile, .tile1x2, .tile2x1,
+  .work .tile2x2 {
     width: 100%;
   }
 
