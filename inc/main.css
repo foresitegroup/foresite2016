@@ -534,6 +534,12 @@ INPUT[type="submit"]:focus {
   content: '';
 }
 
+.tile.centered {
+  left: 33.3%;
+}
+
+.tile3x1 { width: 33.33%; }
+
 .tile2x1, .tile2x2 { width: 40%; }
 .tile2x1:after { padding-top: 50%; }
 .tile1x2 { float: right; }
@@ -565,6 +571,8 @@ A.tile-link:hover {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+  box-sizing: border-box;
+  padding: 0 1em;
   font-size: 72.22%;
 }
 
@@ -598,17 +606,19 @@ A.tile-link:hover {
   box-sizing: border-box;
   background: rgba(0, 0, 0, .6);
   color: #FFFFFF;
-  font-size: 116%;
   text-transform: uppercase;
 }
 
-.tile.blog .tile-content .blog-title {
+.tile.blog .tile-content .blog-date {
   color: #69C9CA;
   font-weight: 700;
-  font-size: 67%;
   line-height: 1em;
   text-transform: none;
   margin-bottom: 3em;
+}
+
+.tile.blog .tile-content .blog-title {
+  font-size: 116%;
 }
 
 .tile.blog .tile-content .blog-footer {
@@ -621,7 +631,6 @@ A.tile-link:hover {
   text-align: right;
   color: #69C9CA;
   font-weight: 700;
-  font-size: 67%;
   line-height: 1em;
 }
 
@@ -652,6 +661,8 @@ A.tile-link:hover {
   font-weight: 700;
   font-size: 87.5%;
   line-height: 1em;
+  display: block;
+  margin-bottom: 1.5em;
 }
 
 .tile.twitter .tile-link A:link,
@@ -1246,7 +1257,48 @@ blockquote.aligncenter {
   margin-bottom: 1.473684211em;
 }
 
+@media only screen and (max-width: 1300px) {
+  .tile.blog .tile-content .blog-date {
+    margin-bottom: 1.5em;
+  }
 
+  .tile.twitter .tile-link A.twitter-date:link,
+  .tile.twitter .tile-link A.twitter-date:visited {
+    margin-bottom: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .tile.blog .tile-content .blog-date {
+    margin-bottom: 0.75em;
+  }
+
+  .tile.blog .tile-content .blog-title {
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+  .tile.twitter .tile-link {
+    font-size: 80%;
+    line-height: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .tile.blog .tile-content,
+  .tile.twitter .tile-link {
+    padding: 1em;
+  }
+
+  .tile.blog .tile-content .blog-footer {
+    bottom: 1em;
+  }
+
+  .tile.twitter .tile-link .twitter-footer {
+    bottom: 1em;
+    padding: 0 1em;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
@@ -1348,6 +1400,39 @@ blockquote.aligncenter {
   .work .tile2x2:after {
     /*padding-top: 50%;*/ /* Odd number of tiles */
     padding-top: 100%; /* Even number of tiles */
+  }
+
+  .tile.blog .tile-content {
+    padding: 1.8em;
+  }
+
+  .tile.blog .tile-content .blog-footer {
+    bottom: 1.8em;
+  }
+
+  .tile.blog .tile-content .blog-date {
+    margin-bottom: 3em;
+  }
+
+  .tile.blog .tile-content .blog-title {
+    font-size: 116%;
+    line-height: 1.4em;
+  }
+
+  .tile.twitter .tile-link {
+    font-size: 88.88%;
+    line-height: 1.4em;
+    padding: 1.8em;
+  }
+
+  .tile.twitter .tile-link A.twitter-date:link,
+  .tile.twitter .tile-link A.twitter-date:visited {
+    margin-bottom: 1.5em;
+  }
+
+  .tile.twitter .tile-link .twitter-footer {
+    bottom: 1.8em;
+    padding: 0 1.8em;
   }
 
   .fg-footer {

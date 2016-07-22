@@ -59,8 +59,8 @@ include "header.php";
     ?>
     <div class="tile blog"<?php if (get_post_thumbnail_id() != "") echo ' style="background-image: url(' . wp_get_attachment_url(get_post_thumbnail_id()) . ');"'; ?>>
       <div class="tile-content">
-        <div class="blog-title"><?php the_date(); ?></div>
-        <?php the_title(); ?>
+        <div class="blog-date"><?php the_date(); ?></div>
+        <div class="blog-title"><?php the_title(); ?></div>
         <div class="blog-footer">NEWS</div>
       </div>
       <a href="<?php the_permalink(); ?>" class="tile-link"><div class="tile-hover-content">READ <i class="fa fa-play" aria-hidden="true"></i></div></a>
@@ -88,8 +88,7 @@ include "header.php";
       $tweet_date = date("F j, Y", strtotime($tweet_array[0]['created_at']));
       $tweet_text = $TweetPHP->autolink($tweet_array[0]['text']);
       ?>
-      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
-      <br>
+      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a>
 
       <?php echo $tweet_text; ?>
 
@@ -121,8 +120,7 @@ include "header.php";
       $tweet_date = date("F j, Y", strtotime($tweet_array[1]['created_at']));
       $tweet_text = $TweetPHP->autolink($tweet_array[1]['text']);
       ?>
-      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a><br>
-      <br>
+      <a href="<?php echo $tweet_date_link; ?>" class="twitter-date"><?php echo $tweet_date; ?></a>
 
       <?php echo $tweet_text; ?>
 

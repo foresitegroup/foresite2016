@@ -14,7 +14,7 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }' class="work">
-  <div class="tile tile2x2" style="background-image: url(images/project-chaput.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-chaput.jpg);">
     <a href="chaput.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -27,7 +27,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -40,7 +40,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-gossen-product-guide.jpg);">
     <a href="gossen-product-guide.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -53,7 +53,7 @@ include "header.php";
     </a>
   </div>
   
-  <div class="tile" style="background-image: url(images/project-michael-thomas.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-michael-thomas.jpg);">
     <a href="michael-thomas.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -66,7 +66,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-mcbe.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-mcbe.jpg);">
     <a href="milwaukee-craft-beer-exchange.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -79,7 +79,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile1x2" style="background-image: url(images/project-belardi.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-belardi.jpg);">
     <a href="belardi.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -92,7 +92,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-kmtooling.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-kmtooling.jpg);">
     <a href="kmtooling.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -105,7 +105,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-mortons.jpg);">
     <a href="mortons.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -118,7 +118,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-fear.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-fear-square.jpg);">
     <a href="nicolet-fear.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -131,7 +131,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile1x2 tile-left" style="background-image: url(images/project-sullivan.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-sullivan.jpg);">
     <a href="sullivan.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -144,7 +144,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-gossen-railing.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-gossen-railing.jpg);">
     <a href="gossen-railing.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -157,7 +157,7 @@ include "header.php";
     </a>
   </div>
   
-  <div class="tile" style="background-image: url(images/project-dominican.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-dominican.jpg);">
     <a href="dominican.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -170,7 +170,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-centennial.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-centennial.jpg);">
     <a href="centennial.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -183,7 +183,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-gossen.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-gossen.jpg);">
     <a href="gossen.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -196,7 +196,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-jims-cheese.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-jims-cheese.jpg);">
     <a href="jims-cheese.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
@@ -209,7 +209,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-molded-dimensions.jpg);">
+  <div class="tile tile3x1 centered" style="background-image: url(images/project-molded-dimensions.jpg);">
     <a href="molded-dimensions.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
