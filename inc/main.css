@@ -1176,6 +1176,8 @@ A.team-link:hover {
   float: left;
   border-radius: 50%;
   margin-right: 1em;
+  height: 118px;
+  width: auto;
 }
 
 .site-main HR {
@@ -1400,6 +1402,10 @@ blockquote.aligncenter {
   .work .tile2x2:after {
     /*padding-top: 50%;*/ /* Odd number of tiles */
     padding-top: 100%; /* Even number of tiles */
+  }
+
+  .tile.centered {
+    left: 0;
   }
 
   .tile.blog .tile-content {
@@ -1737,7 +1743,7 @@ blockquote.aligncenter {
   }
 
   .entry-header .entry-title {
-    font-size: 280%;
+    font-size: 230%;
   }
 
   .entry-header H4 .sep {
@@ -1786,6 +1792,6 @@ blockquote.aligncenter {
   }
 
   .entry-header .entry-title {
-    font-size: 240%;
+    font-size: 190%;
   }
 }
