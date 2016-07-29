@@ -9,7 +9,7 @@ include "header.php";
 <div class="about-banner"></div>
 
 <div class="about site-width">
-  <span class="lead">Foresite Group</span> is an indepedent full service Creative company based in the Historic Walkers Point neighborhood of Milwaukee. We are brand geeks, creative thinkers, coders, content specialists, professional ping pong players, amateur Xbox gamers and craft beer enthusiasts who believe in good design, better ideas and the best work ethic. We do not see ourselves as a know-it-all, have-it-all agency, but a collaborative and skilled group dedicated to giving our best to our clients day in and day out.<br>
+  <span class="lead">Foresite Group</span> is an independent full service creative company based in the historic Walker's Point neighborhood of Milwaukee. We are brand geeks, creative thinkers, coders, content specialists, professional ping pong players, amateur Xbox gamers and craft beer enthusiasts who believe in good design, better ideas and the best work ethic. We do not see ourselves as a know-it-all, have-it-all agency, but a collaborative and skilled group dedicated to giving our best to our clients day in and day out.<br>
   <br>
 
   <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i><br>
@@ -133,7 +133,7 @@ include "header.php";
         <div class="team-hover-content">
           Keeps team morale up.<br>
           Often gets upset, howling, when employees are not at their assigned desk.<br>
-          Enjoys long walks, running, herding &amp; halloween.
+          Enjoys long walks, running, herding &amp; Halloween.
         </div>
       </a>
     </div>
