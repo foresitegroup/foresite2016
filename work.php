@@ -27,6 +27,19 @@ include "header.php";
     </a>
   </div>
 
+  <div class="tile tile3x1" style="background-image: url(images/project-wichman.jpg);">
+    <a href="wichman.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>WICHMAN SPORTS MEDICINE</h2>
+
+        Web Design, Photography
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1" style="background-image: url(images/project-teetogreen.jpg);">
     <a href="tee-to-green.php" class="tile-link">
       <div class="tile-hover-content">
@@ -209,7 +222,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile3x1 centered" style="background-image: url(images/project-molded-dimensions.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-molded-dimensions.jpg);">
     <a href="molded-dimensions.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>

@@ -14,21 +14,21 @@ function email($address, $name="") {
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
+
     <title>Foresite Group<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
-    
+
     <meta name="description" content="<?php if ($Description != "") echo $Description; ?>">
     <meta name="keywords" content="<?php if ($Keywords != "") echo $Keywords; ?>">
     <meta name="author" content="Foresite Group">
-    
+
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php echo filemtime(realpath(dirname(__FILE__)) . "/inc/main.css"); ?>">
     <?php if (isset($CssInc)) echo "<link rel=\"stylesheet\" href=\"inc/" . $CssInc . "\">"; ?>
-    
+
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.fittext.js"></script>
@@ -84,7 +84,7 @@ function email($address, $name="") {
         <div class="banner-home-text">
           <h1>Brewing <span style="color: #FFFFFF;">Ideas</span>, Crafting Solutions.</h1>
 
-          A full service creative company located in Walkers Point, Milwaukee.<br>
+          FORESITE IS A DIGITAL AGENCY LOCATED IN MILWAUKEE,WI.<br>
           <br>
 
           <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
@@ -92,7 +92,7 @@ function email($address, $name="") {
       </div>
     </div>
   </div>
-  
+
   <div class="menu-holder<?php if ($PageTitle != "") echo " subpage"; ?>">
     <div class="menu-sticky<?php if ($PageTitle != "") echo " sticky"; if (isset($Menu)) echo " menu-light"; ?>">
       <div class="site-width menu">

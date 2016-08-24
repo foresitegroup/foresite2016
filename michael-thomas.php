@@ -38,7 +38,7 @@ include "header.php";
   <br>
   <br>
 
-  <a href="http://mtrecuits.com" class="button">LAUNCH SITE</a>
+  <a href="http://mtrecruits.com" class="button">LAUNCH SITE</a>
 </div>
 
 <div class="mt-meeting"></div>
