@@ -61,6 +61,7 @@ TEXTAREA {
   color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-weight: bold;
   -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
   border-radius: 0; /* I prefer my styles, Steve Jobs */
   outline: 0;
