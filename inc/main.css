@@ -207,8 +207,11 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home #logo {
-  width: 106px;
+  width: 189px;
   height: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .banner-home.subpage {
@@ -334,7 +337,6 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home-text {
-  width: 90%;
   font-size: 88.88%;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -342,10 +344,10 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home-text H1 {
-  margin: 0 0 0.3em;
+  margin: 0 0 1.2em;
   font-weight: 800;
-  font-size: 687.5%;
-  line-height: 1em;
+  font-size: 86px;
+  line-height: 1.3em;
   color: #69C9CA;
 }
 
@@ -363,9 +365,6 @@ INPUT[type="submit"]:focus {
   width: 100%;
   height: 69px;
   line-height: 69px;
-/*  -webkit-box-shadow: 0px 4px 15px 0px rgba(37,37,37,1);
-  -moz-box-shadow: 0px 4px 15px 0px rgba(37,37,37,1);
-  box-shadow: 0px 4px 15px 0px rgba(37,37,37,1);*/
   position: absolute;
   top: 0;
   z-index: 999;
@@ -1546,7 +1545,7 @@ blockquote.aligncenter {
   }
 
   .banner-home-text H1 {
-    font-size: 570%;
+    font-size: 62px;
   }
 
   .menu-holder {
@@ -1634,7 +1633,10 @@ blockquote.aligncenter {
     height: 600px;
   }
 
-  .banner-home-text H1,
+  .banner-home-text H1 {
+    font-size: 40px;
+  }
+
   .capabilities-banner-content H1 {
     font-size: 370%;
   }

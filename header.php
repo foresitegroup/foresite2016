@@ -82,10 +82,7 @@ function email($address, $name="") {
 
       <div class="banner-home-content site-width">
         <div class="banner-home-text">
-          <h1>Brewing <span style="color: #FFFFFF;">Ideas</span>, Crafting Solutions.</h1>
-
-          FORESITE IS A DIGITAL AGENCY LOCATED IN MILWAUKEE,WI.<br>
-          <br>
+          <h1>AN INDEPENDENT <span style="color: #FFFFFF;">DIGITAL AGENCY</span> BREWING IDEAS, CRAFTING SOLUTIONS.</h1>
 
           <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
         </div>
