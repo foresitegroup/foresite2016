@@ -383,15 +383,21 @@ INPUT[type="submit"]:focus {
   position: fixed;
 }
 
+.menu-sticky .site-width {
+  position: relative;
+}
+
 #logo-small {
   float: left;
-  margin-top: 10px;
-  height: 49px;
+  height: 36px;
   width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .menu-holder.subpage #logo-small {
-  height: 68px;
+  height: 50px;
 }
 
 .menu UL {
