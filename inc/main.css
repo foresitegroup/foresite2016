@@ -1326,6 +1326,10 @@ blockquote.aligncenter {
     width: 100%;
   }
 
+  .menu-sticky .site-width {
+    height: inherit;
+  }
+
   #logo-small {
     display: none;
   }
@@ -1766,7 +1770,7 @@ blockquote.aligncenter {
   /* Small Phone */
   .banner-home-text H1,
   .capabilities-banner-content H1 {
-    font-size: 310%;
+    font-size: 250%;
   }
 
   .capabilities-banner-content .om-featured {
