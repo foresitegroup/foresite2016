@@ -2,15 +2,19 @@
 $PageTitle = "Contact";
 $Description = "";
 $Keywords = "";
-$Menu = "light";
+// $Menu = "light";
 include "header.php";
 ?>
 
-<div class="contact-banner"></div>
+<div class="contact-banner">
+  <div class="site-width">
+    HOW CAN WE HELP?
+  </div>
+</div>
 
 <div class="contact">
   <div class="site-width">
-    <h2>CONTACT US</h2>
+    <!-- <h2>CONTACT US</h2> -->
 
     Have questions about project in mind, feel like grabbin' a cup of coffee and/or checking the studio out? Feel free to send us a message or cut straight to the chase and contact us directly.<br>
     <br>

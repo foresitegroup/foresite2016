@@ -2,7 +2,7 @@
 $PageTitle = "Work";
 $Description = "";
 $Keywords = "";
-$Menu = "light";
+// $Menu = "light";
 include "header.php";
 ?>
 
@@ -14,6 +14,19 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }' class="work">
+  <div class="tile tile3x1" style="background-image: url(images/project-suzys.jpg);">
+    <a href="suzys.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>SUZY'S CHEESECAKES</h2>
+
+        Social Media
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1" style="background-image: url(images/project-chaput.jpg);">
     <a href="chaput.php" class="tile-link">
       <div class="tile-hover-content">

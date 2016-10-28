@@ -2,7 +2,7 @@
 $PageTitle = "Tee To Green";
 $Description = "Branding, Print, Design";
 $Keywords = "foresite group, foresite group llc, milwaukee web design, milwaukee website design, creative agency, website design, marketing agency, social media agency, social media marketing, brand design, brand development, logo design, collateral design, search engine marketing agency, milwaukee, seo, brand development, creative solutions, branding, design, print";
-$Menu = "light";
+// $Menu = "light";
 $CssInc = "projects.css";
 include "header.php";
 ?>
@@ -34,13 +34,13 @@ include "header.php";
 
 <div class="tee-to-green-print"></div>
 
-<div class="project site-width center">
+<!-- <div class="project site-width center">
   Select Logo Ideations<br>
   <br>
   <br>
 
   <img src="images/tee-to-green-logos.jpg" alt="">
-</div>
+</div> -->
 
 <div class="project-nav">
   <div class="site-width">

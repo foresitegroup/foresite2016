@@ -2,7 +2,7 @@
 $PageTitle = "Nicolet FEAR";
 $Description = "Website Design";
 $Keywords = "foresite group, foresite group llc, milwaukee web design, milwaukee website design, creative agency, website design, marketing agency, social media agency, social media marketing, brand design, brand development, logo design, collateral design, search engine marketing agency, milwaukee, seo, brand development, creative solutions, design, website";
-$Menu = "light";
+// $Menu = "light";
 $CssInc = "projects.css";
 include "header.php";
 ?>

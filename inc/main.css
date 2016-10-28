@@ -207,7 +207,7 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home #logo {
-  width: 189px;
+  width: 105px;
   height: auto;
   position: relative;
   top: 50%;
@@ -223,7 +223,7 @@ INPUT[type="submit"]:focus {
 }
 
 .banner-home-header {
-  height: 93px;
+  height: 105px;
   padding-top: 20px;
 }
 
@@ -346,9 +346,8 @@ INPUT[type="submit"]:focus {
 .banner-home-text H1 {
   margin: 0 0 1.2em;
   font-weight: 800;
-  font-size: 86px;
+  font-size: 76px;
   line-height: 1.3em;
-  color: #69C9CA;
 }
 
 .menu-holder {
@@ -1013,9 +1012,22 @@ A.team-link:hover {
 }
 
 .contact-banner {
-  height: 497px;
+  height: 550px;
   background: url(../images/contact-banner.jpg) center center no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+.contact-banner .site-width {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 95px;
+  line-height: 1em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .contact {
@@ -1555,7 +1567,9 @@ blockquote.aligncenter {
   }
 
   .banner-home-text H1 {
-    font-size: 62px;
+    font-size: 64px;
+    line-height: 1.1em;
+    margin: 0 0 0.4em;
   }
 
   .menu-holder {
@@ -1644,7 +1658,8 @@ blockquote.aligncenter {
   }
 
   .banner-home-text H1 {
-    font-size: 40px;
+    font-size: 42px;
+    line-height: 1.2em
   }
 
   .capabilities-banner-content H1 {
@@ -1742,8 +1757,8 @@ blockquote.aligncenter {
     clear: right;
   }
 
-  .contact-banner {
-    height: 250px;
+  .contact-banner .site-width {
+    font-size: 70px;
   }
 
   .contact H2 {
@@ -1768,7 +1783,11 @@ blockquote.aligncenter {
 
 @media only screen and (max-width: 320px) {
   /* Small Phone */
-  .banner-home-text H1,
+  .banner-home-text H1 {
+    font-size: 35px;
+    line-height: 1.3em;
+  }
+
   .capabilities-banner-content H1 {
     font-size: 250%;
   }

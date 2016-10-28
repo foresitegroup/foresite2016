@@ -38,15 +38,15 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
-    <a href="tee-to-green.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-suzys.jpg);">
+    <a href="suzys.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
         <img src="images/waves-white.png" alt="" class="work-waves">
 
-        <h2>TEE TO GREEN</h2>
+        <h2>SUZY'S CHEESECAKES</h2>
 
-        Branding, Print, Design
+        Social Media
       </div>
     </a>
   </div>
@@ -145,15 +145,15 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-fear.jpg);">
-    <a href="nicolet-fear.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
+    <a href="tee-to-green.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
         <img src="images/waves-white.png" alt="" class="work-waves">
 
-        <h2>NICOLET FEAR TEAM #4786</h2>
+        <h2>TEE TO GREEN</h2>
 
-        Website Design
+        Branding, Print, Design
       </div>
     </a>
   </div>

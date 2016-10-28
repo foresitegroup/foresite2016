@@ -82,7 +82,7 @@ function email($address, $name="") {
 
       <div class="banner-home-content site-width">
         <div class="banner-home-text">
-          <h1>AN INDEPENDENT <span style="color: #FFFFFF;">DIGITAL AGENCY</span> BREWING IDEAS, CRAFTING SOLUTIONS.</h1>
+          <h1><span style="color: #69C9CA;">FORESITE GROUP</span> IS AN INDEPENDENT DIGITAL AGENCY BREWING IDEAS, CRAFTING SOLUTIONS.</h1>
 
           <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
         </div>

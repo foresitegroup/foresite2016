@@ -1145,6 +1145,203 @@
   content: '';
 }
 
+.suzys {
+  background: #C1262B;
+  color: #590000;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+
+.suzys .header-left {
+  float: left;
+  width: 41%;
+}
+
+.suzys .header-left H2 {
+  margin: 0 0 0.4em;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 112px;
+  line-height: 0.9em;
+}
+
+.suzys .header-left .task {
+  font-size: 16px;
+  color: #550F0E;
+}
+
+.suzys .header-left .fa-play {
+  color: #FFFFFF;
+  margin: 3em 0;
+}
+
+.suzys .header-right {
+  float: right;
+  width: 53%;
+}
+
+.suzys .content-left {
+  float: left;
+  width: 48%;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.7em;
+  margin-bottom: 3em;
+}
+
+.suzys .content-left H3 {
+  margin: 0 0 0.1em;
+  font-weight: 800;
+  font-size: 98px;
+  line-height: 1em;
+}
+
+.suzys .content-left UL {
+  margin: 4em 0 0 0.7em;
+  padding: 0;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+
+.suzys .content-left UL LI {
+  padding-bottom: 2em;
+  position: relative;
+}
+
+.suzys .content-left UL LI:before {
+  font-family: FontAwesome;
+  content: '\f10c';
+  font-size: 0.5em;
+  font-weight: bold;
+  position: absolute;
+  top: -0.1em;
+  left: -1.7em;
+  color: #F8ECE6;
+}
+
+.suzys .content-right {
+  float: right;
+  width: 47%;
+  position: relative;
+}
+
+.suzys .content-right IMG {
+  position: absolute;
+  top: -13em;
+}
+
+.suzys .suzys-twitter {
+  margin-bottom: 4em;
+}
+
+.suzys .suzys-twitter IMG {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+  height: auto;
+  -webkit-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+  -moz-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+  box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+}
+
+.suzys .suzys-twitter IMG:last-of-type {
+  margin-right: 0;
+}
+
+.suzys .facebook-left {
+  float: left;
+  width: 35%;
+}
+
+.suzys .facebook-left IMG {
+  -webkit-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+  -moz-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+  box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+}
+
+.suzys .facebook-right {
+  float: right;
+  width: 61%;
+  font-size: 19px;
+}
+
+.suzys .facebook-right H2 {
+  margin: 0 0 0.3em;
+  font-weight: 800;
+  font-size: 98px;
+  line-height: 1em;
+}
+
+.suzys .facebook-right .left {
+  float: left;
+  width: 30%;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 1em;
+}
+
+.suzys .facebook-right .left SUP {
+  font-size: 50%;
+  line-height: 1em;
+}
+
+.suzys .facebook-right .right {
+  float: right;
+  width: 66%;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.5em;
+  height: 100px;
+  position: relative;
+}
+
+.suzys .facebook-right .right DIV {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.suzys .marketing {
+  margin-top: 3em;
+}
+
+.suzys .marketing H2 {
+  margin: 0 0 0.3em;
+  font-weight: 800;
+  font-size: 88px;
+  line-height: 1em;
+}
+
+.suzys .marketing .three-col {
+  float: left;
+  width: 30%;
+  margin: 3em 5% 0 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.suzys .marketing .three-col:last-of-type {
+  margin-right: 0;
+}
+
+.suzys .marketing .three-col H3 {
+  margin: 0 0 0.2em;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 1em;
+  color: #FFFFFF;
+}
+
+.suzys .marketing .three-col H3 SUP {
+  font-size: 50%;
+  line-height: 1em;
+}
+
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
@@ -1306,6 +1503,30 @@
   .wichman-formats-content {
     top: 1.5em;
     font-size: 90%;
+  }
+
+  .suzys .header-left H2 {
+    font-size: 86px;
+  }
+
+  .suzys .content-right IMG {
+    top: 3em;
+  }
+
+  .suzys .facebook-right H2 {
+    font-size: 80px;
+  }
+
+  .suzys .facebook-right .left {
+    font-size: 80px;
+  }
+
+  .suzys .facebook-right .right {
+    height: 80px;
+  }
+
+  .suzys .marketing .three-col H3 {
+    font-size: 65px;
   }
 }
 
@@ -1555,6 +1776,77 @@
     top: 0;
     width: 75%;
   }
+
+  .suzys .header-left,
+  .suzys .header-right {
+    float: none;
+    width: 100%;
+  }
+
+  .suzys .header-left H2 {
+    font-size: 112px;
+  }
+
+  .suzys .header-left .fa-play {
+    margin: 1em 0;
+  }
+
+  .suzys .content-left,
+  .suzys .content-right {
+    float: none;
+    width: 100%;
+  }
+
+  .suzys .content-left {
+    margin: 2em 0 0;
+  }
+
+  .suzys .content-left UL {
+    margin-top: 2em;
+  }
+
+  .suzys .content-right IMG {
+    position: static;
+    margin-bottom: 2em;
+  }
+
+  .suzys .suzys-twitter IMG {
+    float: none;
+    width: 100%;
+    margin: 0 0 2em 0;
+  }
+
+  .suzys .facebook-left,
+  .suzys .facebook-right {
+    float: none;
+    width: 100%;
+  }
+
+  .suzys .facebook-left {
+    margin-bottom: 2em;
+  }
+
+  .suzys .facebook-right H2 {
+    font-size: 98px;
+  }
+
+  .suzys .facebook-right .left {
+    font-size: 100px;
+  }
+
+  .suzys .facebook-right .right {
+    height: 100px;
+  }
+
+  .suzys .marketing .three-col {
+    float: none;
+    width: 100%;
+    margin: 0 0 2em 0;
+  }
+
+  .suzys .marketing .three-col H3 {
+    font-size: 90px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1649,6 +1941,27 @@
     top: -2em;
     width: 100%;
   }
+
+  .suzys .header-left H2 {
+    font-size: 100px;
+  }
+
+  .suzys .content-left H3 {
+    font-size: 75px;
+  }
+
+  .suzys .facebook-right H2 {
+    font-size: 67px;
+  }
+
+  .suzys .facebook-right .left,
+  .suzys .facebook-right .right {
+    width: 50%;
+  }
+
+  .suzys .marketing H2 {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1704,5 +2017,25 @@
   .wichman-formats-content A {
     position: relative;
     top: -1em;
+  }
+
+  .suzys .header-left H2 {
+    font-size: 84px;
+  }
+
+  .suzys .content-left H3 {
+    font-size: 62px;
+  }
+
+  .suzys .facebook-right H2 {
+    font-size: 57px;
+  }
+
+  .suzys .facebook-right .left {
+    font-size: 80px;
+  }
+
+  .suzys .marketing H2 {
+    font-size: 50px;
   }
 }

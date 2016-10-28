@@ -2,7 +2,7 @@
 $PageTitle = "About";
 $Description = "";
 $Keywords = "";
-$Menu = "light";
+// $Menu = "light";
 include "header.php";
 ?>
 

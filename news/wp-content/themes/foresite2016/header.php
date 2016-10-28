@@ -20,7 +20,7 @@ else :
   $HeaderClass = "blog-single";
   $HeaderBackground = wp_get_attachment_url(get_post_thumbnail_id());
   $PageTitle = get_the_title();
-  $Menu = "light";
+  // $Menu = "light";
 endif;
 
 include "../header.php";
