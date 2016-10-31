@@ -50,7 +50,10 @@ include "header.php";
     </div>
 
     <div class="facebook-left">
-      <img src="images/suzys-facebook.png" alt="">
+      <img src="images/suzys-facebook.png" alt=""><br>
+      <br>
+
+      <img src="images/suzys-facebook-post.jpg" alt="">
     </div>
 
     <div class="facebook-right">
