@@ -108,7 +108,7 @@ include "header.php";
 
       <div class="three-col">
         <h3>3.62</h3>
-        PAGEVIEWS PER SECOND INCREASED SEARCH ENGINE RANK
+        PAGEVIEWS PER SESSION INCREASED SEARCH ENGINE RANK
       </div>
     </div>
   </div>
