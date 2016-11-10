@@ -14,6 +14,19 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }' class="work">
+  <div class="tile tile3x1" style="background-image: url(images/project-deviation.jpg);">
+    <a href="deviation.php" class="tile-link">
+      <div class="tile-hover-content">
+        <div class="work-title">WORK</div>
+        <img src="images/waves-white.png" alt="" class="work-waves">
+
+        <h2>DEVIATION</h2>
+
+        Website/UX/UI
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1" style="background-image: url(images/project-suzys.jpg);">
     <a href="suzys.php" class="tile-link">
       <div class="tile-hover-content">
@@ -235,7 +248,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile3x1" style="background-image: url(images/project-molded-dimensions.jpg);">
+  <div class="tile tile3x1 centered" style="background-image: url(images/project-molded-dimensions.jpg);">
     <a href="molded-dimensions.php" class="tile-link">
       <div class="tile-hover-content">
         <div class="work-title">WORK</div>
