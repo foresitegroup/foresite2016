@@ -1473,6 +1473,58 @@
   color: #69C9CA;
 }
 
+.louies {
+  background: #000000 url(../images/louies-background.jpg) no-repeat center top;
+  color: #FFFFFF;
+}
+
+.louies H2 {
+  margin: 0 0 0.5em;
+  font-weight: 800;
+  font-size: 112px;
+  line-height: 1.2em;
+  letter-spacing: 0.19em;
+}
+
+.louies .task {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.louies .fa-play {
+  color: #FFFFFF;
+  margin: 4em 0 6em;
+}
+
+.louies .video {
+  margin-bottom: 6em;
+}
+
+.louies .left {
+  float: left;
+  width: 33%;
+  font-weight: 800;
+  font-size: 92px;
+  line-height: 1em;
+}
+
+.louies .left IMG {
+  margin-top: 1em;
+}
+
+.louies .right {
+  float: right;
+  width: 61%;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 2.5em;
+}
+
+.louies .right DIV {
+  font-size: 10px;
+  line-height: 1.6em;
+}
+
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
@@ -1685,6 +1737,15 @@
   .deviation-footer .one-third:first-child SPAN {
     display: block;
     width: 330%;
+  }
+
+  .louies .left {
+    font-size: 72px;
+  }
+
+  .louies .left IMG {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -2055,6 +2116,34 @@
   .deviation-footer .one-third.last IMG:last-of-type {
     float: right;
   }
+
+  .louies H2 {
+    letter-spacing: 5px;
+  }
+
+  .louies .left,
+  .louies .right {
+    float: none;
+    width: 100%;
+  }
+
+  .louies .left:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 0.5em;
+  }
+
+  .louies .left SPAN {
+    float: left;
+    display: block;
+    width: 50%;
+  }
+
+  .louies .left IMG {
+    float: right;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2206,6 +2295,27 @@
   .deviation-footer .one-third:first-child IMG:first-of-type {
     margin: 2em 0;
   }
+
+  .louies H2 {
+    font-size: 76px;
+    line-height: 1em;
+    letter-spacing: 0;
+  }
+
+  .louies .left {
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .louies .left SPAN {
+    float: none;
+    display: inline;
+  }
+
+  .louies .left IMG {
+    float: none;
+    margin-top: 0.5em;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -2289,5 +2399,9 @@
 
   .deviation-header H2 {
     font-size: 55px;
+  }
+
+  .louies H2 {
+    font-size: 66px;
   }
 }
