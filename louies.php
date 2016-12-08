@@ -16,8 +16,10 @@ include "header.php";
       <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
     </div>
 
-    <div class="video" data-id="ZIRk59R0Zds"></div>
-    <script src="inc/youtube-play-button.js"></script>
+    <?php
+    include_once "inc/embed-video.php";
+    EmbedVideo("https://vimeo.com/192156399");
+    ?>
 
     <div class="left">
       <span>THE STORY</span>
