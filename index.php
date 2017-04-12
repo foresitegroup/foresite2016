@@ -25,28 +25,22 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-chaput.jpg);">
-    <a href="chaput.php" class="tile-link">
+  <div class="tile tile2x2" style="background-image: url(images/project-lifepro.jpg);">
+    <a href="life-productions.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
+        <h2>LIFE PRODUCTIONS, INC.</h2>
 
-        <h2>CHAPUT LAND SURVEYS</h2>
-
-        Branding, Website, Social Media
+        Website Design
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-suzys.jpg);">
-    <a href="suzys.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-louies.jpg);">
+    <a href="louies.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
+        <h2>LOUIE'S LAST REGATTA</h2>
 
-        <h2>SUZY'S CHEESECAKES</h2>
-
-        Social Media
+        Video
       </div>
     </a>
   </div>
@@ -67,15 +61,12 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
-    <a href="gossen-product-guide.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-suzys.jpg);">
+    <a href="suzys.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
+        <h2>SUZY'S CHEESECAKES</h2>
 
-        <h2>GOSSEN PRODUCT GUIDE</h2>
-
-        Design, Print
+        Social Media
       </div>
     </a>
   </div>
@@ -103,9 +94,6 @@ include "header.php";
   <div class="tile tile1x2" style="background-image: url(images/project-belardi.jpg);">
     <a href="belardi.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
-
         <h2>BELARDI AUTO RACING</h2>
 
         Website
@@ -132,28 +120,22 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-mortons.jpg);">
-    <a href="mortons.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
+    <a href="gossen-product-guide.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
+        <h2>GOSSEN PRODUCT GUIDE</h2>
 
-        <h2>MORTON'S WISCONSINN</h2>
-
-        Branding, Web, Design
+        Design / Print
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-teetogreen.jpg);">
-    <a href="tee-to-green.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-kubly.jpg);">
+    <a href="kubly.php" class="tile-link">
       <div class="tile-hover-content">
-        <div class="work-title">WORK</div>
-        <img src="images/waves-white.png" alt="" class="work-waves">
+        <h2>CHARLES E. KUBLY FOUNDATION</h2>
 
-        <h2>TEE TO GREEN</h2>
-
-        Branding, Print, Design
+        Website Design
       </div>
     </a>
   </div>
@@ -162,11 +144,11 @@ include "header.php";
 </div>
 
 <div class="prefooter-button">
-  <a href="work.php" class="button">OUR WORK</a>
+  <a href="work.php" class="button">SHOW MORE</a>
 </div>
 
 <div class="prefooter">
-  <h3 class="waves-white"><a href="contact.php">WORK WITH US</a></h3>
+  <h3><a href="contact.php">LET'S CREATE SOMETHING</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>

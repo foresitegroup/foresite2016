@@ -63,7 +63,7 @@ $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 		?>
 
 		<div class="prefooter">
-		  <h3 class="waves-white"><a href="<?php echo $TopDir; ?>contact.php">HAVE AN IDEA?</a></h3>
+		  <h3 class="waves-white"><a href="<?php echo $TopDir; ?>contact.php">LET'S CREATE SOMETHING</a></h3>
 		</div>
 
 		</main><!-- .site-main -->

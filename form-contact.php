@@ -10,14 +10,18 @@ if ($_POST['confirmationCAP'] == "") {
       $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
      )
   {
-    $Subject = (!empty($_POST[md5('subject' . $_POST['ip'] . $salt . $_POST['timestamp'])])) ? $_POST[md5('subject' . $_POST['ip'] . $salt . $_POST['timestamp'])] : "Contact From Foresite Group Website";
+    $Subject = $_POST['subject'];
     $SendTo = "info@foresitegrp.com";
     $From = "From: Contact Form <contactform@foresitegrp.com>\r\n";
     $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
 
     $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
 
+    $Message .= (!empty($_POST[md5('phone' . $_POST['ip'] . $salt . $_POST['timestamp'])])) "\n\nPhone: " . $_POST[md5('phone' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+
     $Message .= "\n\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+
+    if (!empty($_POST['getemail'])) $Message .= "\n\n" . $_POST['getemail'];
 
     $Message = stripslashes($Message);
   

@@ -18,21 +18,34 @@
     background-color: rgba(0,0,0,0.4);
   }
 
-  .embed-video:after {
-    color: rgba(255, 255, 255, 0.9);
-    font-family: "FontAwesome";
-    font-size: 13.5vw;
-    font-weight: normal;
-    content: "\f01d";
+  .embed-video .play {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 7px solid rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
   }
 
-  .embed-video:hover:after {
-    color: rgba(105, 201, 202, 0.9);
+  .embed-video .play:before {
+    content: "";
+    display: block;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.9);
+    border-style: solid;
+    border-width: 25px 0 25px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%,-50%);
   }
+
+  .embed-video:hover .play { border-color: rgba(105, 201, 202, 0.9); }
+  .embed-video:hover .play:before { border-color: transparent transparent transparent rgba(105, 201, 202, 0.9); }
 </style>
 
 <?php
@@ -58,6 +71,7 @@ function EmbedVideo($url) {
   ?>
   <div class="video embed-video embed-video-<?php echo $VideoID; ?>">
     <img src="<?php echo $TheImage; ?>" data-video="<?php echo $TheVideo; ?>">
+    <div class="play"></div>
   </div>
 
   <script type="text/javascript">

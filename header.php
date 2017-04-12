@@ -22,12 +22,13 @@ function email($address, $name="") {
     <meta name="description" content="<?php if ($Description != "") echo $Description; ?>">
     <meta name="keywords" content="<?php if ($Keywords != "") echo $Keywords; ?>">
     <meta name="author" content="Foresite Group">
+    <?php if (isset($BlogInc)) echo $BlogInc; ?>
 
     <meta name="viewport" content="width=device-width">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php echo filemtime(realpath(dirname(__FILE__)) . "/inc/main.css"); ?>">
-    <?php if (isset($CssInc)) echo "<link rel=\"stylesheet\" href=\"inc/" . $CssInc . "\">"; ?>
+    <?php if (isset($CssInc)) echo "<link rel=\"stylesheet\" href=\"inc/" . $CssInc . "?" . filemtime(realpath(dirname(__FILE__)) . "/inc/" . $CssInc) . "\">" ?>
 
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
@@ -66,14 +67,12 @@ function email($address, $name="") {
         <div class="top-menu-wrap">
           <div class="top-menu">
             <?php include "menu.php"; ?>
-
-            <img src="<?php echo $TopDir; ?>images/waves-white.png" alt="">
-
+            
             <div class="social">
+              <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               <a href="https://facebook.com/foresitegrp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="https://plus.google.com/116904554564513937129"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href="https://vimeo.com/foresite"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
               <a href="https://linkedin.com/company/6387206"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
           </div>
@@ -82,9 +81,9 @@ function email($address, $name="") {
 
       <div class="banner-home-content site-width">
         <div class="banner-home-text">
-          <h1><span style="color: #69C9CA;">FORESITE GROUP</span> IS AN INDEPENDENT DIGITAL AGENCY BREWING IDEAS, CRAFTING SOLUTIONS.</h1>
+          <h1>AN <span style="color: #69C9CA;">INDEPENDENT DIGITAL AGENCY</span> BREWING IDEAS, CRAFTING SOLUTIONS.</h1>
 
-          <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
+          <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i> &nbsp; VIEW LATEST
         </div>
       </div>
     </div>

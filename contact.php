@@ -2,48 +2,45 @@
 $PageTitle = "Contact";
 $Description = "";
 $Keywords = "";
-// $Menu = "light";
 include "header.php";
 ?>
 
-<div class="contact-banner">
+<!-- <div class="contact-banner">
   <div class="site-width">
     HOW CAN WE HELP?
+  </div>
+</div> -->
+
+<div class="contact-banner">
+  <div class="site-width">
+    <h1>GET IN TOUCH</h1>
+
+    Have questions about project in mind, feel like grabbin' a cup of coffee and/or dropping by the studio? Feel free to send us a message or cut straight to the chase and contact us directly.
+
+    <div class="address">
+      2018 S 1st St, Suite 319, Milwaukee, WI 53207 <span class="sep"></span> (414) 522-1235 <span class="sep"></span> <?php email("hello@foresitegrp.com"); ?>
+    </div>
+
+    <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
   </div>
 </div>
 
 <div class="contact">
   <div class="site-width">
-    <!-- <h2>CONTACT US</h2> -->
-
-    Have questions about project in mind, feel like grabbin' a cup of coffee and/or checking the studio out? Feel free to send us a message or cut straight to the chase and contact us directly.<br>
-    <br>
-
-    <img src="images/waves-blue.png" alt=""><br>
-    <br>
-    
-    <div class="address">
-      2018 S 1st St, Suite 319, Milwaukee, WI 53207 <span class="sep">//</span> 414.522.1235 <span class="sep">//</span> <?php email("info@foresitegrp.com"); ?>
-    </div>
-    <br>
-
-    <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i><br>
-    <br>
-
     <script type="text/javascript">
       $(document).ready(function() {
         var form = $('#contact-form');
         var formMessages = $('#contact-form-messages');
         $(form).submit(function(event) {
           event.preventDefault();
-          
+
           function formValidation() {
             if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
             if ($('#email').val() === '') { alert('Email required.'); $('#email').focus(); return false; }
             if ($('#message').val() === '') { alert('Message required.'); $('#message').focus(); return false; }
             return true;
           }
-          
+
           if (formValidation()) {
             var formData = $(form).serialize();
             formData += '&src=ajax';
@@ -87,13 +84,26 @@ include "header.php";
 
     <form action="form-contact.php" method="POST" id="contact-form">
       <div>
-        <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="* Your Name">
+        <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="Your Name">
 
-        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Your Email Address">
+        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address">
 
-        <input type="text" name="<?php echo md5("subject" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Subject">
+        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number">
 
-        <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="* Project Details, Questions, Comments"></textarea>
+        <div class="select">
+          <select name="subject">
+            <option value="Contact From Foresite Group Website">HOW CAN WE HELP?</option>
+            <option value="New Business">NEW BUSINESS</option>
+            <option value="Opportunities">OPPORTUNITIES</option>
+            <option value="I Have A Question">I HAVE A QUESTION</option>
+            <option value="Contact From Foresite Group Website">OTHER</option>
+          </select>
+        </div>
+
+        <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Comments, Questions"></textarea>
+
+        <input type="checkbox" name="getemails" value="Yes, I would like to periodically recieve emails from the Foresite Team." id="getemails">
+        <label for="getemails">Yes, I would like to periodically recieve emails from the Foresite Team.</label>
 
         <div id="contact-form-messages"><?php echo $feedback; ?></div>
 
@@ -104,7 +114,7 @@ include "header.php";
         <input type="hidden" name="ip" value="<?php echo $ip; ?>">
         <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
-        <input type="submit" name="submit" value="SEND MESSAGE">
+        <input type="submit" name="submit" value="SEND MESSAGE!">
       </div>
     </form>
   </div>
@@ -127,7 +137,7 @@ include "header.php";
     var mapCanvas = document.getElementById('map-canvas');
     var mapOptions = {
       center: MyLatLng,
-      zoom: 15,
+      zoom: 16,
       disableDefaultUI: true,
       scrollwheel: false,
       zoomControl: true,
@@ -140,94 +150,108 @@ include "header.php";
 
     var map = new google.maps.Map(mapCanvas, mapOptions)
     map.set('styles', [
-     {
-        "featureType": "landscape",
-        "stylers": [
-          { "color": "#7ec0c0" }
-        ]
-      },{
+      {
+        "elementType": "geometry",
+        "stylers": [{"color": "#f5f5f5"} ]
+      },
+      {
+        "elementType": "labels.icon",
+        "stylers": [{"visibility": "off"} ]
+      },
+      {
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#616161"} ]
+      },
+      {
+        "elementType": "labels.text.stroke",
+        "stylers": [{"color": "#f5f5f5"} ]
+      },
+      {
+        "featureType": "administrative.land_parcel",
+        "elementType": "labels",
+        "stylers": [{"visibility": "off"} ]
+      },
+      {
+        "featureType": "administrative.land_parcel",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#bdbdbd"} ]
+      },
+      {
         "featureType": "poi",
         "elementType": "geometry",
-        "stylers": [
-          { "color": "#74adac" }
-        ]
-      },{
+        "stylers": [{"color": "#eeeeee"} ]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "labels.text",
+        "stylers": [{"visibility": "off"} ]
+      },
+      {
+        "featureType": "poi",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#757575"} ]
+      },
+      {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [{"color": "#e5e5e5"} ]
+      },
+      {
+        "featureType": "poi.park",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#9e9e9e"} ]
+      },
+      {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [{"color": "#ffffff"} ]
+      },
+      {
+        "featureType": "road.arterial",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#757575"} ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [{"color": "#dadada"} ]
+      },
+      {
+        "featureType": "road.highway",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#616161"} ]
+      },
+      {
+        "featureType": "road.local",
+        "elementType": "labels",
+        "stylers": [{"visibility": "off"} ]
+      },
+      {
+        "featureType": "road.local",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#9e9e9e"} ]
+      },
+      {
+        "featureType": "transit.line",
+        "elementType": "geometry",
+        "stylers": [{"color": "#e5e5e5"} ]
+      },
+      {
+        "featureType": "transit.station",
+        "elementType": "geometry",
+        "stylers": [{"color": "#eeeeee"} ]
+      },
+      {
         "featureType": "water",
         "elementType": "geometry",
-        "stylers": [
-          { "color": "#77b1af" }
-        ]
-      },{
-        "featureType": "road",
-        "elementType": "geometry.fill",
-        "stylers": [
-          { "color": "#89d2d3" }
-        ]
-      },{
-        "featureType": "road",
-        "elementType": "geometry.stroke",
-        "stylers": [
-          { "color": "#78b5b3" }
-        ]
-      },{
-        "featureType": "road",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-          { "color": "#89d2d3" }
-        ]
-      },{
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
-          { "color": "#5e8a87" }
-        ]
-      },{
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-          { "color": "#577f7a" }
-        ]
-      },{
-        "featureType": "road",
-        "elementType": "labels.icon",
-        "stylers": [
-          { "hue": "#4d6f6c" }
-        ]
-      },{
-        "featureType": "poi",
-        "elementType": "labels.text",
-        "stylers": [
-          { "visibility": "simplified" },
-          { "color": "#3f5b80" }
-        ]
-      },{
-        "featureType": "poi",
-        "elementType": "labels.icon",
-        "stylers": [
-          { "hue": "#00ccff" }
-        ]
-      },{
-        "featureType": "transit",
-        "elementType": "geometry",
-        "stylers": [
-          { "color": "#75aeac" }
-        ]
-      },{
-        "featureType": "administrative",
-        "elementType": "labels.text",
-        "stylers": [
-          { "visibility": "simplified" },
-          { "color": "#62918d" }
-        ]
-      },{
-        "featureType": "landscape",
-        "elementType": "labels",
-        "stylers": [
-          { "visibility": "simplified" },
-          { "color": "#2e4542" }
-        ]
+        "stylers": [{"color": "#c9c9c9"} ]
+      },
+      {
+        "featureType": "water",
+        "elementType": "labels.text.fill",
+        "stylers": [{"color": "#9e9e9e"} ]
       }
-    ]);
+]);
 
     var marker = new google.maps.Marker({
       position: MyLatLng,
@@ -254,7 +278,7 @@ include "header.php";
 <div id="map-canvas"></div>
 
 <div class="prefooter">
-  <h3 class="waves-white"><a href="capabilities.php">THE BREW PROCESS</a></h3>
+  <h3 class="waves-white"><a href="work.php">VIEW OUR WORK</a></h3>
 </div>
 
 <script type="text/javascript" src="inc/scrollreveal.min.js"></script>
