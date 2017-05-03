@@ -999,6 +999,10 @@ A.tile-link:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 69%;
+  height: auto;
+  max-height: 100%;
+  width: auto;
 }
 
 .worked-with .slick-dots {
@@ -1795,11 +1799,6 @@ blockquote.aligncenter {
     clear: right;
   }*/
 
-  .worked-with .one-fifth IMG {
-    max-width: 100%;
-    height: auto;
-  }
-
   .about .one-fourth,
   .about .one-fourth:nth-of-type(4n) { width: 40%; margin: 0 5% 4em; }
   
@@ -1990,6 +1989,8 @@ blockquote.aligncenter {
     float: none;
     width: 100%;
   }
+
+  .blog-index, .blog-single { font-size: 19vw; }
 
   .entry-header .entry-title {
     font-size: 230%;
