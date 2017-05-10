@@ -39,7 +39,7 @@ include "header.php";
   <div style="clear: both;"></div><br>
   <br>
 
-  <a href="http://parksedgepreschool.com">LAUNCH SITE</a>
+  <a href="http://charlesekublyfoundation.org">LAUNCH SITE</a>
 </div>
 
 <div class="kubly-footer"></div>
