@@ -25,22 +25,22 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-lifepro.jpg);">
-    <a href="life-productions.php" class="tile-link">
+  <div class="tile tile2x2" style="background-image: url(images/project-usm.jpg);">
+    <a href="usm.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>LIFE PRODUCTIONS, INC.</h2>
+        <h2>UNIVERSITY SCHOOL OF MILWAUKEE</h2>
 
         Website Design
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-louies.jpg);">
-    <a href="louies.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-lifepro.jpg);">
+    <a href="life-productions.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>LOUIE'S LAST REGATTA</h2>
+        <h2>LIFE PRODUCTIONS, INC.</h2>
 
-        Video
+        Website Design
       </div>
     </a>
   </div>
@@ -61,12 +61,12 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-suzys.jpg);">
-    <a href="suzys.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-louies.jpg);">
+    <a href="louies.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>SUZY'S CHEESECAKES</h2>
+        <h2>LOUIE'S LAST REGATTA</h2>
 
-        Social Media
+        Video
       </div>
     </a>
   </div>
@@ -120,12 +120,12 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-gossen-product-guide.jpg);">
-    <a href="gossen-product-guide.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-suzys.jpg);">
+    <a href="suzys.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>GOSSEN PRODUCT GUIDE</h2>
+        <h2>SUZY'S CHEESECAKES</h2>
 
-        Design / Print
+        Social Media
       </div>
     </a>
   </div>

@@ -33,6 +33,16 @@ include "header.php";
 </script>
 
 <div class="work">
+  <div class="tile tile3x1 web" style="background-image: url(images/project-usm.jpg);">
+    <a href="usm.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>UNIVERSITY SCHOOL OF MILWAUKEE</h2>
+
+        Website Design
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1 web" style="background-image: url(images/project-lifepro.jpg);">
     <a href="life-productions.php" class="tile-link">
       <div class="tile-hover-content">
@@ -119,16 +129,6 @@ include "header.php";
         <h2>WICHMAN SPORTS MEDICINE</h2>
 
         Web Design / Photography
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile3x1 branding print web" style="background-image: url(images/project-teetogreen.jpg);">
-    <a href="tee-to-green.php" class="tile-link">
-      <div class="tile-hover-content">
-        <h2>TEE TO GREEN</h2>
-
-        Branding / Print / Design
       </div>
     </a>
   </div>
