@@ -22,7 +22,7 @@ include "header.php";
 
       <h3>So we won't provide cookie cutter solutions.</h3>
 
-      We recognize that every business has their own needs within their respected industries. As a team we take the time to listen, understand the area of experiese, guide and work directly with our clients through a process unique to their story.<br>
+      We recognize that every business has their own needs within their respected industries. As a team we take the time to listen, understand the area of expertise, guide and work directly with our clients through a process unique to their story.<br>
 
       <a href="" class="button">MEET THE TEAM</a>
       <span class="cb-capabilities">CAPABILITIES <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i></span>
