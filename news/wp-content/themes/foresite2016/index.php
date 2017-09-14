@@ -63,7 +63,22 @@ $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 		?>
 
 		<div class="prefooter">
-		  <h3 class="waves-white"><a href="<?php echo $TopDir; ?>contact.php">LET'S CREATE SOMETHING</a></h3>
+		  <div class="site-width">
+			  <!-- Begin MailChimp Signup Form -->
+				<form action="//foresitegrp.us10.list-manage.com/subscribe/post?u=b93b1b616b0c1e6484322ceaf&amp;id=8e627c05fe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div class="mc-field-group">
+					  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b93b1b616b0c1e6484322ceaf_8e627c05fe" tabindex="-1" value=""></div>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter email for periodic insights">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>
+				</form>
+				<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+				<!--End mc_embed_signup-->
+			</div>
 		</div>
 
 		</main><!-- .site-main -->

@@ -1569,6 +1569,43 @@ blockquote.aligncenter {
   margin-bottom: 1.473684211em;
 }
 
+.mc-field-group INPUT[type="email"] {
+  border-bottom: 1px solid #69C9CA;
+  border-radius: 0;
+  background: #172827;
+  color: #FFFFFF;
+  width: calc(100% - 350px);
+  padding: 0.25em 0;
+  margin-right: 2em;
+  text-align: center;
+}
+
+INPUT::-webkit-input-placeholder { color: #FFFFFF; text-transform: none; opacity: 1; }
+INPUT:-moz-placeholder { color: #FFFFFF; text-transform: none; opacity: 1; } /* FF 4-18 */
+INPUT::-moz-placeholder { color: #FFFFFF; text-transform: none; opacity: 1; } /* FF 19+ */
+INPUT:-ms-input-placeholder { color: #FFFFFF; text-transform: none; opacity: 1; } /* IE 10+ */
+
+INPUT:focus::-webkit-input-placeholder { color: transparent; }
+INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+.mc-field-group INPUT[type="submit"] {
+  display: inline-block;
+}
+
+.response {
+  width: 80%;
+  margin: 0 auto;
+  color: #E14E41;
+  font-size: 80%;
+  line-height: 1.3em;
+}
+
+#mce-success-response { color: #FFFFFF; }
+
+
+
 @media only screen and (max-width: 1360px) {
   .site-width-wide { width: 96%; }
 }
