@@ -1867,6 +1867,10 @@ INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
   .prefooter H3 {
     font-size: 430%;
   }
+
+  .mc-field-group INPUT[type="email"] {
+    width: calc(100% - 200px);
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -2036,6 +2040,11 @@ INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
   .entry-header H4 .sep {
     display: block;
     visibility: hidden;
+  }
+
+  .mc-field-group INPUT[type="email"] {
+    width: 90%;
+    margin-right: 0;
   }
 }
 
