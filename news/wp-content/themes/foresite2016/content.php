@@ -29,7 +29,7 @@
       	<a href="http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>&picture=<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" target="new" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i> <span>Share on Facebook</span></a>
 				<a href="http://www.twitter.com/share?url=<?php echo get_permalink(); ?>&text=<?php echo str_replace(' ', '+', the_title('','',false)); ?>" target="new" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <span>Share on Twitter</span></a>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>&title=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<a href="http://pinterest.com/pin/create/link/?url=http://foresitegrp.com/news/5-phrases-you-are-probably-saying-incorrectly/&media=<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>&description=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+				<a href="http://pinterest.com/pin/create/link/?url=<?php echo get_permalink(); ?>&media=<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>&description=<?php echo str_replace(' ', '%20', the_title('','',false)); ?>" target="new" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
 				<a href="http://plus.google.com/share?url=<?php echo get_permalink(); ?>" target="new" class="googleplus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
       </div>
 
