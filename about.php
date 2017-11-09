@@ -143,23 +143,20 @@ include "header.php";
   </div>
 
   <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-nicks.jpg);">
+    <div class="team" style="background-image: url(images/team-robert.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Northern Michigan University, BFA in Graphic Communications.<br>
-          Outdoor enthusiast fully capable of growing a respectable beard.
+          UW-Milwaukee.<br>
+          BFA in Design &amp; Visual Comm.<br>
+          Music nerd, amateur craftsman &amp; houseplant aficionado.
         </div>
       </a>
     </div>
 
-    <div class="team-name">NICHOLAS SWENOR</div>
+    <div class="team-name">ROBERT VELA</div>
     <div class="team-title">ART DIRECTOR</div>
-    <div class="team-email"><?php email("nicks@foresitegrp.com"); ?></div>
-    <div class="social team-social">
-      <a href="https://twitter.com/nswenor"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="http://instagram.com/nich_olass"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/nswenor"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
+    <div class="team-email"></div>
+    <div class="social team-social"></div>
   </div>
 
   <div class="one-fourth">
