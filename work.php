@@ -33,6 +33,16 @@ include "header.php";
 </script>
 
 <div class="work">
+  <div class="tile tile3x1 web" style="background-image: url(images/project-bublr.jpg);">
+    <a href="bublr.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>BUBLR BIKES</h2>
+
+        Website Design
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1 web" style="background-image: url(images/project-usm.jpg);">
     <a href="usm.php" class="tile-link">
       <div class="tile-hover-content">
@@ -263,7 +273,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile3x1 web print video-photo" style="background-image: url(images/project-molded-dimensions.jpg);">
+<!--   <div class="tile tile3x1 web print video-photo" style="background-image: url(images/project-molded-dimensions.jpg);">
     <a href="molded-dimensions.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>MOLDED DIMENSIONS</h2>
@@ -271,7 +281,7 @@ include "header.php";
         Website Design / Photography
       </div>
     </a>
-  </div>
+  </div> -->
 
   <div style="clear: both;"></div>
 </div>

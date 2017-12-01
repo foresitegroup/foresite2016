@@ -2347,6 +2347,136 @@ A.lifepro-button:active {
   border: 3px solid transparent;
 }
 
+.bublr-header {
+  padding: 1.6em 0;
+  background: url(../images/bublr-header.jpg) center center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1em;
+  position: relative;
+}
+
+.bublr-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.bublr-header .site-width { padding: 0.7em 0; position: relative; z-index: 5; }
+
+.bublr-header .task {
+  font-weight: 600;
+  margin: 2em 0 0;
+}
+
+.bublr-header .fa-play {
+  font-size: 12px;
+  line-height: 1em;
+  color: #13B5EA;
+}
+
+.bublr-text {
+  padding: 100px 0 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2em;
+  color: #252525;
+}
+
+.bublr-laptop {
+  background: url(../images/bublr-laptop-background.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.bublr-laptop:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #13B5EA;
+  mix-blend-mode: multiply;
+}
+
+.bublr-laptop IMG {
+  position: relative;
+  top: -130px;
+  margin-bottom: -50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bublr {
+  padding: 5em 0;
+  text-align: center;
+}
+
+.bublr-left {
+  float: left;
+  width: 50%;
+}
+
+.bublr-right {
+  float: right;
+  width: 37.9%;
+  color: #252525;
+  font-weight: 700;
+  font-size: 14.5px;
+  line-height: 2em;
+  text-align: left;
+}
+
+.bublr-right IMG {
+  margin: 0 0 1.5em;
+  box-shadow: 0 0 45px 3px rgba(0,0,0,0.25);
+}
+
+.bublr-left IMG,
+.bublr-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.bublr .button:link,
+.bublr .button:visited {
+  border-color: #13B5EA;
+  color: #13B5EA;
+}
+
+.bublr .button:hover,
+.bublr .button:active {
+  border-color: #2B378B;
+  color: #2B378B;
+}
+
+.bublr-footer {
+  position: relative;
+  max-height: 597px;
+  background: url(../images/bublr-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.bublr-footer:after {
+  padding-top: 37.31%;
+  display: inline-block;
+  content: '';
+}
+
+
+
+
+
+/* =============================== */
 .project-nav {
   border-top: 1px solid #E2E2E1;
   padding: 2em 0;
