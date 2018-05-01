@@ -177,7 +177,7 @@ include "header.php";
     </div>
   </div>
 
-  <div class="one-fourth">
+<!--   <div class="one-fourth">
     <div class="team" style="background-image: url(images/team-tara.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
@@ -195,7 +195,7 @@ include "header.php";
       <a href="https://twitter.com/TaraKniep"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/tara-kniep-3387a5b6/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <script type="text/javascript" src="inc/slick/slick.init.about-slider.js"></script>
