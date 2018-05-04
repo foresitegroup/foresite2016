@@ -177,25 +177,20 @@ include "header.php";
     </div>
   </div>
 
-<!--   <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-tara.jpg);">
+  <div class="one-fourth">
+    <div class="team" style="background-image: url(images/team-laura.jpg);">
       <a class="team-link">
         <div class="team-hover-content">
-          Marquette University.<br>
-          Content Development, Social Media Management and Marketing.<br>
-          Likes her coffee strong.
+          Social Media and Content Strategist. Small business owner, dog mom, and coffee lover.
         </div>
       </a>
     </div>
 
-    <div class="team-name">TARA KNIEP</div>
+    <div class="team-name">LAURA SCHAUB</div>
     <div class="team-title">CONTENT SPECIALIST</div>
     <div class="team-email"></div>
-    <div class="social team-social">
-      <a href="https://twitter.com/TaraKniep"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/tara-kniep-3387a5b6/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-  </div> -->
+    <div class="social team-social"></div>
+  </div>
 </div>
 
 <script type="text/javascript" src="inc/slick/slick.init.about-slider.js"></script>
