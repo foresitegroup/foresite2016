@@ -33,6 +33,16 @@ include "header.php";
 </script>
 
 <div class="work">
+  <div class="tile tile3x1 web" style="background-image: url(images/project-edh.jpg);">
+    <a href="edh.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>EVERY DAY HOPE</h2>
+
+        Website Design
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1 web" style="background-image: url(images/project-bublr.jpg);">
     <a href="bublr.php" class="tile-link">
       <div class="tile-hover-content">

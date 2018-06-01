@@ -2419,6 +2419,9 @@ A.lifepro-button:active {
 .bublr {
   padding: 5em 0;
   text-align: center;
+  color: #252525;
+  font-weight: 700;
+  line-height: 2em;
 }
 
 .bublr-left {
@@ -2429,8 +2432,6 @@ A.lifepro-button:active {
 .bublr-right {
   float: right;
   width: 37.9%;
-  color: #252525;
-  font-weight: 700;
   font-size: 14.5px;
   line-height: 2em;
   text-align: left;
@@ -2468,6 +2469,112 @@ A.lifepro-button:active {
 
 .bublr-footer:after {
   padding-top: 37.31%;
+  display: inline-block;
+  content: '';
+}
+
+#header {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1em;
+}
+
+#header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+#header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+#header VIDEO {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+  mix-blend-mode: multiply;
+  top: 0\9; /* IE9 and below */
+  left: 0\9; /* IE9 and below */
+  opacity: 0.1\9; /* IE9 and below */
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { /* IE10+ */
+  #header VIDEO { opacity: 0.1; }
+}
+@supports (-ms-accelerator:true) { #header VIDEO { opacity: 0.1; } } /* Edge 12+ */ 
+
+#header .site-width {
+  text-align: center;
+  padding: 2.2em 0;
+}
+
+#header .site-width .task {
+  color: #B7B7B7;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1em;
+  margin: 4em 0 0;
+}
+
+#header .site-width .fa-play {
+  font-size: 12px;
+  line-height: 1em;
+  color: #13B5EA;
+}
+
+.edh-laptop {
+  background: url(../images/edh-laptop-background.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.edh-laptop IMG {
+  position: relative;
+  top: -130px;
+  margin-bottom: -50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.edh-footer {
+  position: relative;
+  max-height: 1207px;
+  background: url(../images/edh-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.edh-footer:after {
+  padding-top: 75.43%;
   display: inline-block;
   content: '';
 }

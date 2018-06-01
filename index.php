@@ -25,20 +25,20 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-bublr.jpg);">
-    <a href="bublr.php" class="tile-link">
+  <div class="tile tile2x2" style="background-image: url(images/project-edh.jpg);">
+    <a href="edh.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>BUBLR BIKES</h2>
+        <h2>EVERY DAY HOPE</h2>
 
         Website Design
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-usm.jpg);">
-    <a href="usm.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-bublr.jpg);">
+    <a href="bublr.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>UNIVERSITY SCHOOL OF MILWAUKEE</h2>
+        <h2>BUBLR BIKES</h2>
 
         Website Design
       </div>
@@ -61,10 +61,10 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-lifepro.jpg);">
-    <a href="life-productions.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-usm.jpg);">
+    <a href="usm.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>LIFE PRODUCTIONS, INC.</h2>
+        <h2>UNIVERSITY SCHOOL OF MILWAUKEE</h2>
 
         Website Design
       </div>
@@ -91,25 +91,15 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile tile1x2" style="background-image: url(images/project-louies.jpg);">
-    <a href="louies.php" class="tile-link">
+  <div class="tile tile1x2" style="background-image: url(images/project-lifepro.jpg);">
+    <a href="life-productions.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>LOUIE'S LAST REGATTA</h2>
+        <h2>LIFE PRODUCTIONS, INC.</h2>
 
-        Video
+        Website Design
       </div>
     </a>
   </div>
-
-<!--   <div class="tile tile1x2" style="background-image: url(images/project-belardi.jpg);">
-    <a href="belardi.php" class="tile-link">
-      <div class="tile-hover-content">
-        <h2>BELARDI AUTO RACING</h2>
-
-        Website
-      </div>
-    </a>
-  </div> -->
 
   <div class="tile twitter">
     <div class="tile-link">
@@ -130,22 +120,22 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-suzys.jpg);">
+  <div class="tile" style="background-image: url(images/project-louies.jpg);">
+    <a href="louies.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>LOUIE'S LAST REGATTA</h2>
+
+        Video
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-suzys.jpg);">
     <a href="suzys.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>SUZY'S CHEESECAKES</h2>
 
         Social Media
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile2x1" style="background-image: url(images/project-kubly.jpg);">
-    <a href="kubly.php" class="tile-link">
-      <div class="tile-hover-content">
-        <h2>CHARLES E. KUBLY FOUNDATION</h2>
-
-        Website Design
       </div>
     </a>
   </div>
