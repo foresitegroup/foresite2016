@@ -99,7 +99,20 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile tile3x1" style="background-image: url(images/project-jims-cheese.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-rathi.jpg);">
+    <div class="tile-link">
+      <div class="tile-hover-content">
+        <h2>RATHI NORTH AMERICA</h2>
+
+        MANUFACTURER<br>
+        <br>
+
+        <a href="https://rathi-na.com">CLIENT SITE</a><br>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="tile tile3x1" style="background-image: url(images/project-jims-cheese.jpg);">
     <div class="tile-link">
       <div class="tile-hover-content">
         <h2>JIM'S CHEESE</h2>
@@ -111,7 +124,7 @@ include "header.php";
         <a href="jims-cheese.php">OUR IMPACT</a>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <div id="industry-offer">
