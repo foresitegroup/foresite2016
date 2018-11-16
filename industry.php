@@ -90,7 +90,7 @@ include "header.php";
       <div class="tile-hover-content">
         <h2>SUZY'S CHEESECAKES</h2>
 
-        DISTRIBUTOR<br>
+        MANUFACTURER<br>
         <br>
 
         <a href="https://suzys.com">CLIENT SITE</a><br>
@@ -112,7 +112,7 @@ include "header.php";
     </div>
   </div>
 
-  <!-- <div class="tile tile3x1" style="background-image: url(images/project-jims-cheese.jpg);">
+  <div class="tile tile3x1" style="background-image: url(images/project-jims-cheese.jpg);">
     <div class="tile-link">
       <div class="tile-hover-content">
         <h2>JIM'S CHEESE</h2>
@@ -124,7 +124,34 @@ include "header.php";
         <a href="jims-cheese.php">OUR IMPACT</a>
       </div>
     </div>
-  </div> -->
+  </div>
+
+  <div class="tile tile3x1" style="background-image: url(images/project-molded-dimensions.jpg);">
+    <div class="tile-link">
+      <div class="tile-hover-content">
+        <h2>MOLDED DIMENSIONS</h2>
+
+        MANUFACTURER<br>
+        <br>
+
+        <a href="https://moldeddimensions.com">CLIENT SITE</a><br>
+        <a href="molded-dimensions.php">OUR IMPACT</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="tile tile3x1" style="background-image: url(images/project-third-space.jpg);">
+    <div class="tile-link">
+      <div class="tile-hover-content">
+        <h2>THIRD SPACE BREWING</h2>
+
+        MANUFACTURER<br>
+        <br>
+
+        <a href="https://thirdspacebrewing.com">CLIENT SITE</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="industry-offer">
