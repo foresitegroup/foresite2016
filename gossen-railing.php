@@ -47,7 +47,7 @@ include "header.php";
     </div>
     <div class="home"><a href="work.php"><i class="fa fa-th" aria-hidden="true"></i></a></div>
     <div class="next">
-      <a href="dominican.php">NEXT PROJECT <i class="fa fa-play" aria-hidden="true"></i></a>
+      <a href="centennial.php">NEXT PROJECT <i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>

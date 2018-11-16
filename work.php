@@ -143,7 +143,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile3x1 web video-photo" style="background-image: url(images/project-wichman.jpg);">
+<!--   <div class="tile tile3x1 web video-photo" style="background-image: url(images/project-wichman.jpg);">
     <a href="wichman.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>WICHMAN SPORTS MEDICINE</h2>
@@ -151,7 +151,7 @@ include "header.php";
         Web Design / Photography
       </div>
     </a>
-  </div>
+  </div> -->
 
   <div class="tile tile3x1 print" style="background-image: url(images/project-gossen-product-guide.jpg);">
     <a href="gossen-product-guide.php" class="tile-link">
@@ -243,7 +243,7 @@ include "header.php";
     </a>
   </div>
   
-  <div class="tile tile3x1 web" style="background-image: url(images/project-dominican.jpg);">
+<!--   <div class="tile tile3x1 web" style="background-image: url(images/project-dominican.jpg);">
     <a href="dominican.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>DOMINICAN HIGH SCHOOL</h2>
@@ -251,7 +251,7 @@ include "header.php";
         Website
       </div>
     </a>
-  </div>
+  </div> -->
 
   <div class="tile tile3x1 web" style="background-image: url(images/project-centennial.jpg);">
     <a href="centennial.php" class="tile-link">
@@ -283,7 +283,7 @@ include "header.php";
     </a>
   </div>
 
-<!--   <div class="tile tile3x1 web print video-photo" style="background-image: url(images/project-molded-dimensions.jpg);">
+  <div class="tile tile3x1 web print video-photo" style="background-image: url(images/project-molded-dimensions.jpg);">
     <a href="molded-dimensions.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>MOLDED DIMENSIONS</h2>
@@ -291,7 +291,7 @@ include "header.php";
         Website Design / Photography
       </div>
     </a>
-  </div> -->
+  </div>
 
   <div style="clear: both;"></div>
 </div>

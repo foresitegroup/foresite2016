@@ -33,7 +33,7 @@ include "header.php";
 <div class="project-nav">
   <div class="site-width">
     <div class="prev">
-      <a href="wichman.php"><i class="fa fa-play fa-flip-horizontal" aria-hidden="true"></i> PREVIOUS PROJECT</a>
+      <a href="chaput.php"><i class="fa fa-play fa-flip-horizontal" aria-hidden="true"></i> PREVIOUS PROJECT</a>
     </div>
     <div class="home"><a href="work.php"><i class="fa fa-th" aria-hidden="true"></i></a></div>
     <div class="next">
