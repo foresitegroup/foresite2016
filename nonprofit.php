@@ -33,7 +33,7 @@ include "header.php";
       <div class="tile-hover-content">
         <h2>CHARLES E. KUBLY FOUNDATION</h2>
 
-        <a href="https://charlesekublyfoundation.org">CLIENT SITE</a>
+        <a href="https://charlesekublyfoundation.org">CLIENT SITE</a><br>
         <a href="kubly.php">OUR IMPACT</a>
       </div>
     </div>
@@ -66,7 +66,8 @@ include "header.php";
       <div class="tile-hover-content">
         <h2>WISCONSIN POLICY FORUM</h2>
 
-        <a href="https://wispolicyforum.org">CLIENT SITE</a>
+        <a href="https://wispolicyforum.org">CLIENT SITE</a><br>
+        <a href="wpf.php">OUR IMPACT</a>
       </div>
     </div>
   </div>

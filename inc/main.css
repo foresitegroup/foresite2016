@@ -738,6 +738,7 @@ A.tile-link:hover, DIV.tile-link:hover {
   font-size: 88.88%;
   line-height: 1.4em;
   padding: 1.8em;
+  opacity: 1;
 }
 
 .tile.twitter .tile-link A.twitter-date:link,
