@@ -18,7 +18,7 @@ include "header.php";
     Have questions about project in mind, feel like grabbin' a cup of coffee and/or dropping by the studio? Feel free to send us a message or cut straight to the chase and contact us directly.
 
     <div class="address">
-      2018 S 1st St, Suite 319, Milwaukee, WI 53207 <span class="sep"></span> (414) 522-1235 <span class="sep"></span> <?php email("hello@foresitegrp.com"); ?>
+      2018 S 1st St, Suite 310, Milwaukee, WI 53207 <span class="sep"></span> (414) 522-1235 <span class="sep"></span> <?php email("hello@foresitegrp.com"); ?>
     </div>
 
     <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
