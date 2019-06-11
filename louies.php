@@ -16,9 +16,13 @@ include "header.php";
       <i class="fa fa-play fa-rotate-90" aria-hidden="true"></i>
     </div>
 
+    <video controls poster="images/louies-video-poster.jpg" class="louies-video">
+      <source src="images/louies-video.mp4" type="video/mp4">
+    </video>
+
     <?php
-    include_once "inc/embed-video.php";
-    EmbedVideo("https://www.youtube.com/watch?v=QJzoitq-iu0");
+    // include_once "inc/embed-video.php";
+    // EmbedVideo("https://vimeo.com/192156399");
     ?>
 
     <div class="left">
