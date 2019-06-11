@@ -121,75 +121,92 @@ include "header.php";
 <div class="about site-width-wide">
   <h2>COMPANY LEADERSHIP</h2>
 
-  <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-francis.jpg);">
-      <a class="team-link">
-        <div class="team-hover-content">
-          Seattle University.<br>
-          Content Development, 17 Years in Marketing &amp; Brand Development.<br>
-          Avid sailor &amp; craft beer enthusiast.
-        </div>
-      </a>
+  <div class="leadership">
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-francis.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Seattle University.<br>
+            Content Development, 17 Years in Marketing &amp; Brand Development.<br>
+            Avid sailor &amp; craft beer enthusiast.
+          </div>
+        </a>
+      </div>
+
+      <div class="team-name">FRANCIS MORTON</div>
+      <div class="team-title">FOUNDER/OWNER</div>
+      <div class="team-email"><?php email("francis@foresitegrp.com"); ?></div>
+      <div class="social team-social">
+        <!-- <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/francis-morton-380a763"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+      </div>
     </div>
 
-    <div class="team-name">FRANCIS MORTON</div>
-    <div class="team-title">FOUNDER/OWNER</div>
-    <div class="team-email"><?php email("francis@foresitegrp.com"); ?></div>
-    <div class="social team-social">
-      <a href="https://twitter.com/foresitegrp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="http://instagram.com/foresitegrp"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/francis-morton-380a763"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-  </div>
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-robert.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            UW-Milwaukee.<br>
+            BFA in Design &amp; Visual Comm.<br>
+            Music nerd, amateur craftsman &amp; houseplant aficionado.
+          </div>
+        </a>
+      </div>
 
-  <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-robert.jpg);">
-      <a class="team-link">
-        <div class="team-hover-content">
-          UW-Milwaukee.<br>
-          BFA in Design &amp; Visual Comm.<br>
-          Music nerd, amateur craftsman &amp; houseplant aficionado.
-        </div>
-      </a>
+      <div class="team-name">ROBERT VELA</div>
+      <div class="team-title">ART DIRECTOR</div>
+      <div class="team-email"></div>
+      <div class="social team-social"></div>
     </div>
 
-    <div class="team-name">ROBERT VELA</div>
-    <div class="team-title">ART DIRECTOR</div>
-    <div class="team-email"></div>
-    <div class="social team-social"></div>
-  </div>
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-mark.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Once shot a man just for snoring too loud.
+          </div>
+        </a>
+      </div>
 
-  <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-mark.jpg);">
-      <a class="team-link">
-        <div class="team-hover-content">
-          Once shot a man just for snoring too loud.
-        </div>
-      </a>
+      <div class="team-name">MARK LIPPERT</div>
+      <div class="team-title">SENIOR DEVELOPER</div>
+      <div class="team-email"></div>
+      <div class="social team-social">
+        <!-- <a href="http://instagram.com/hurtsquirrels"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/mark-lippert-81515896"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+      </div>
     </div>
 
-    <div class="team-name">MARK LIPPERT</div>
-    <div class="team-title">SENIOR DEVELOPER</div>
-    <div class="team-email"></div>
-    <div class="social team-social">
-      <a href="http://instagram.com/hurtsquirrels"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/mark-lippert-81515896"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-  </div>
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-bob.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Man of Ideas with over 25 years of Marketing and Sales experience.
+          </div>
+        </a>
+      </div>
 
-  <div class="one-fourth">
-    <div class="team" style="background-image: url(images/team-laura.jpg);">
-      <a class="team-link">
-        <div class="team-hover-content">
-          Social Media and Content Strategist. Small business owner, dog mom, and coffee lover.
-        </div>
-      </a>
+      <div class="team-name">BOB SABINASH</div>
+      <div class="team-title">VP OF CLIENT SERVICES</div>
+      <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
+      <div class="social team-social"></div>
     </div>
 
-    <div class="team-name">LAURA SCHAUB</div>
-    <div class="team-title">CONTENT SPECIALIST</div>
-    <div class="team-email"></div>
-    <div class="social team-social"></div>
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-laura.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Social Media and Content Strategist. Small business owner, dog mom, and coffee lover.
+          </div>
+        </a>
+      </div>
+
+      <div class="team-name">LAURA SCHAUB</div>
+      <div class="team-title">CONTENT SPECIALIST</div>
+      <div class="team-email"></div>
+      <div class="social team-social"></div>
+    </div>
   </div>
 </div>
 

@@ -1668,6 +1668,15 @@
   margin-bottom: 6em;
 }
 
+.louies-video {
+  max-width: 100%;
+  height: auto;
+  background: url(../images/louies-video-poster.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 5em;
+  outline: none;
+}
+
 .louies .left {
   float: left;
   width: 33%;
