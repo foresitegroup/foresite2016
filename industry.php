@@ -39,7 +39,8 @@ include "header.php";
         MANUFACTURER<br>
         <br>
 
-        <a href="https://rivcrete.com">CLIENT SITE</a>
+        <a href="https://rivcrete.com">CLIENT SITE</a><br>
+        <a href="rivcrete.php">OUR IMPACT</a>
       </div>
     </div>
   </div>

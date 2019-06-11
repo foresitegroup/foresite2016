@@ -33,6 +33,16 @@ include "header.php";
 </script>
 
 <div class="work">
+  <div class="tile tile3x1 web" style="background-image: url(images/project-rivcrete.jpg);">
+    <a href="rivcrete.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>RIV/CRETE</h2>
+
+        Website Design
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1 web" style="background-image: url(images/project-wpf.jpg);">
     <a href="wpf.php" class="tile-link">
       <div class="tile-hover-content">
