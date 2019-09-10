@@ -194,6 +194,38 @@ include "header.php";
     </div>
 
     <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-meredith.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            University of Wisconsin - Milwaukee.<br>
+            BA in Advertising.<br>
+            Reality TV &AMP; charcuterie board enthusiast.
+          </div>
+        </a>
+      </div>
+
+      <div class="team-name">MEREDITH SCHARINGER</div>
+      <div class="team-title">SOCIAL MEDIA MANAGER</div>
+      <div class="team-email"></div>
+      <div class="social team-social"></div>
+    </div>
+
+    <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-abi.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Currently attending Milwaukee Institute of Art and Design. Constantly drinking tea.
+          </div>
+        </a>
+      </div>
+
+      <div class="team-name">ABI DUDA</div>
+      <div class="team-title">ASSISTANT DESIGNER</div>
+      <div class="team-email"></div>
+      <div class="social team-social"></div>
+    </div>
+
+    <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-laura.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
