@@ -2924,6 +2924,110 @@ A.lifepro-button:active {
   content: '';
 }
 
+.koma-header {
+  padding: 1.6em 0;
+  background: url(../images/koma-header.jpg) center center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1em;
+  position: relative;
+}
+
+.koma-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.koma-header .site-width { padding: 0.7em 0; position: relative; z-index: 5; }
+
+.koma-header .task {
+  font-weight: 600;
+  margin: 2em 0 0;
+}
+
+.koma-header .fa-play {
+  font-size: 12px;
+  line-height: 1em;
+  color: #13B5EA;
+}
+
+.koma-text {
+  padding: 100px 0 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2em;
+  color: #252525;
+}
+
+.koma-text .button:link, .koma-text .button:visited {
+  color: #082147;
+}
+
+.koma-text .button:hover, .koma-text .button:active {
+  color: #95AFD6;
+}
+
+.koma-laptop {
+  background: url(../images/koma-laptop-background.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.koma-laptop IMG {
+  position: relative;
+  top: -130px;
+  margin-bottom: -50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.koma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 0;
+  color: #252525;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.koma-left { width: 56%; }
+
+.koma-right {
+  width: 35%;
+  margin-left: auto;
+  font-size: 0;
+  line-height: 0;
+}
+
+.koma-left IMG,
+.koma-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.koma-footer {
+  position: relative;
+  max-height: 1207px;
+  background: url(../images/koma-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.koma-footer:after {
+  padding-top: 75.43%;
+  display: inline-block;
+  content: '';
+}
+
 
 
 
@@ -3159,9 +3263,9 @@ A.lifepro-button:active {
 }
 
 @media only screen and (max-width: 700px) {
-  .wikk { flex-direction: column; }
-  .wikk-left { width: 100%; }
-  .wikk-right { width: 100%; text-align: center; margin: 50px 0 0; }
+  .wikk, .koma { flex-direction: column; }
+  .wikk-left, .koma-left { width: 100%; }
+  .wikk-right, .koma-right { width: 100%; text-align: center; margin: 50px 0 0; }
 }
 
 @media only screen and (max-width: 600px) {

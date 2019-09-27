@@ -25,20 +25,20 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-wikk.jpg);">
-    <a href="wikk.php" class="tile-link">
+  <div class="tile tile2x2" style="background-image: url(images/project-koma.jpg);">
+    <a href="koma.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>WIKK</h2>
+        <h2>KOMA BUILDING PRODUCTS</h2>
 
-        Website Design
+        Website Design + Print
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-rivcrete.jpg);">
-    <a href="rivcrete.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-wikk.jpg);">
+    <a href="wikk.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>RIV/CRETE</h2>
+        <h2>WIKK</h2>
 
         Website Design
       </div>
@@ -61,10 +61,10 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-wpf.jpg);">
-    <a href="wpf.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-rivcrete.jpg);">
+    <a href="rivcrete.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>WISCONSIN POLICY FORUM</h2>
+        <h2>RIV/CRETE</h2>
 
         Website Design
       </div>
@@ -120,20 +120,20 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-edh.jpg);">
-    <a href="edh.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-wpf.jpg);">
+    <a href="wpf.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>EVERY DAY HOPE</h2>
+        <h2>WISCONSIN POLICY FORUM</h2>
 
         Website Design
       </div>
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-usm.jpg);">
-    <a href="usm.php" class="tile-link">
+  <div class="tile tile2x1" style="background-image: url(images/project-edh.jpg);">
+    <a href="edh.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>UNIVERSITY SCHOOL OF MILWAUKEE</h2>
+        <h2>EVERY DAY HOPE</h2>
 
         Website Design
       </div>
