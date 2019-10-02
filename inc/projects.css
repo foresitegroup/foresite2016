@@ -1355,7 +1355,7 @@
   font-weight: 800;
   font-size: 32px;
   line-height: 1.7em;
-  margin-bottom: 3em;
+  /*margin-bottom: 3em;*/
 }
 
 .suzys .content-left H3 {
@@ -1400,23 +1400,32 @@
   top: -13em;
 }
 
-.suzys .suzys-twitter {
-  margin-bottom: 4em;
+#suzys-posts {
+  padding: 4em 0 1em;
+  background: #F0ECE3;
+  color: #C1262B;
+  font-weight: 800;
+  font-size: 120%;
+  line-height: 1em;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.suzys .suzys-twitter IMG {
-  float: left;
+#suzys-posts .site-width {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0 4em;
+}
+
+#suzys-posts .site-width IMG {
   width: 31%;
-  margin-right: 3.5%;
   height: auto;
-  -webkit-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
-  -moz-box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
-  box-shadow: 0 0 32px 0 rgba(60,0,0,0.3);
+  margin-left: auto;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.35);
 }
 
-.suzys .suzys-twitter IMG:last-of-type {
-  margin-right: 0;
-}
+#suzys-posts .site-width IMG:first-of-type { margin-left: 0; }
 
 .suzys .facebook-left {
   float: left;
@@ -3548,11 +3557,11 @@ A.lifepro-button:active {
     margin-bottom: 2em;
   }
 
-  .suzys .suzys-twitter IMG {
-    float: none;
-    width: 100%;
-    margin: 0 0 2em 0;
-  }
+  #suzys-posts .site-width { flex-direction: column; }
+
+  #suzys-posts .site-width IMG { width: 100%; margin-top: 1em; }
+
+  #suzys-posts .site-width IMG:first-of-type { margin-top: 0; }
 
   .suzys .facebook-left,
   .suzys .facebook-right {

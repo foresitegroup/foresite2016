@@ -40,15 +40,25 @@ include "header.php";
     </div>
 
     <div style="clear: both;"></div>
+  </div>
 
-    <div class="suzys-twitter">
-      <img src="images/suzys-twitter1.jpg" alt="">
-      <img src="images/suzys-twitter2.jpg" alt="">
-      <img src="images/suzys-twitter3.jpg" alt="">
-
-      <div style="clear: both;"></div>
+  <div id="suzys-posts">
+    Brand-Building Posts
+    <div class="site-width">
+      <img src="images/suzys-post-labor-day.jpg" alt="">
+      <img src="images/suzys-post-story.jpg" alt="">
+      <img src="images/suzys-post-testimonials.jpg" alt="">
     </div>
 
+    Promotional Posts
+    <div class="site-width">
+      <img src="images/suzys-post-chocolate-stout.jpg" alt="">
+      <img src="images/suzys-post-pumpkin.jpg" alt="">
+      <img src="images/suzys-post-pumpkin-swirl.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="project site-width">
     <div class="facebook-left">
       <img src="images/suzys-facebook.png" alt=""><br>
       <br>
