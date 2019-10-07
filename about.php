@@ -224,21 +224,6 @@ include "header.php";
       <div class="team-email"></div>
       <div class="social team-social"></div>
     </div>
-
-    <div class="one-fourth">
-      <div class="team" style="background-image: url(images/team-laura.jpg);">
-        <a class="team-link">
-          <div class="team-hover-content">
-            Social Media and Content Strategist. Small business owner, dog mom, and coffee lover.
-          </div>
-        </a>
-      </div>
-
-      <div class="team-name">LAURA SCHAUB</div>
-      <div class="team-title">CONTENT SPECIALIST</div>
-      <div class="team-email"></div>
-      <div class="social team-social"></div>
-    </div>
   </div>
 </div>
 
