@@ -55,6 +55,7 @@ include "header.php";
 
               $(form).find('input:text, textarea').val('');
               $('#email').val(''); // Grrr!
+              $('#phone').val('');
             })
             .fail(function(data) {
               if (data.responseText !== '') {
