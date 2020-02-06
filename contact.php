@@ -3,6 +3,7 @@ $PageTitle = "Contact";
 $Description = "";
 $Keywords = "";
 include "header.php";
+include_once "inc/fintoozler.php";
 ?>
 
 <!-- <div class="contact-banner">
@@ -106,6 +107,8 @@ include "header.php";
         <input type="checkbox" name="getemails" value="Yes, I would like to periodically recieve emails from the Foresite Team." id="getemails">
         <label for="getemails">Yes, I would like to periodically recieve emails from the Foresite Team.</label>
 
+        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div><br>
+
         <div id="contact-form-messages"><?php echo $feedback; ?></div>
 
         <input type="hidden" name="referrer" value="contact.php">
@@ -120,6 +123,8 @@ include "header.php";
     </form>
   </div>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <div id="map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6214033932906!2d-87.91277068452307!3d43.00730597914872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880519bd316cb49d%3A0x5e4e8207faeb6a5!2sForesite+Group%2C+LLC!5e0!3m2!1sen!2sus!4v1537366034292" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
