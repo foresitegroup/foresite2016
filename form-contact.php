@@ -27,7 +27,43 @@ if ($responsekeys->success) {
 
       $Message .= "\n\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])];
 
-      if (isset($_POST['getemail'])) $Message .= "\n\n" . $_POST['getemail'];
+      // if (isset($_POST['getemail'])) $Message .= "\n\n" . $_POST['getemail'];
+      // Add info to MailChimp
+      // if (isset($_POST['getemail'])) {
+        $mcdata = array(
+          'email'  => $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])],
+          'status' => 'subscribed'
+        );
+
+        function syncMailchimp($mcdata) {
+          $memberId = md5(strtolower($mcdata['email']));
+          $dataCenter = substr(MAILCHIMP_API,strpos(MAILCHIMP_API,'-')+1);
+          $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . MAILCHIMP_LIST_ID . '/members/' . $memberId;
+
+          $json = json_encode(array(
+            'email_address' => $mcdata['email'],
+            'status'        => $mcdata['status']
+          ));
+
+          $ch = curl_init($url);
+
+          curl_setopt($ch, CURLOPT_USERPWD, 'user:' . MAILCHIMP_API);
+          curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+          curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+          curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
+          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+
+          $result = curl_exec($ch);
+          $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+          curl_close($ch);
+
+          return $httpCode;
+        }
+
+        syncMailchimp($mcdata);
+      // }
 
       $Message = stripslashes($Message);
     

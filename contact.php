@@ -104,8 +104,8 @@ include_once "inc/fintoozler.php";
 
         <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Comments, Questions"></textarea>
 
-        <input type="checkbox" name="getemails" value="Yes, I would like to periodically recieve emails from the Foresite Team." id="getemails">
-        <label for="getemails">Yes, I would like to periodically recieve emails from the Foresite Team.</label>
+        <!-- <input type="checkbox" name="getemails" value="Yes, I would like to periodically recieve emails from the Foresite Team." id="getemails" checked>
+        <label for="getemails">Yes, I would like to periodically recieve emails from the Foresite Team.</label> -->
 
         <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div><br>
 
