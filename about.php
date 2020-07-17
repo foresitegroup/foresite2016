@@ -179,21 +179,23 @@ include "header.php";
     </div>
 
     <div class="one-fourth">
-      <div class="team" style="background-image: url(images/team-bob.jpg);">
+      <div class="team" style="background-image: url(images/team-kristen.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
-            Man of Ideas with over 25 years of Marketing and Sales experience.
+            DePaul University.<br>
+            B.S. in Marketing.<br>
+            Coffee drinker, chocolate lover, amateur gardener.
           </div>
         </a>
       </div>
 
-      <div class="team-name">BOB SABINASH</div>
-      <div class="team-title">VP OF CLIENT SERVICES</div>
-      <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
+      <div class="team-name">KRISTEN DAVIS</div>
+      <div class="team-title">CONTENT STRATEGIST &amp; ACCOUNT SERVICES</div>
+      <div class="team-email"></div>
       <div class="social team-social"></div>
     </div>
 
-    <!-- <div class="one-fourth">
+    <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-abi.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
@@ -203,10 +205,10 @@ include "header.php";
       </div>
 
       <div class="team-name">ABI DUDA</div>
-      <div class="team-title">ASSISTANT DESIGNER</div>
+      <div class="team-title">JR. DESIGNER &amp; SOCIAL MEDIA SPECIALIST</div>
       <div class="team-email"></div>
       <div class="social team-social"></div>
-    </div> -->
+    </div>
   </div>
 </div>
 
