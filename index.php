@@ -17,6 +17,23 @@ include "header.php";
   </div>
 </div>
 
+<div id="toolkit">
+  <h2>Our Toolkit Includes...</h2>
+
+  <div class="site-width">
+    <img src="images/toolkit-adobe.png" alt="Adobe">
+    <img src="images/toolkit-adobe-creative-cloud.png" alt="Adobe Creative Cloud">
+    <img src="images/toolkit-wordpress.png" alt="Wordpress">
+    <img src="images/toolkit-google-analytics.png" alt="Google Analytics">
+    <img src="images/toolkit-google-ads.png" alt="Google Ads">
+    <img src="images/toolkit-bigcommerce.png" alt="BigCommerce">
+    <img src="images/toolkit-stripe.png" alt="Stripe">
+    <img src="images/toolkit-mailchimp.png" alt="MailChimp">
+    <img src="images/toolkit-paypal.png" alt="PayPal">
+    <img src="images/toolkit-youtube.png" alt="YouTube">
+  </div>
+</div>
+
 <script type="text/javascript">
   $(document).ready(function() {
     $(".tile-hover-content H2").fitText(0.85, { minFontSize: '12px', maxFontSize: '40px' });

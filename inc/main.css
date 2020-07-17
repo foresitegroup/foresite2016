@@ -595,6 +595,28 @@ INPUT[type="submit"]:focus {
   top: -0.3em;
 }
 
+#toolkit { background: #363636; color: #FFFFFF; padding: 75px 0 70px; }
+
+#toolkit H2 {
+  margin: 0 0 1.5em;
+  padding: 0 2%;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#toolkit .site-width { display: flex; flex-wrap: wrap; justify-content: center; }
+
+#toolkit .site-width IMG {
+  width: 20%;
+  height: auto;
+  opacity: 0.6;
+  margin: 0.5em 0;
+}
+
 .tile {
   float: left;
   width: 20%;
@@ -1887,6 +1909,8 @@ blockquote.aligncenter {
     margin-top: 2em;
   }
 
+  #toolkit .site-width IMG { width: 25%; }
+
   .tile, .tile1x2, .tile2x1 {
     width: 50%;
   }
@@ -2014,6 +2038,10 @@ blockquote.aligncenter {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  #toolkit .site-width IMG { width: 33.33%; }
+}
+
 @media only screen and (max-width: 600px) {
   /* Small tablet */
   .banner-home-content { padding-top: 3em; }
@@ -2040,6 +2068,9 @@ blockquote.aligncenter {
   .menu-holder.subpage {
     display: block;
   }
+  
+  #toolkit H2 { font-size: 6vw; }
+  #toolkit .site-width IMG { width: 50%; }
   
   .prefooter H3 {
     font-size: 330%;
