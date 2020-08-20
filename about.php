@@ -179,6 +179,21 @@ include "header.php";
     </div>
 
     <div class="one-fourth">
+      <div class="team" style="background-image: url(images/team-bob.jpg);">
+        <a class="team-link">
+          <div class="team-hover-content">
+            Man of Ideas with over 25 years of Marketing and Sales experience.
+          </div>
+        </a>
+      </div>
+
+      <div class="team-name">BOB SABINASH</div>
+      <div class="team-title">VP OF CLIENT SERVICES</div>
+      <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
+      <div class="social team-social"></div>
+    </div>
+
+    <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-kristen.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
