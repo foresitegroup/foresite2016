@@ -178,7 +178,7 @@ include "header.php";
       </div>
     </div>
 
-    <div class="one-fourth">
+    <!-- <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-bob.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
@@ -191,7 +191,7 @@ include "header.php";
       <div class="team-title">VP OF CLIENT SERVICES</div>
       <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
       <div class="social team-social"></div>
-    </div>
+    </div> -->
 
     <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-kristen.jpg);">
@@ -210,7 +210,7 @@ include "header.php";
       <div class="social team-social"></div>
     </div>
 
-    <div class="one-fourth">
+    <!-- <div class="one-fourth">
       <div class="team" style="background-image: url(images/team-abi.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
@@ -223,7 +223,7 @@ include "header.php";
       <div class="team-title">JR. DESIGNER &amp; SOCIAL MEDIA SPECIALIST</div>
       <div class="team-email"></div>
       <div class="social team-social"></div>
-    </div>
+    </div> -->
   </div>
 </div>
 
