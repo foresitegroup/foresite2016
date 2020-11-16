@@ -37,7 +37,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="es-text site-width">
+<div class="es-es-text site-width">
   <h3>THE GEAR SHOP</h3>
   Foresite created a full-service digital gear shop for Elevated Safety's wide variety of equipment. Customers could easily find what they were looking for with clear, easy-to-navigate interfaces, graphic menus, and product filter systems. Once their desired product is found, they will get all the details they need with in-depth product detail pages.<br>
   <br>
@@ -89,7 +89,7 @@ include "header.php";
     </div>
     <div class="home"><a href="work.php"><i class="fa fa-th" aria-hidden="true"></i></a></div>
     <div class="next">
-      <a href="koma.php">NEXT PROJECT <i class="fa fa-play" aria-hidden="true"></i></a>
+      <a href="cragdog.php">NEXT PROJECT <i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
   </div>
 </div>

@@ -42,22 +42,22 @@ include "header.php";
 <script src="inc/masonry.pkgd.min.js"></script>
 
 <div data-masonry='{ "itemSelector": ".tile", "columnWidth": 200, percentPosition: true }'>
-  <div class="tile tile2x2" style="background-image: url(images/project-elevated-safety.jpg);">
+  <div class="tile tile2x2" style="background-image: url(images/project-cragdog.jpg);">
+    <a href="cragdog.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>CRAGDOG</h2>
+
+        Branding / Website Design
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-elevated-safety.jpg);">
     <a href="elevated-safety.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>ELEVATED SAFETY</h2>
 
         Website Design / Digital Marketing / Video
-      </div>
-    </a>
-  </div>
-
-  <div class="tile tile2x1" style="background-image: url(images/project-koma.jpg);">
-    <a href="koma.php" class="tile-link">
-      <div class="tile-hover-content">
-        <h2>KOMA BUILDING PRODUCTS</h2>
-
-        Website Design + Print
       </div>
     </a>
   </div>
@@ -78,12 +78,12 @@ include "header.php";
     </div>
   <?php endforeach; ?>
 
-  <div class="tile" style="background-image: url(images/project-wikk.jpg);">
-    <a href="wikk.php" class="tile-link">
+  <div class="tile" style="background-image: url(images/project-koma.jpg);">
+    <a href="koma.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>WIKK</h2>
+        <h2>KOMA BUILDING PRODUCTS</h2>
 
-        Website Design
+        Website Design + Print
       </div>
     </a>
   </div>
@@ -107,11 +107,11 @@ include "header.php";
       </div>
     </div>
   </div>
-  
-  <div class="tile tile1x2" style="background-image: url(images/project-rivcrete.jpg);">
-    <a href="rivcrete.php" class="tile-link">
+
+  <div class="tile tile1x2" style="background-image: url(images/project-wikk.jpg);">
+    <a href="wikk.php" class="tile-link">
       <div class="tile-hover-content">
-        <h2>RIV/CRETE</h2>
+        <h2>WIKK</h2>
 
         Website Design
       </div>
@@ -137,7 +137,17 @@ include "header.php";
     </div>
   </div>
 
-  <div class="tile" style="background-image: url(images/project-bublr.jpg);">
+  <div class="tile" style="background-image: url(images/project-rivcrete.jpg);">
+    <a href="rivcrete.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>RIV/CRETE</h2>
+
+        Website Design
+      </div>
+    </a>
+  </div>
+
+  <div class="tile tile2x1" style="background-image: url(images/project-bublr.jpg);">
     <a href="bublr.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>BUBLR BIKES</h2>
@@ -147,7 +157,7 @@ include "header.php";
     </a>
   </div>
 
-  <div class="tile tile2x1" style="background-image: url(images/project-wpf.jpg);">
+  <!-- <div class="tile tile2x1" style="background-image: url(images/project-wpf.jpg);">
     <a href="wpf.php" class="tile-link">
       <div class="tile-hover-content">
         <h2>WISCONSIN POLICY FORUM</h2>
@@ -155,7 +165,7 @@ include "header.php";
         Website Design
       </div>
     </a>
-  </div>
+  </div> -->
 
   <div style="clear: both;"></div>
 </div>

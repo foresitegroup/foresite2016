@@ -33,6 +33,16 @@ include "header.php";
 </script>
 
 <div class="work">
+  <div class="tile tile3x1 web branding" style="background-image: url(images/project-cragdog.jpg);">
+    <a href="cragdog.php" class="tile-link">
+      <div class="tile-hover-content">
+        <h2>CRAGDOG</h2>
+
+        Branding / Website Design
+      </div>
+    </a>
+  </div>
+
   <div class="tile tile3x1 web video-photo" style="background-image: url(images/project-elevated-safety.jpg);">
     <a href="elevated-safety.php" class="tile-link">
       <div class="tile-hover-content">

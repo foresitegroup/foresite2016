@@ -3130,9 +3130,16 @@ A.lifepro-button:active {
 
 .es-right IMG { box-shadow: 0 0 10px 0 rgba(0,0,0,0.45); }
 
-.es-text { padding-top: 2em; text-align: left; }
+.es-es-text {
+  padding: 2em 0 5em;
+  text-align: left;
+  color: #252525;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 2;
+}
 
-.es-text H3 {
+.es-es-text H3 {
   margin: 0 0 0.5em;
   font-weight: 800;
   font-size: 141%;
@@ -3193,6 +3200,132 @@ A.lifepro-button:active {
 }
 
 .es-footer:after {
+  padding-top: 75.43%;
+  display: inline-block;
+  content: '';
+}
+
+.cragdog-header {
+  padding: 1.6em 0;
+  background: url(../images/cragdog-header.jpg) center center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1em;
+  position: relative;
+}
+
+.cragdog-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.cragdog-header .site-width { padding: 0.7em 0; position: relative; z-index: 5; }
+
+.cragdog-header .task {
+  font-weight: 600;
+  margin: 2em 0 0;
+}
+
+.cragdog-header .fa-play {
+  font-size: 12px;
+  line-height: 1em;
+  color: #13B5EA;
+}
+
+.cragdog-text {
+  padding: 100px 0 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2em;
+  color: #252525;
+}
+
+.cragdog-text .button:link, .cragdog-text .button:visited {
+  color: #A91F27;
+}
+
+.cragdog-text .button:hover, .cragdog-text .button:active {
+  color: rgba(169,31,39,0.7);
+}
+
+.cragdog-laptop {
+  background: url(../images/cragdog-laptop-background.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.cragdog-laptop:before { content: ""; display: block; padding-top: 56.5625%; }
+
+.cragdog-laptop IMG {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+.cragdog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0 0;
+  color: #252525;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.cragdog-left { width: 57%; }
+
+.cragdog-right {
+  width: 31%;
+  margin-left: auto;
+  font-size: 0;
+  line-height: 0;
+}
+
+.cragdog-left IMG,
+.cragdog-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.cragdog-right IMG { box-shadow: 0 0 10px 0 rgba(0,0,0,0.45); }
+
+.cragdog-cragdog-text {
+  padding: 2em 0 7em;
+  text-align: left;
+  color: #252525;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.cragdog-cragdog-text H3 {
+  margin: 0 0 0.5em;
+  font-weight: 800;
+  font-size: 141%;
+  line-height: 1;
+  letter-spacing: 0.2em;
+}
+
+.cragdog-footer {
+  position: relative;
+  max-height: 1207px;
+  background: url(../images/cragdog-footer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.cragdog-footer:after {
   padding-top: 75.43%;
   display: inline-block;
   content: '';
