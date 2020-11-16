@@ -20,6 +20,13 @@ include "header.php";
   <div class="one-half-right">
     Morton's Wisconsinn is your traditional Wisconsin Tavern combined with a full service restaurant menu. Located in downtown Cedarburg, you'll notice unique decor and memorabilia within a historic building, built in 1905. Like most restaurants, they needed a little assistance in establishing a web presence featuring their menu, hours &amp; live music events. Like they say, "if it's not broke don't fix it;" with that in mind the logo(s) needed a little love, so we updated the fonts &amp; re-organized the original elements of the logo, keeping the character of the identity intact with flexibility to use across multiple surfaces.
   </div>
+
+  <div style="clear: both;"></div>
+  
+  <div style="text-align: center;">
+    <br><br>
+    <a href="https://foresitegrp.net/mortons-wisconsinn/" class="button">Launch Site</a>
+  </div>
 </div>
 
 <div class="mortons-tablet"></div>
