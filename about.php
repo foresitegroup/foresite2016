@@ -144,19 +144,19 @@ include "header.php";
     </div>
 
     <div class="one-fourth">
-      <div class="team" style="background-image: url(images/team-robert.jpg);">
+      <div class="team" style="background-image: url(images/team-max.jpg);">
         <a class="team-link">
           <div class="team-hover-content">
-            UW-Milwaukee.<br>
-            BFA in Design &amp; Visual Comm.<br>
-            Music nerd, amateur craftsman &amp; houseplant aficionado.
+            MIAD Graduate.<br>
+            BFA in Communication Design.<br>
+            Lover of Craft Beer and MKE.
           </div>
         </a>
       </div>
 
-      <div class="team-name">ROBERT VELA</div>
-      <div class="team-title">ART DIRECTOR</div>
-      <div class="team-email"></div>
+      <div class="team-name">MAX SHULL</div>
+      <div class="team-title">LEAD GRAPHIC DESIGNER</div>
+      <div class="team-email"><?php email("max@foresitegrp.com"); ?></div>
       <div class="social team-social"></div>
     </div>
 
@@ -189,7 +189,7 @@ include "header.php";
 
       <div class="team-name">BOB SABINASH</div>
       <div class="team-title">VP OF CLIENT SERVICES</div>
-      <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
+      <div class="team-email"><?php //email("bob@foresitegrp.com"); ?></div>
       <div class="social team-social"></div>
     </div> -->
 
