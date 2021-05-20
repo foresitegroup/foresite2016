@@ -189,7 +189,7 @@ include "header.php";
 
       <div class="team-name">BOB SABINASH</div>
       <div class="team-title">VP OF CLIENT SERVICES</div>
-      <div class="team-email"><?php //email("bob@foresitegrp.com"); ?></div>
+      <div class="team-email"><?php email("bob@foresitegrp.com"); ?></div>
       <div class="social team-social"></div>
     </div>
 
