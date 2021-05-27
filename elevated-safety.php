@@ -20,7 +20,7 @@ include "header.php";
   Elevated Safety provides professional rope access courses, services, and gear. We not only expanded their online business model by adding a gear shop, but streamlined their course sign-up process with an interactive calendar. With in-depth course overviews, lead-generating services pages, and fully functioning online store, the new Elevated Safety site is full of interactive and business generating touch points for their customers.<br>
   <br>
 
-  <a href="https://elevatedsaefty.com" class="button">Launch Site</a>
+  <a href="https://elevatedsafety.com" class="button">Launch Site</a>
 </div>
 
 <div class="es-laptop">
