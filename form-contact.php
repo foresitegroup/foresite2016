@@ -5,8 +5,10 @@ $salt = "ForesiteGroupContactForm";
 
 include_once "inc/fintoozler.php";
 
-$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
-$responsekeys = json_decode($response);
+if (isset($_POST['g-recaptcha-response'])) {
+  $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
+  $responsekeys = json_decode($response);
+}
 
 if ($responsekeys->success) {
   if ($_POST['confirmationCAP'] == "") {
