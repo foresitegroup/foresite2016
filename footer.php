@@ -11,6 +11,15 @@
 
     <div class="copyright">&copy; <?php echo date("Y"); ?> All rights reserved</div>
   </div>
+
+  <script>
+    // Open external links and PDFs in new tab
+    [...document.links].forEach(link => {
+      if (link.hostname != window.location.hostname || link.href.split('.').pop() == "pdf") {
+        link.target = '_blank'; link.rel = 'noopener';
+      }
+    });
+  </script>
     
   </body>
 </html>
