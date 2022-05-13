@@ -19,13 +19,17 @@ function email($address, $name="") {
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="<?php if ($Description != "") echo $Description; ?>">
-    <meta name="keywords" content="<?php if ($Keywords != "") echo $Keywords; ?>">
+    <meta name="description" content="<?php if (isset($Description)) echo $Description; ?>">
+    <meta name="keywords" content="<?php if (isset($Keywords)) echo $Keywords; ?>">
     <meta name="author" content="Foresite Group">
     <?php if (isset($BlogInc)) echo $BlogInc; ?>
 
     <meta name="viewport" content="width=device-width">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php echo filemtime(realpath(dirname(__FILE__)) . "/inc/main.css"); ?>">
     <?php if (isset($CssInc)) echo "<link rel=\"stylesheet\" href=\"inc/" . $CssInc . "?" . filemtime(realpath(dirname(__FILE__)) . "/inc/" . $CssInc) . "\">" ?>
@@ -36,8 +40,6 @@ function email($address, $name="") {
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/fastclick.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
-
         $(function() { FastClick.attach(document.body); });
 
         $(".menu-holder").waypoint(function(direction) {

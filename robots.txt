@@ -1,6 +1,7 @@
 User-agent: *
-Disallow: /bog/
 Disallow: /centennial/
-Disallow: /clover/
+Disallow: /inc/
 Disallow: /louieslast/
 Disallow: /timetracker/
+Disallow: /TweetPHP/
+Sitemap: https://foresitegrp.com/sitemap.xml
