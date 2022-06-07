@@ -56,6 +56,15 @@ function email($address, $name="") {
         ga('create', 'UA-60289306-1', 'auto');
         ga('send', 'pageview');
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5JCVM4PBB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-G5JCVM4PBB');
+    </script>
   </head>
   <body>
 
